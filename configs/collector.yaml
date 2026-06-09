@@ -1,0 +1,29 @@
+collector:
+  default_submit: true
+  min_delay_seconds: 20
+  max_delay_seconds: 60
+  manual_review_every_n_samples: 50
+  retry_per_sample: 1
+  stop_on_captcha: true
+  stop_on_policy_warning: true
+  stop_on_parse_error: true
+  questionnaire_schema: data/questionnaire/question_schema.json
+  samples_path: data/raw/samples.jsonl
+  failed_samples_path: data/raw/failed_samples.jsonl
+  screenshots_dir: data/raw/screenshots
+  html_dir: data/raw/html
+  logs_dir: data/raw/logs
+  manual_ops_path: docs/人工操作清单.md
+  profile_dir: browser_profile/play-console
+  headless: false
+  navigation_timeout_ms: 60000
+  selector_timeout_ms: 15000
+
+sampling:
+  strategy_counts:
+    baseline: 30
+    single_factor: 200
+    tree_coverage: 250
+    stratified_random: 350
+    active_learning_seed: 200
+  random_seed: 42

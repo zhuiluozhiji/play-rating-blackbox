@@ -1,0 +1,4 @@
+# Optional accelerators and explainability packages.
+xgboost>=1.7
+lightgbm>=3.3
+shap>=0.41

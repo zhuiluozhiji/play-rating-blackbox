@@ -1,0 +1,241 @@
+{
+  "questionnaire_version": "synthetic_v1",
+  "questions": [
+    {
+      "options": [
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "Mild/cartoon violence",
+          "risk_score": 1,
+          "value": "mild"
+        },
+        {
+          "label": "Realistic violence",
+          "risk_score": 2,
+          "value": "realistic"
+        },
+        {
+          "label": "Graphic violence",
+          "risk_score": 4,
+          "value": "graphic"
+        }
+      ],
+      "ordered": true,
+      "question_id": "violence",
+      "question_type": "single",
+      "text": "Does the app contain violent content?",
+      "theme": "violence"
+    },
+    {
+      "condition_to_show": {
+        "violence": [
+          "realistic",
+          "graphic"
+        ]
+      },
+      "options": [
+        {
+          "label": "Not visible",
+          "risk_score": 0,
+          "value": "not_visible"
+        },
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "Blood",
+          "risk_score": 1,
+          "value": "blood"
+        },
+        {
+          "label": "Gore",
+          "risk_score": 3,
+          "value": "gore"
+        }
+      ],
+      "ordered": true,
+      "parent_question_id": "violence",
+      "question_id": "blood",
+      "question_type": "single",
+      "text": "Is blood or gore shown?",
+      "theme": "violence"
+    },
+    {
+      "options": [
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "Suggestive themes",
+          "risk_score": 1,
+          "value": "suggestive"
+        },
+        {
+          "label": "Nudity",
+          "risk_score": 3,
+          "value": "nudity"
+        },
+        {
+          "label": "Explicit sexual content",
+          "risk_score": 5,
+          "value": "explicit"
+        }
+      ],
+      "ordered": true,
+      "question_id": "sexual_content",
+      "question_type": "single",
+      "text": "Does the app contain sexual content or nudity?",
+      "theme": "sexual_content"
+    },
+    {
+      "options": [
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "Mild language",
+          "risk_score": 1,
+          "value": "mild"
+        },
+        {
+          "label": "Strong language",
+          "risk_score": 2,
+          "value": "strong"
+        }
+      ],
+      "ordered": true,
+      "question_id": "language",
+      "question_type": "single",
+      "text": "Does the app contain profanity or crude language?",
+      "theme": "language"
+    },
+    {
+      "options": [
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "References",
+          "risk_score": 1,
+          "value": "reference"
+        },
+        {
+          "label": "Depiction of use",
+          "risk_score": 3,
+          "value": "use"
+        }
+      ],
+      "ordered": true,
+      "question_id": "drugs",
+      "question_type": "single",
+      "text": "Does the app reference drugs, alcohol, or tobacco?",
+      "theme": "drugs"
+    },
+    {
+      "options": [
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "Simulated gambling",
+          "risk_score": 2,
+          "value": "simulated"
+        },
+        {
+          "label": "Real-money gambling",
+          "risk_score": 5,
+          "value": "real_money"
+        }
+      ],
+      "ordered": true,
+      "question_id": "gambling",
+      "question_type": "single",
+      "text": "Does the app contain gambling?",
+      "theme": "gambling"
+    },
+    {
+      "options": [
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "Mild fear",
+          "risk_score": 1,
+          "value": "mild"
+        },
+        {
+          "label": "Intense fear",
+          "risk_score": 2,
+          "value": "intense"
+        }
+      ],
+      "ordered": true,
+      "question_id": "fear",
+      "question_type": "single",
+      "text": "Does the app contain frightening content?",
+      "theme": "fear"
+    },
+    {
+      "options": [
+        {
+          "label": "None",
+          "risk_score": 0,
+          "value": "none"
+        },
+        {
+          "label": "User-generated content",
+          "risk_score": 1,
+          "value": "user_generated_content"
+        },
+        {
+          "label": "Users can chat",
+          "risk_score": 1,
+          "value": "chat"
+        },
+        {
+          "label": "Location sharing",
+          "risk_score": 1,
+          "value": "location_sharing"
+        }
+      ],
+      "question_id": "ugc",
+      "question_type": "multi",
+      "text": "Does the app contain user-generated content or user interaction?",
+      "theme": "ugc_interaction"
+    },
+    {
+      "options": [
+        {
+          "label": "No",
+          "risk_score": 0,
+          "value": "no"
+        },
+        {
+          "label": "Yes",
+          "risk_score": 0,
+          "value": "yes"
+        }
+      ],
+      "question_id": "purchases",
+      "question_type": "binary",
+      "text": "Does the app contain digital purchases?",
+      "theme": "interaction"
+    }
+  ]
+}

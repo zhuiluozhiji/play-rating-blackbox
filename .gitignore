@@ -1,1 +1,31 @@
 .waylog/
+
+# Secrets and local runtime state
+.env
+.env.local
+docs/key.md
+browser_profile/
+playwright-profile/
+storage_state*.json
+*.cookie
+*.cookies
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Raw sensitive collection artifacts
+data/raw/screenshots/
+data/raw/html/
+data/raw/logs/
+data/raw/*.sqlite
+data/raw/*.db
+
+# Local scratch
+tmp/
+*.log

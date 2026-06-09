@@ -1,0 +1,27 @@
+modeling:
+  dataset_path: data/processed/dataset.csv
+  features_path: data/processed/features.csv
+  label_column: result_age_rating
+  random_seed: 42
+  test_size: 0.15
+  validation_size: 0.15
+  models_dir: outputs/models
+  metrics_dir: outputs/metrics
+  explanations_dir: outputs/explanations
+  figures_dir: outputs/figures
+  severe_error_threshold: 2
+  age_order:
+    - 3+
+    - 7+
+    - 12+
+    - 16+
+    - 18+
+  models:
+    - majority
+    - stratified
+    - logistic_regression
+    - decision_tree
+    - random_forest
+    - extra_trees
+    - xgboost
+    - lightgbm

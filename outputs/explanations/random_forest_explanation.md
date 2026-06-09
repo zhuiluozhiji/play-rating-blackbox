@@ -1,0 +1,34 @@
+# random_forest
+
+
+                          feature  importance
+                  high_risk_count    0.113728
+                medium_risk_count    0.093372
+             sexual_content_score    0.073909
+        answer__sexual_content_no    0.064427
+                       drug_score    0.057964
+                   violence_score    0.052552
+                answer__drugs_use    0.036509
+                 answer__drugs_no    0.034536
+              answer__violence_no    0.033728
+       answer__violence_realistic    0.033398
+                       fear_score    0.031871
+  answer__sexual_content_explicit    0.025192
+             answer__purchases_no    0.024909
+answer__sexual_content_suggestive    0.023051
+                interaction_score    0.022324
+             answer__fear_intense    0.021964
+            answer__purchases_yes    0.021533
+                  answer__fear_no    0.021114
+                   language_score    0.020907
+        answer__blood_not_visible    0.017097
+                   gambling_score    0.016974
+                        ugc_score    0.016180
+         answer__violence_graphic    0.014958
+           visible_question_count    0.014203
+                 answer__ugc_none    0.014135
+            answer__violence_mild    0.013856
+           skipped_question_count    0.013722
+       answer__gambling_simulated    0.012178
+              answer__language_no    0.012101
+           triggered_branch_count    0.009544
