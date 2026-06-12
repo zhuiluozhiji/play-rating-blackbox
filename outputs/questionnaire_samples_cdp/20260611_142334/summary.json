@@ -1,0 +1,24 @@
+{
+  "completion_count": 25,
+  "completion_rate": 0.9259259259259259,
+  "endpoint_url": "http://127.0.0.1:9222",
+  "generated_at": "2026-06-11T15:27:35",
+  "primary_rating_counts": {
+    "Rated for 12+": 4,
+    "Rated for 18+": 20,
+    "Rated for 7+": 1
+  },
+  "samples_json_path": "outputs\\questionnaire_samples_cdp\\20260611_142334\\samples.json",
+  "samples_jsonl_path": "outputs\\questionnaire_samples_cdp\\20260611_142334\\samples.jsonl",
+  "seed": 20260611,
+  "session_new_samples": 27,
+  "status_counts": {
+    "complete": 25,
+    "rating_extraction_failed": 2
+  },
+  "summary_path": "outputs\\questionnaire_samples_cdp\\20260611_142334\\summary.json",
+  "target_substring": "play.google.com/console",
+  "total_known_signatures": 31,
+  "unique_primary_rating_count": 3,
+  "unique_response_count": 27
+}
