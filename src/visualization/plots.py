@@ -11,6 +11,16 @@ import seaborn as sns
 from src.common import ensure_dir
 
 
+def _shorten_label(value: object, max_length: int = 64) -> str:
+    text = str(value)
+    if len(text) <= max_length:
+        return text
+    keep = max_length - 3
+    left = keep // 2
+    right = keep - left
+    return f"{text[:left]}...{text[-right:]}"
+
+
 def plot_label_distribution(df: pd.DataFrame, output_dir: str) -> Path:
     out = ensure_dir(output_dir)
     path = out / "label_distribution.png"
@@ -76,9 +86,12 @@ def plot_top_feature_importance(explanations_dir: str, output_dir: str) -> list[
         df = pd.read_csv(csv_path).head(20)
         if df.empty:
             continue
+        df["feature_label"] = df["feature"].map(_shorten_label)
         path = out / f"{csv_path.stem}.png"
-        plt.figure(figsize=(9, 7))
-        sns.barplot(data=df, y="feature", x="importance", color="#59a14f")
+        plt.figure(figsize=(10, 7))
+        sns.barplot(data=df, y="feature_label", x="importance", color="#59a14f")
+        plt.ylabel("feature")
+        plt.yticks(fontsize=8)
         plt.title(csv_path.stem.replace("_", " ").title())
         plt.tight_layout()
         plt.savefig(path, dpi=180)

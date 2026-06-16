@@ -1,0 +1,42 @@
+{
+  "by_predicted_label": [
+    {
+      "count": 1,
+      "predicted_label": "16+"
+    },
+    {
+      "count": 3,
+      "predicted_label": "18+"
+    }
+  ],
+  "by_transition": [
+    {
+      "count": 2,
+      "predicted_label": "18+",
+      "true_label": "16+"
+    },
+    {
+      "count": 1,
+      "predicted_label": "16+",
+      "true_label": "3+"
+    },
+    {
+      "count": 1,
+      "predicted_label": "18+",
+      "true_label": "3+"
+    }
+  ],
+  "by_true_label": [
+    {
+      "count": 2,
+      "true_label": "16+"
+    },
+    {
+      "count": 2,
+      "true_label": "3+"
+    }
+  ],
+  "severe_errors": 2,
+  "sixteen_plus_related_errors": 3,
+  "total_errors": 4
+}

@@ -1,0 +1,106 @@
+|--- answer__q_6bdc905e3f72_Scary_elements_Learn_more <= 0.50
+|   |--- answer__q_1b293e4babdc_Social_or_Communication <= 0.50
+|   |   |--- visible_question_count <= 18.50
+|   |   |   |--- visible_question_count <= 16.50
+|   |   |   |   |--- answer__q_507a4755324a_Yes <= 0.50
+|   |   |   |   |   |--- answer__q_94281255eeea_Yes <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- answer__q_94281255eeea_Yes >  0.50
+|   |   |   |   |   |   |--- class: 18+
+|   |   |   |   |--- answer__q_507a4755324a_Yes >  0.50
+|   |   |   |   |   |--- class: 18+
+|   |   |   |--- visible_question_count >  16.50
+|   |   |   |   |--- interactive_element_count <= 2.50
+|   |   |   |   |   |--- answer__q_a1d50685cfd6_No <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- answer__q_a1d50685cfd6_No >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- interactive_element_count >  2.50
+|   |   |   |   |   |--- class: 16+
+|   |   |--- visible_question_count >  18.50
+|   |   |   |--- answer__q_7711385eb421_No <= 0.50
+|   |   |   |   |--- answer__q_507a4755324a_No <= 0.50
+|   |   |   |   |   |--- answer__q_7dbd7f3e394c_Often_depicted_from_a_close_up_perspective_Often_depicted_from_a_distant_perspective_Rarely_depicted_from_a_close_up_perspective_Referred_to <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- answer__q_7dbd7f3e394c_Often_depicted_from_a_close_up_perspective_Often_depicted_from_a_distant_perspective_Rarely_depicted_from_a_close_up_perspective_Referred_to >  0.50
+|   |   |   |   |   |   |--- class: 3+
+|   |   |   |   |--- answer__q_507a4755324a_No >  0.50
+|   |   |   |   |   |--- answer__q_94281255eeea_Yes <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- answer__q_94281255eeea_Yes >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- answer__q_7711385eb421_No >  0.50
+|   |   |   |   |--- visible_question_count <= 25.50
+|   |   |   |   |   |--- answer__q_d6a91ad297c0_Rare <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- answer__q_d6a91ad297c0_Rare >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- visible_question_count >  25.50
+|   |   |   |   |   |--- answer__q_09670428687d_Yes <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- answer__q_09670428687d_Yes >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |--- answer__q_1b293e4babdc_Social_or_Communication >  0.50
+|   |   |--- answer__q_93e10cb84a82_Yes <= 0.50
+|   |   |   |--- answer__q_fa879063695d_Yes <= 0.50
+|   |   |   |   |--- interactive_element_count <= 1.50
+|   |   |   |   |   |--- answer__q_1189ea881316_Yes <= 0.50
+|   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- answer__q_1189ea881316_Yes >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- interactive_element_count >  1.50
+|   |   |   |   |   |--- answer__q_a4d0a299c5a1_Yes <= 0.50
+|   |   |   |   |   |   |--- class: 12+
+|   |   |   |   |   |--- answer__q_a4d0a299c5a1_Yes >  0.50
+|   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- answer__q_fa879063695d_Yes >  0.50
+|   |   |   |   |--- answer__q_6c31394cbc39_Yes <= 0.50
+|   |   |   |   |   |--- class: 18+
+|   |   |   |   |--- answer__q_6c31394cbc39_Yes >  0.50
+|   |   |   |   |   |--- class: 18+
+|   |   |--- answer__q_93e10cb84a82_Yes >  0.50
+|   |   |   |--- answer__q_a4d0a299c5a1_Yes <= 0.50
+|   |   |   |   |--- class: 18+
+|   |   |   |--- answer__q_a4d0a299c5a1_Yes >  0.50
+|   |   |   |   |--- interactive_element_count <= 1.50
+|   |   |   |   |   |--- answer__q_24f3b3344402_Yes <= 0.50
+|   |   |   |   |   |   |--- class: 3+
+|   |   |   |   |   |--- answer__q_24f3b3344402_Yes >  0.50
+|   |   |   |   |   |   |--- class: 18+
+|   |   |   |   |--- interactive_element_count >  1.50
+|   |   |   |   |   |--- class: 18+
+|--- answer__q_6bdc905e3f72_Scary_elements_Learn_more >  0.50
+|   |--- answer__q_bd5378991a14_No <= 0.50
+|   |   |--- content_descriptor_count <= 2.50
+|   |   |   |--- answer__q_f48caccfa701_No <= 0.50
+|   |   |   |   |--- class: 18+
+|   |   |   |--- answer__q_f48caccfa701_No >  0.50
+|   |   |   |   |--- answer__q_4ae86f2db81e_Yes <= 0.50
+|   |   |   |   |   |--- class: 16+
+|   |   |   |   |--- answer__q_4ae86f2db81e_Yes >  0.50
+|   |   |   |   |   |--- class: 16+
+|   |   |--- content_descriptor_count >  2.50
+|   |   |   |--- answer__q_7711385eb421_No <= 0.50
+|   |   |   |   |--- class: 18+
+|   |   |   |--- answer__q_7711385eb421_No >  0.50
+|   |   |   |   |--- class: 18+
+|   |--- answer__q_bd5378991a14_No >  0.50
+|   |   |--- visible_question_count <= 29.00
+|   |   |   |--- answer__q_d6dca7ba9e52_No <= 0.50
+|   |   |   |   |--- answer__q_5ebbe602e5b2_Yes <= 0.50
+|   |   |   |   |   |--- class: 7+
+|   |   |   |   |--- answer__q_5ebbe602e5b2_Yes >  0.50
+|   |   |   |   |   |--- answer__q_60c024179acd_Yes <= 0.50
+|   |   |   |   |   |   |--- class: 7+
+|   |   |   |   |   |--- answer__q_60c024179acd_Yes >  0.50
+|   |   |   |   |   |   |--- class: 7+
+|   |   |   |--- answer__q_d6dca7ba9e52_No >  0.50
+|   |   |   |   |--- class: 18+
+|   |   |--- visible_question_count >  29.00
+|   |   |   |--- answer__q_4f8b66a453da_Rarely <= 0.50
+|   |   |   |   |--- answer__q_b2b2aeef52b9_Blood_that_isn_t_directly_related_to_a_violent_act_e_g_blood_on_clothing_blood_in_the_background_blood_resulting_from_performing_surgery_Disturbing_or_gory_i_3 <= 0.50
+|   |   |   |   |   |--- class: 18+
+|   |   |   |   |--- answer__q_b2b2aeef52b9_Blood_that_isn_t_directly_related_to_a_violent_act_e_g_blood_on_clothing_blood_in_the_background_blood_resulting_from_performing_surgery_Disturbing_or_gory_i_3 >  0.50
+|   |   |   |   |   |--- class: 12+
+|   |   |   |--- answer__q_4f8b66a453da_Rarely >  0.50
+|   |   |   |   |--- class: 16+

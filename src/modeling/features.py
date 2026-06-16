@@ -1,9 +1,36 @@
 from __future__ import annotations
 
 from collections import defaultdict
+import re
 from typing import Any, Dict, Iterable, List, Tuple
 
 import pandas as pd
+
+
+_UNSAFE_FEATURE_CHARS = re.compile(r"[^0-9A-Za-z_]+")
+
+
+def _safe_feature_name(name: str) -> str:
+    safe = _UNSAFE_FEATURE_CHARS.sub("_", str(name))
+    safe = safe.strip("_")
+    if not safe:
+        safe = "feature"
+    if safe[0].isdigit():
+        safe = f"f_{safe}"
+    return safe[:180].rstrip("_") or "feature"
+
+
+def _safe_feature_names(columns: Iterable[str]) -> List[str]:
+    counts: Dict[str, int] = defaultdict(int)
+    names: List[str] = []
+    for column in columns:
+        base = _safe_feature_name(str(column))
+        counts[base] += 1
+        if counts[base] == 1:
+            names.append(base)
+        else:
+            names.append(f"{base}_{counts[base]}")
+    return names
 
 
 def records_to_dataframe(records: Iterable[Dict[str, Any]]) -> pd.DataFrame:
@@ -105,5 +132,6 @@ def build_feature_matrix(
         if feature_df[col].dtype == object or col.startswith("answer__") or col == "strategy"
     ]
     feature_df = pd.get_dummies(feature_df, columns=categorical_cols, dummy_na=False)
+    feature_df.columns = _safe_feature_names(feature_df.columns)
     feature_df = feature_df.fillna(0)
     return feature_df, y

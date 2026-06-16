@@ -1,0 +1,34 @@
+# lightgbm
+
+
+                                                                                                                                                                             feature  importance
+                                                                                                                                                              visible_question_count        2637
+                                                                                                                                                           interactive_element_count         698
+                                                                                                                                                            content_descriptor_count         480
+                                                                                                                                    answer__q_6bdc905e3f72_Scary_elements_Learn_more         194
+                                                                                                                                                          answer__q_a4d0a299c5a1_Yes         190
+                                                                                                                                                           answer__q_46e0aaa8e62a_No         173
+                                                                                                                                                           answer__q_fa879063695d_No         165
+                                                                                                                                                          answer__q_93e10cb84a82_Yes         160
+                                                                                                                                                           answer__q_7711385eb421_No         156
+                                                                                                                                                           answer__q_507a4755324a_No         151
+                                                                                                                                                           answer__q_94281255eeea_No         147
+                                                                                                                                                           answer__q_93e10cb84a82_No         143
+                                                                                                                                                          answer__q_cadf78f7f22c_Yes         132
+                                                                                                                                                          answer__q_4bc85050df07_Yes         131
+                                                                                                                                                          answer__q_507a4755324a_Yes         130
+                                                                                                                                                           answer__q_6c31394cbc39_No         126
+                                                                                                                                                           answer__q_5cc1024ee5fb_No         122
+                                                                                                                                                          answer__q_94281255eeea_Yes         116
+                                                                                                                                                          answer__q_fa879063695d_Yes         116
+                                                                                                                                                          answer__q_7711385eb421_Yes         113
+   answer__q_a6253f0e3e6b_Any_other_games_that_use_in_game_currency_tokens_to_play_and_can_reward_the_same_currency_through_gameplay_Gambling_themes_Learn_more_Playable_bingo_games          91
+                                                                                                                                                           answer__q_1189ea881316_No          89
+                                                                                                                                                         answer__q_5d84cbf44792_Rare          87
+                                                                                                                                                           answer__q_bd5378991a14_No          86
+answer__q_9146217d2e6e_Act_of_human_defecation_visually_depicted_Flatulence_with_depiction_of_flatulence_cloud_whimsical_depictions_of_feces_poo_coils_vomiting_Mucus_belching_flatu          83
+                                                                                                                                                          answer__q_077c2b7ce4bb_Yes          82
+                                                                                                                        answer__q_e8892e310c69_Purchases_of_digital_goods_Learn_more          80
+                                                                                                                                                          answer__q_37593604faab_Yes          79
+                                                                                                                                                          answer__q_5ebbe602e5b2_Yes          76
+                                                                                                                                                        answer__q_e46f7dbcf100_Often          74

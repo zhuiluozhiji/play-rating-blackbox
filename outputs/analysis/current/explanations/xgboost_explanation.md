@@ -1,0 +1,34 @@
+# xgboost
+
+
+                                                                                                                                                                             feature  importance
+                                                                                                                                      answer__q_1b293e4babdc_Social_or_Communication    0.085142
+                                                                                                                                                          answer__q_93e10cb84a82_Yes    0.026504
+                                                                                                                                                           answer__q_93e10cb84a82_No    0.024116
+                                                                                                                                    answer__q_6bdc905e3f72_Scary_elements_Learn_more    0.023190
+                                                                                                                                                          answer__q_fa879063695d_Yes    0.018056
+                                                                                                                                                          answer__q_507a4755324a_Yes    0.015992
+                                                                                                                                                           answer__q_7711385eb421_No    0.015889
+                                                                                                                                                           answer__q_fa879063695d_No    0.015684
+                                                                                                                                                          answer__q_a4d0a299c5a1_Yes    0.013365
+                                                                                                                                                         answer__q_d6a91ad297c0_Rare    0.013081
+                                                                                                                                                              visible_question_count    0.012410
+                                                                                                                                                           answer__q_94281255eeea_No    0.012341
+                                                                                                                               answer__q_6bdc905e3f72_Horrifying_elements_Learn_more    0.011770
+                                                                                                                                                          answer__q_7711385eb421_Yes    0.010980
+                                                                                                                                                           answer__q_507a4755324a_No    0.010424
+                                                                                                                                                           answer__q_0fdfd05fcf6c_No    0.010332
+                                                                                                                             answer__q_fc2c78fd7069_Mucus_belching_flatulence_sounds    0.009699
+                                                                                                                                                          answer__q_94281255eeea_Yes    0.009162
+                                                                                                                                                           answer__q_f48caccfa701_No    0.008478
+                                                                                                                                                            content_descriptor_count    0.008391
+                                                                                                                                                           answer__q_077c2b7ce4bb_No    0.008170
+                         answer__q_0cf988b907b0_Any_other_games_that_use_in_app_currency_tokens_to_play_and_can_reward_the_same_currency_through_gameplay_Gambling_themes_Learn_more    0.007877
+                                                               answer__q_fc2c78fd7069_Flatulence_with_depiction_of_flatulence_cloud_whimsical_depictions_of_feces_poo_coils_vomiting    0.007778
+answer__q_f5e28775c7d4_Discriminatory_language_against_race_religion_sex_etc_Minor_profanities_e_g_go_to_hell_Moderate_swearing_or_other_language_or_gestures_that_could_be_consider    0.006674
+                                                                                                                                                          answer__q_cadf78f7f22c_Yes    0.006547
+                                                                                                                        answer__q_e8892e310c69_Purchases_of_digital_goods_Learn_more    0.006340
+                                                                                                                                                           answer__q_8f58d3d79839_No    0.006329
+                                                                                                                                                           answer__q_cadf78f7f22c_No    0.006317
+                                                                                                                                                          answer__q_37593604faab_Yes    0.006248
+                 answer__q_7dbd7f3e394c_Often_depicted_from_a_close_up_perspective_Often_depicted_from_a_distant_perspective_Rarely_depicted_from_a_close_up_perspective_Referred_to    0.006054

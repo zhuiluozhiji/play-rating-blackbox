@@ -23,7 +23,7 @@ def main() -> None:
     config = load_yaml(args.config)
     modeling = config.get("modeling", {})
     dataset_path = args.dataset or modeling.get("dataset_path", "data/processed/dataset.csv")
-    df = pd.read_csv(dataset_path)
+    df = pd.read_csv(dataset_path, keep_default_na=False, na_values=[""])
     X, y = build_feature_matrix(df, label_column=modeling.get("label_column", "result_age_rating"))
     written = explain_saved_models(
         models_dir=modeling.get("models_dir", "outputs/analysis/current/models"),

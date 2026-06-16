@@ -1,0 +1,34 @@
+# decision_tree
+
+
+                                                                                                                                                                             feature  importance
+                                                                                                                                    answer__q_6bdc905e3f72_Scary_elements_Learn_more    0.196294
+                                                                                                                                                              visible_question_count    0.172370
+                                                                                                                                      answer__q_1b293e4babdc_Social_or_Communication    0.121783
+                                                                                                                                                           answer__q_bd5378991a14_No    0.072772
+                                                                                                                                                           answer__q_507a4755324a_No    0.045846
+                                                                                                                                                          answer__q_93e10cb84a82_Yes    0.042859
+                                                                                                                                                           interactive_element_count    0.040331
+                                                                                                                                                           answer__q_7711385eb421_No    0.036529
+                                                                                                                                                          answer__q_94281255eeea_Yes    0.032784
+                                                                                                                                                answer__q_07cc5d8fc5f2_Reference_Use    0.021715
+                                                                                                                                                          answer__q_fa879063695d_Yes    0.021594
+                                                                                                                                                           answer__q_f5cfa9d035e8_No    0.021374
+                                                                                                                                                          answer__q_55327882e80f_Yes    0.019467
+                                                                                                                                                          answer__q_09670428687d_Yes    0.016978
+                                                                                                                                                          answer__q_a4d0a299c5a1_Yes    0.013544
+                 answer__q_7dbd7f3e394c_Often_depicted_from_a_close_up_perspective_Often_depicted_from_a_distant_perspective_Rarely_depicted_from_a_close_up_perspective_Referred_to    0.013488
+                                                                                                                                                            content_descriptor_count    0.012634
+                                                                                                                                                         answer__q_d6a91ad297c0_Rare    0.011963
+                                                                                                                                                           answer__q_7e3c719bbc27_No    0.010955
+                                                                                                                                                           answer__q_0ce68b31ce40_No    0.009713
+                                                                                                                                                           answer__q_c9a6ea9fad32_No    0.008897
+                                                                                                                                                          answer__q_507a4755324a_Yes    0.008236
+                                                                                                                                                           answer__q_a1d50685cfd6_No    0.006418
+                                                                                                                                                       answer__q_4f8b66a453da_Rarely    0.006293
+answer__q_d6986c0f5284_Social_used_to_communicate_post_and_share_content_with_large_groups_of_people_or_for_meeting_new_people_Facebook_Twitter_Instagram_Tinder_are_examples_of_the    0.006048
+                                                                                                                                                          answer__q_1189ea881316_Yes    0.005761
+                                                                                                                                                           answer__q_f56acd04bdd6_No    0.004919
+                                                                                                                                                           answer__q_f48caccfa701_No    0.004310
+                                                                                                                                                           answer__q_5b8de61634dc_No    0.003682
+                                                                                                                                                           answer__q_b7e65fe49e89_No    0.002583

@@ -1,0 +1,5 @@
+model,sample_id,strategy,true_label,predicted_label,age_error,severe_error,visible_question_count,skipped_question_count,content_descriptor_count,interactive_element_count,active_answer_count
+lightgbm,sample_0148,cdp_random_path,16+,18+,1,0,41,0,4,1,41
+lightgbm,sample_0932,cdp_random_path,16+,18+,1,0,32,0,1,2,32
+lightgbm,sample_1226,cdp_random_path,3+,16+,3,1,22,0,1,1,22
+lightgbm,sample_1169,cdp_random_path,3+,18+,4,1,12,0,1,1,12

@@ -28,6 +28,7 @@ def _optional_xgboost(seed: int):
         learning_rate=0.05,
         subsample=0.9,
         eval_metric="mlogloss",
+        verbosity=0,
         random_state=seed,
     )
 
@@ -42,6 +43,8 @@ def _optional_lightgbm(seed: int):
         max_depth=5,
         learning_rate=0.05,
         subsample=0.9,
+        force_row_wise=True,
+        verbosity=-1,
         random_state=seed,
     )
 

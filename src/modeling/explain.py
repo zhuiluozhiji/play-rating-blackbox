@@ -12,8 +12,8 @@ from sklearn.tree import export_text
 
 from src.common import ensure_dir
 
-MAX_PERMUTATION_SAMPLES = 300
-PERMUTATION_REPEATS = 2
+MAX_PERMUTATION_SAMPLES = 200
+PERMUTATION_REPEATS = 1
 
 
 def _sample_for_permutation_importance(X: pd.DataFrame, y: pd.Series) -> tuple[pd.DataFrame, pd.Series]:
@@ -40,7 +40,9 @@ def explain_saved_models(models_dir: str, X: pd.DataFrame, y: pd.Series, output_
         name = model_path.stem
         feature_names = payload.get("features", X.columns.tolist())
         lines: List[str] = [f"# {name}\n"]
+        has_native_importance = False
         if hasattr(model, "feature_importances_"):
+            has_native_importance = True
             importances = pd.DataFrame(
                 {"feature": feature_names, "importance": model.feature_importances_}
             ).sort_values("importance", ascending=False)
@@ -54,6 +56,11 @@ def explain_saved_models(models_dir: str, X: pd.DataFrame, y: pd.Series, output_
             path.write_text(tree_text, encoding="utf-8")
             written["decision_tree_rules"] = str(path)
         if name in {"majority", "stratified"}:
+            summary_path = output / f"{name}_explanation.md"
+            summary_path.write_text("\n\n".join(lines), encoding="utf-8")
+            written[f"{name}_summary"] = str(summary_path)
+            continue
+        if has_native_importance:
             summary_path = output / f"{name}_explanation.md"
             summary_path.write_text("\n\n".join(lines), encoding="utf-8")
             written[f"{name}_summary"] = str(summary_path)

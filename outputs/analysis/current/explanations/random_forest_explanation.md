@@ -1,0 +1,34 @@
+# random_forest
+
+
+                                                                                                                                                                            feature  importance
+                                                                                                                                                             visible_question_count    0.048823
+                                                                                                                                   answer__q_6bdc905e3f72_Scary_elements_Learn_more    0.027991
+                                                                                                                                                           content_descriptor_count    0.021694
+                                                                                                                                                          interactive_element_count    0.018529
+                                                                                                                                                         answer__q_bca3ec5dda43_Yes    0.018480
+                                                                                                                                                          answer__q_7711385eb421_No    0.016528
+                                                                                                                                     answer__q_1b293e4babdc_Social_or_Communication    0.015646
+                                                                                                                                                          answer__q_7e327631a16c_No    0.013633
+                                                                                                                                                          answer__q_f48caccfa701_No    0.013452
+                                                                                                                                                          answer__q_507a4755324a_No    0.012838
+                                                                                                                                                          answer__q_94281255eeea_No    0.012416
+                                                                                                                                                          answer__q_bd5378991a14_No    0.010996
+                                                                                                                                                          answer__q_93e10cb84a82_No    0.010984
+                                                                                                                                                       answer__q_5d84cbf44792_Often    0.010935
+                                                                                                                                                         answer__q_5cc1024ee5fb_Yes    0.010338
+                                                                                                                                                          answer__q_156f495d441a_No    0.010320
+                                                                                                                                                          answer__q_9f0067fa0227_No    0.010184
+                                                                                                                                                         answer__q_4bc85050df07_Yes    0.010179
+                                                                                                                                                         answer__q_93e10cb84a82_Yes    0.010152
+                                                                                                                                                         answer__q_7e327631a16c_Yes    0.009635
+                                                                                                                                                         answer__q_5ebbe602e5b2_Yes    0.009581
+                                                                                                                                                        answer__q_1b293e4babdc_Game    0.009304
+                                                                                                                                                          answer__q_fa879063695d_No    0.009040
+                                                                                                                                                          answer__q_0fdfd05fcf6c_No    0.008985
+                                                                                                                                                          answer__q_0cbfa914eb04_No    0.008691
+answer__q_d6986c0f5284_Communication_used_to_communicate_with_people_already_known_to_the_user_in_one_on_one_or_small_group_conversations_Skype_SMS_and_Gmail_are_examples_of_these    0.008501
+                                                                                                                                                         answer__q_60c024179acd_Yes    0.007942
+                                                                                                                                         answer__q_1b293e4babdc_All_Other_App_Types    0.007518
+                                                                                                                                                         answer__q_94281255eeea_Yes    0.007507
+                                                                                                                                                         answer__q_46e0aaa8e62a_Yes    0.007469

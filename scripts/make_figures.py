@@ -31,7 +31,7 @@ def main() -> None:
     figures_dir = modeling.get("figures_dir", "outputs/analysis/current/figures")
     dataset_path = args.dataset or modeling.get("dataset_path", "data/processed/dataset.csv")
     metrics_path = project_path(args.metrics or "outputs/analysis/current/metrics/model_metrics.json")
-    df = pd.read_csv(dataset_path)
+    df = pd.read_csv(dataset_path, keep_default_na=False, na_values=[""])
     paths = [plot_label_distribution(df, figures_dir)]
     if metrics_path.exists():
         metrics = json.loads(metrics_path.read_text(encoding="utf-8"))
