@@ -1,0 +1,8 @@
+{
+  "mean_top1_confidence": 0.9708680054956476,
+  "median_top1_confidence": 0.9955645954280875,
+  "model": "optimized_lightgbm",
+  "sample_count": 199,
+  "top1_accuracy": 0.9798994974874372,
+  "top2_accuracy": 0.9949748743718593
+}

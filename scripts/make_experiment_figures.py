@@ -179,6 +179,96 @@ def plot_region_summary(metrics_dir: Path, output_dir: Path) -> List[Path]:
     return paths
 
 
+def plot_region_prediction_performance(metrics_dir: Path, output_dir: Path) -> Path | None:
+    path = metrics_dir / "region_rating_model_summary.csv"
+    if not path.exists():
+        return None
+    data = pd.read_csv(path)
+    if data.empty or "trained" not in data.columns:
+        return None
+    data = data[data["trained"].astype(str).str.lower().isin(["true", "1"])]
+    if data.empty:
+        return None
+
+    data = data.sort_values("macro_f1", ascending=False)
+    plot_data = data.melt(
+        id_vars="authority",
+        value_vars=["accuracy", "macro_f1", "balanced_accuracy"],
+        var_name="metric",
+        value_name="score",
+    )
+    plt.figure(figsize=(12, 6))
+    sns.barplot(data=plot_data, x="authority", y="score", hue="metric")
+    plt.ylim(0, 1.05)
+    plt.xticks(rotation=30, ha="right")
+    plt.title("Regional Rating Prediction Performance")
+    return _save(output_dir / "region_rating_prediction_performance.png")
+
+
+def plot_advanced_results(metrics_dir: Path, output_dir: Path) -> List[Path]:
+    paths: List[Path] = []
+
+    top2_path = metrics_dir / "confidence_bins.csv"
+    if top2_path.exists():
+        data = pd.read_csv(top2_path)
+        if not data.empty:
+            plt.figure(figsize=(9, 5))
+            x = range(len(data))
+            plt.plot(x, data["avg_confidence"], marker="o", label="Avg confidence")
+            plt.plot(x, data["top1_accuracy"], marker="s", label="Top-1 accuracy")
+            plt.plot(x, data["top2_accuracy"], marker="^", label="Top-2 accuracy")
+            plt.xticks(list(x), data["confidence_bin"], rotation=25, ha="right")
+            plt.ylim(0, 1.05)
+            plt.ylabel("score")
+            plt.title("Confidence Calibration by Bin")
+            plt.legend()
+            paths.append(_save(output_dir / "top2_confidence_bins.png"))
+
+    ordinal_path = metrics_dir / "ordinal_model_metrics.json"
+    optimized_path = metrics_dir / "optimized_model_metrics.json"
+    if ordinal_path.exists() and optimized_path.exists():
+        ordinal = _read_json(ordinal_path)
+        optimized = _read_json(optimized_path).get("lightgbm", {})
+        rows = [
+            {
+                "model": "optimized_lightgbm",
+                "accuracy": optimized.get("accuracy", 0),
+                "macro_f1": optimized.get("macro_f1", 0),
+                "balanced_accuracy": optimized.get("balanced_accuracy", 0),
+                "severe_error_rate": optimized.get("severe_error_rate", 0),
+            },
+            {
+                "model": "ordinal_lightgbm",
+                "accuracy": ordinal.get("accuracy", 0),
+                "macro_f1": ordinal.get("macro_f1", 0),
+                "balanced_accuracy": ordinal.get("balanced_accuracy", 0),
+                "severe_error_rate": ordinal.get("severe_error_rate", 0),
+            },
+        ]
+        data = pd.DataFrame(rows).melt(id_vars="model", var_name="metric", value_name="score")
+        plt.figure(figsize=(9, 5))
+        sns.barplot(data=data, x="model", y="score", hue="metric")
+        plt.ylim(0, 1.05)
+        plt.title("Multiclass vs Ordinal LightGBM")
+        paths.append(_save(output_dir / "ordinal_vs_multiclass_metrics.png"))
+
+    counterfactual_path = metrics_dir / "counterfactual_summary.json"
+    if counterfactual_path.exists():
+        report = _read_json(counterfactual_path)
+        transitions = report.get("prediction_transitions", {})
+        if transitions:
+            data = pd.DataFrame(
+                [{"transition": transition, "count": count} for transition, count in transitions.items()]
+            ).sort_values("count", ascending=False).head(12)
+            plt.figure(figsize=(10, 5))
+            sns.barplot(data=data, x="transition", y="count", color="#e15759")
+            plt.xticks(rotation=25, ha="right")
+            plt.title("Counterfactual Feature Flip Prediction Changes")
+            paths.append(_save(output_dir / "counterfactual_prediction_transitions.png"))
+
+    return paths
+
+
 def plot_label_distribution(dataset_path: Path, output_dir: Path) -> Path | None:
     if not dataset_path.exists():
         return None
@@ -211,11 +301,13 @@ def main() -> None:
         plot_feature_ablation(metrics_dir, output_dir),
         plot_cv_stability(metrics_dir, output_dir),
         plot_error_transitions(metrics_dir, output_dir),
+        plot_region_prediction_performance(metrics_dir, output_dir),
     ]:
         if maybe_path:
             written.append(maybe_path)
     written.extend(plot_optimized_performance(optimized_metrics, output_dir))
     written.extend(plot_region_summary(metrics_dir, output_dir))
+    written.extend(plot_advanced_results(metrics_dir, output_dir))
 
     for path in written:
         print(path)

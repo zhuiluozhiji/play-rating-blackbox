@@ -1,0 +1,1131 @@
+{
+  "authorities": {
+    "Australian Classification Board (ACB)": {
+      "accuracy": 0.9102564102564102,
+      "authority": "Australian Classification Board (ACB)",
+      "authority_slug": "australian_classification_board_acb",
+      "balanced_accuracy": 0.5160774818401938,
+      "class_count": 6,
+      "class_distribution": {
+        "General": 4,
+        "Mature": 10,
+        "Parental Guidance": 3,
+        "Refused Classification": 387,
+        "Restricted to 15+": 63,
+        "Restricted to 18+": 47
+      },
+      "confusion_matrix": [
+        [
+          57,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\australian_classification_board_acb.csv",
+      "feature_count": 557,
+      "labels": [
+        "Refused Classification",
+        "Restricted to 15+",
+        "Restricted to 18+",
+        "Mature",
+        "General",
+        "Parental Guidance"
+      ],
+      "macro_f1": 0.5218996689584925,
+      "macro_precision": 0.54,
+      "macro_recall": 0.5160774818401938,
+      "min_class_count": 3,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_australian_classification_board_acb.joblib",
+      "per_class": {
+        "General": {
+          "f1-score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1.0
+        },
+        "Mature": {
+          "f1-score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1.0
+        },
+        "Parental Guidance": {
+          "f1-score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 0.0
+        },
+        "Refused Classification": {
+          "f1-score": 0.957983193277311,
+          "precision": 0.95,
+          "recall": 0.9661016949152542,
+          "support": 59.0
+        },
+        "Restricted to 15+": {
+          "f1-score": 0.8181818181818182,
+          "precision": 0.75,
+          "recall": 0.9,
+          "support": 10.0
+        },
+        "Restricted to 18+": {
+          "f1-score": 0.8333333333333334,
+          "precision": 1.0,
+          "recall": 0.7142857142857143,
+          "support": 7.0
+        },
+        "accuracy": 0.9102564102564102,
+        "macro avg": {
+          "f1-score": 0.4349163907987437,
+          "precision": 0.45,
+          "recall": 0.4300645682001614,
+          "support": 78.0
+        },
+        "weighted avg": {
+          "f1-score": 0.9043097425450367,
+          "precision": 0.9044871794871795,
+          "recall": 0.9102564102564102,
+          "support": 78.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\australian_classification_board_acb.csv",
+      "sample_count": 514,
+      "test_distribution": {
+        "General": 1,
+        "Mature": 1,
+        "Refused Classification": 59,
+        "Restricted to 15+": 10,
+        "Restricted to 18+": 7
+      },
+      "test_size": 78,
+      "train_size": 436,
+      "trained": true,
+      "weighted_f1": 0.9043097425450367
+    },
+    "Classificação Indicativa (ClassInd)": {
+      "accuracy": 0.914572864321608,
+      "authority": "Classificação Indicativa (ClassInd)",
+      "authority_slug": "classifica_o_indicativa_classind",
+      "balanced_accuracy": 0.6910117660117661,
+      "class_count": 6,
+      "class_distribution": {
+        "All ages": 218,
+        "Rated 10+": 7,
+        "Rated 12+": 48,
+        "Rated 14+": 133,
+        "Rated 16+": 51,
+        "Rated 18+": 865
+      },
+      "confusion_matrix": [
+        [
+          126,
+          1,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          32,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          12,
+          6,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\classifica_o_indicativa_classind.csv",
+      "feature_count": 1010,
+      "labels": [
+        "Rated 18+",
+        "All ages",
+        "Rated 14+",
+        "Rated 16+",
+        "Rated 12+",
+        "Rated 10+"
+      ],
+      "macro_f1": 0.6741435035552682,
+      "macro_precision": 0.6765567765567765,
+      "macro_recall": 0.6910117660117661,
+      "min_class_count": 7,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_classifica_o_indicativa_classind.joblib",
+      "per_class": {
+        "All ages": {
+          "f1-score": 0.9411764705882353,
+          "precision": 0.9142857142857143,
+          "recall": 0.9696969696969697,
+          "support": 33.0
+        },
+        "Rated 10+": {
+          "f1-score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1.0
+        },
+        "Rated 12+": {
+          "f1-score": 0.8571428571428571,
+          "precision": 0.8571428571428571,
+          "recall": 0.8571428571428571,
+          "support": 7.0
+        },
+        "Rated 14+": {
+          "f1-score": 0.7058823529411765,
+          "precision": 0.8571428571428571,
+          "recall": 0.6,
+          "support": 20.0
+        },
+        "Rated 16+": {
+          "f1-score": 0.5714285714285714,
+          "precision": 0.46153846153846156,
+          "recall": 0.75,
+          "support": 8.0
+        },
+        "Rated 18+": {
+          "f1-score": 0.9692307692307692,
+          "precision": 0.9692307692307692,
+          "recall": 0.9692307692307692,
+          "support": 130.0
+        },
+        "accuracy": 0.914572864321608,
+        "macro avg": {
+          "f1-score": 0.6741435035552682,
+          "precision": 0.6765567765567765,
+          "recall": 0.6910117660117661,
+          "support": 199.0
+        },
+        "weighted avg": {
+          "f1-score": 0.9133060259279593,
+          "precision": 0.919631122646198,
+          "recall": 0.914572864321608,
+          "support": 199.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\classifica_o_indicativa_classind.csv",
+      "sample_count": 1322,
+      "test_distribution": {
+        "All ages": 33,
+        "Rated 10+": 1,
+        "Rated 12+": 7,
+        "Rated 14+": 20,
+        "Rated 16+": 8,
+        "Rated 18+": 130
+      },
+      "test_size": 199,
+      "train_size": 1123,
+      "trained": true,
+      "weighted_f1": 0.9133060259279591
+    },
+    "Digital Game Self-regulation Committee (DGSC)": {
+      "accuracy": 0.8974358974358975,
+      "authority": "Digital Game Self-regulation Committee (DGSC)",
+      "authority_slug": "digital_game_self_regulation_committee_dgsc",
+      "balanced_accuracy": 0.6763888888888888,
+      "class_count": 5,
+      "class_distribution": {
+        "General Public": 3,
+        "Parental Guidance 12": 7,
+        "Parental Guidance 15": 20,
+        "Refused Classification": 423,
+        "Restricted": 61
+      },
+      "confusion_matrix": [
+        [
+          60,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\digital_game_self_regulation_committee_dgsc.csv",
+      "feature_count": 557,
+      "labels": [
+        "Refused Classification",
+        "Restricted",
+        "Parental Guidance 15",
+        "Parental Guidance 12",
+        "General Public"
+      ],
+      "macro_f1": 0.5854636591478697,
+      "macro_precision": 0.5335483870967742,
+      "macro_recall": 0.6763888888888888,
+      "min_class_count": 3,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_digital_game_self_regulation_committee_dgsc.joblib",
+      "per_class": {
+        "General Public": {
+          "f1-score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1.0
+        },
+        "Parental Guidance 12": {
+          "f1-score": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 1.0
+        },
+        "Parental Guidance 15": {
+          "f1-score": 0.5714285714285714,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "support": 3.0
+        },
+        "Refused Classification": {
+          "f1-score": 0.9523809523809523,
+          "precision": 0.967741935483871,
+          "recall": 0.9375,
+          "support": 64.0
+        },
+        "Restricted": {
+          "f1-score": 0.7368421052631579,
+          "precision": 0.7,
+          "recall": 0.7777777777777778,
+          "support": 9.0
+        },
+        "accuracy": 0.8974358974358975,
+        "macro avg": {
+          "f1-score": 0.5854636591478696,
+          "precision": 0.5335483870967742,
+          "recall": 0.6763888888888888,
+          "support": 78.0
+        },
+        "weighted avg": {
+          "f1-score": 0.8969860548807917,
+          "precision": 0.9004549214226634,
+          "recall": 0.8974358974358975,
+          "support": 78.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\digital_game_self_regulation_committee_dgsc.csv",
+      "sample_count": 514,
+      "test_distribution": {
+        "General Public": 1,
+        "Parental Guidance 12": 1,
+        "Parental Guidance 15": 3,
+        "Refused Classification": 64,
+        "Restricted": 9
+      },
+      "test_size": 78,
+      "train_size": 436,
+      "trained": true,
+      "weighted_f1": 0.8969860548807917
+    },
+    "Entertainment Software Rating Board (ESRB)": {
+      "accuracy": 0.8844221105527639,
+      "authority": "Entertainment Software Rating Board (ESRB)",
+      "authority_slug": "entertainment_software_rating_board_esrb",
+      "balanced_accuracy": 0.807078431372549,
+      "class_count": 5,
+      "class_distribution": {
+        "Adults only 18+": 691,
+        "Everyone": 115,
+        "Everyone 10+": 16,
+        "Mature 17+": 335,
+        "Teen": 165
+      },
+      "confusion_matrix": [
+        [
+          91,
+          8,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          50,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          17,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          17,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\entertainment_software_rating_board_esrb.csv",
+      "feature_count": 1010,
+      "labels": [
+        "Adults only 18+",
+        "Mature 17+",
+        "Teen",
+        "Everyone",
+        "Everyone 10+"
+      ],
+      "macro_f1": 0.8220081382762359,
+      "macro_precision": 0.8789745380067961,
+      "macro_recall": 0.807078431372549,
+      "min_class_count": 16,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_entertainment_software_rating_board_esrb.joblib",
+      "per_class": {
+        "Adults only 18+": {
+          "f1-score": 0.9238578680203046,
+          "precision": 0.978494623655914,
+          "recall": 0.875,
+          "support": 104.0
+        },
+        "Everyone": {
+          "f1-score": 0.918918918918919,
+          "precision": 0.85,
+          "recall": 1.0,
+          "support": 17.0
+        },
+        "Everyone 10+": {
+          "f1-score": 0.6666666666666666,
+          "precision": 1.0,
+          "recall": 0.5,
+          "support": 2.0
+        },
+        "Mature 17+": {
+          "f1-score": 0.8771929824561403,
+          "precision": 0.7936507936507936,
+          "recall": 0.9803921568627451,
+          "support": 51.0
+        },
+        "Teen": {
+          "f1-score": 0.723404255319149,
+          "precision": 0.7727272727272727,
+          "recall": 0.68,
+          "support": 25.0
+        },
+        "accuracy": 0.8844221105527639,
+        "macro avg": {
+          "f1-score": 0.8220081382762359,
+          "precision": 0.8789745380067959,
+          "recall": 0.807078431372549,
+          "support": 199.0
+        },
+        "weighted avg": {
+          "f1-score": 0.8837091543583342,
+          "precision": 0.8945116238923986,
+          "recall": 0.8844221105527639,
+          "support": 199.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\entertainment_software_rating_board_esrb.csv",
+      "sample_count": 1322,
+      "test_distribution": {
+        "Adults only 18+": 104,
+        "Everyone": 17,
+        "Everyone 10+": 2,
+        "Mature 17+": 51,
+        "Teen": 25
+      },
+      "test_size": 199,
+      "train_size": 1123,
+      "trained": true,
+      "weighted_f1": 0.8837091543583342
+    },
+    "Game Rating and Administration Committee (GRAC)": {
+      "class_distribution": {
+        "12+": 2,
+        "15+": 10,
+        "All ages": 20,
+        "Refused Classification": 482
+      },
+      "skip_reason": "min_class_count < 3",
+      "trained": false
+    },
+    "General Authority of Media Regulation (Gmedia)": {
+      "class_distribution": {
+        "12": 3,
+        "16": 12,
+        "18": 153,
+        "3": 2,
+        "7": 1,
+        "Refused Classification": 343
+      },
+      "skip_reason": "min_class_count < 3",
+      "trained": false
+    },
+    "Google Play": {
+      "accuracy": 0.9597989949748744,
+      "authority": "Google Play",
+      "authority_slug": "google_play",
+      "balanced_accuracy": 0.7872034296452902,
+      "class_count": 6,
+      "class_distribution": {
+        "Rated for 12+": 225,
+        "Rated for 16+": 28,
+        "Rated for 18+": 439,
+        "Rated for 19+": 574,
+        "Rated for 3+": 37,
+        "Rated for 7+": 19
+      },
+      "confusion_matrix": [
+        [
+          85,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          65,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          34,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\google_play.csv",
+      "feature_count": 1010,
+      "labels": [
+        "Rated for 19+",
+        "Rated for 18+",
+        "Rated for 12+",
+        "Rated for 3+",
+        "Rated for 16+",
+        "Rated for 7+"
+      ],
+      "macro_f1": 0.811103647310544,
+      "macro_precision": 0.85753367003367,
+      "macro_recall": 0.7872034296452902,
+      "min_class_count": 19,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_google_play.joblib",
+      "per_class": {
+        "Rated for 12+": {
+          "f1-score": 0.9714285714285714,
+          "precision": 0.9444444444444444,
+          "recall": 1.0,
+          "support": 34.0
+        },
+        "Rated for 16+": {
+          "f1-score": 0.3333333333333333,
+          "precision": 0.5,
+          "recall": 0.25,
+          "support": 4.0
+        },
+        "Rated for 18+": {
+          "f1-score": 0.9848484848484849,
+          "precision": 0.9848484848484849,
+          "recall": 0.9848484848484849,
+          "support": 66.0
+        },
+        "Rated for 19+": {
+          "f1-score": 0.9770114942528736,
+          "precision": 0.9659090909090909,
+          "recall": 0.9883720930232558,
+          "support": 86.0
+        },
+        "Rated for 3+": {
+          "f1-score": 0.6,
+          "precision": 0.75,
+          "recall": 0.5,
+          "support": 6.0
+        },
+        "Rated for 7+": {
+          "f1-score": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 0.9597989949748744,
+        "macro avg": {
+          "f1-score": 0.811103647310544,
+          "precision": 0.85753367003367,
+          "recall": 0.7872034296452902,
+          "support": 199.0
+        },
+        "weighted avg": {
+          "f1-score": 0.9546979561188538,
+          "precision": 0.9531622760265976,
+          "recall": 0.9597989949748744,
+          "support": 199.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\google_play.csv",
+      "sample_count": 1322,
+      "test_distribution": {
+        "Rated for 12+": 34,
+        "Rated for 16+": 4,
+        "Rated for 18+": 66,
+        "Rated for 19+": 86,
+        "Rated for 3+": 6,
+        "Rated for 7+": 3
+      },
+      "test_size": 199,
+      "train_size": 1123,
+      "trained": true,
+      "weighted_f1": 0.9546979561188537
+    },
+    "IARC Generic": {
+      "accuracy": 0.9748743718592965,
+      "authority": "IARC Generic",
+      "authority_slug": "iarc_generic",
+      "balanced_accuracy": 0.7666666666666666,
+      "class_count": 5,
+      "class_distribution": {
+        "Rated for 12+": 225,
+        "Rated for 16+": 28,
+        "Rated for 18+": 1013,
+        "Rated for 3+": 37,
+        "Rated for 7+": 19
+      },
+      "confusion_matrix": [
+        [
+          152,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          34,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\iarc_generic.csv",
+      "feature_count": 1010,
+      "labels": [
+        "Rated for 18+",
+        "Rated for 12+",
+        "Rated for 3+",
+        "Rated for 16+",
+        "Rated for 7+"
+      ],
+      "macro_f1": 0.8294327661669397,
+      "macro_precision": 0.923748079877112,
+      "macro_recall": 0.7666666666666666,
+      "min_class_count": 19,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_iarc_generic.joblib",
+      "per_class": {
+        "Rated for 12+": {
+          "f1-score": 0.9855072463768116,
+          "precision": 0.9714285714285714,
+          "recall": 1.0,
+          "support": 34.0
+        },
+        "Rated for 16+": {
+          "f1-score": 0.5714285714285714,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "support": 4.0
+        },
+        "Rated for 18+": {
+          "f1-score": 0.990228013029316,
+          "precision": 0.9806451612903225,
+          "recall": 1.0,
+          "support": 152.0
+        },
+        "Rated for 3+": {
+          "f1-score": 0.8,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "support": 6.0
+        },
+        "Rated for 7+": {
+          "f1-score": 0.8,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "support": 3.0
+        },
+        "accuracy": 0.9748743718592965,
+        "macro avg": {
+          "f1-score": 0.8294327661669397,
+          "precision": 0.923748079877112,
+          "recall": 0.7666666666666666,
+          "support": 199.0
+        },
+        "weighted avg": {
+          "f1-score": 0.9724000936833262,
+          "precision": 0.973634686489282,
+          "recall": 0.9748743718592965,
+          "support": 199.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\iarc_generic.csv",
+      "sample_count": 1322,
+      "test_distribution": {
+        "Rated for 12+": 34,
+        "Rated for 16+": 4,
+        "Rated for 18+": 152,
+        "Rated for 3+": 6,
+        "Rated for 7+": 3
+      },
+      "test_size": 199,
+      "train_size": 1123,
+      "trained": true,
+      "weighted_f1": 0.9724000936833262
+    },
+    "Pan-European Game Information (PEGI)": {
+      "accuracy": 0.9597989949748744,
+      "authority": "Pan-European Game Information (PEGI)",
+      "authority_slug": "pan_european_game_information_pegi",
+      "balanced_accuracy": 0.7444444444444445,
+      "class_count": 6,
+      "class_distribution": {
+        "PEGI 12": 26,
+        "PEGI 16": 28,
+        "PEGI 18": 1013,
+        "PEGI 3": 37,
+        "PEGI 7": 19,
+        "Parental guidance": 199
+      },
+      "confusion_matrix": [
+        [
+          152,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          29,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\pan_european_game_information_pegi.csv",
+      "feature_count": 1010,
+      "labels": [
+        "PEGI 18",
+        "Parental guidance",
+        "PEGI 3",
+        "PEGI 16",
+        "PEGI 12",
+        "PEGI 7"
+      ],
+      "macro_f1": 0.7483656663188732,
+      "macro_precision": 0.78393945620163,
+      "macro_recall": 0.7444444444444445,
+      "min_class_count": 19,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_pan_european_game_information_pegi.joblib",
+      "per_class": {
+        "PEGI 12": {
+          "f1-score": 0.8888888888888888,
+          "precision": 0.8,
+          "recall": 1.0,
+          "support": 4.0
+        },
+        "PEGI 16": {
+          "f1-score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 4.0
+        },
+        "PEGI 18": {
+          "f1-score": 0.9838187702265372,
+          "precision": 0.9681528662420382,
+          "recall": 1.0,
+          "support": 152.0
+        },
+        "PEGI 3": {
+          "f1-score": 0.6666666666666666,
+          "precision": 1.0,
+          "recall": 0.5,
+          "support": 6.0
+        },
+        "PEGI 7": {
+          "f1-score": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 3.0
+        },
+        "Parental guidance": {
+          "f1-score": 0.9508196721311475,
+          "precision": 0.9354838709677419,
+          "recall": 0.9666666666666667,
+          "support": 30.0
+        },
+        "accuracy": 0.9597989949748744,
+        "macro avg": {
+          "f1-score": 0.7483656663188732,
+          "precision": 0.78393945620163,
+          "recall": 0.7444444444444445,
+          "support": 199.0
+        },
+        "weighted avg": {
+          "f1-score": 0.947842204994591,
+          "precision": 0.9418278984815179,
+          "recall": 0.9597989949748744,
+          "support": 199.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\pan_european_game_information_pegi.csv",
+      "sample_count": 1322,
+      "test_distribution": {
+        "PEGI 12": 4,
+        "PEGI 16": 4,
+        "PEGI 18": 152,
+        "PEGI 3": 6,
+        "PEGI 7": 3,
+        "Parental guidance": 30
+      },
+      "test_size": 199,
+      "train_size": 1123,
+      "trained": true,
+      "weighted_f1": 0.947842204994591
+    },
+    "Unterhaltungssoftware Selbstkontrolle (USK)": {
+      "accuracy": 0.9698492462311558,
+      "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+      "authority_slug": "unterhaltungssoftware_selbstkontrolle_usk",
+      "balanced_accuracy": 0.7492051371051718,
+      "class_count": 5,
+      "class_distribution": {
+        "USK: Ages 12+": 284,
+        "USK: Ages 16+": 33,
+        "USK: Ages 18+": 894,
+        "USK: Ages 6+": 11,
+        "USK: All ages": 100
+      },
+      "confusion_matrix": [
+        [
+          133,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          41,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "confusion_matrix_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_confusion\\unterhaltungssoftware_selbstkontrolle_usk.csv",
+      "feature_count": 1010,
+      "labels": [
+        "USK: Ages 18+",
+        "USK: Ages 12+",
+        "USK: All ages",
+        "USK: Ages 16+",
+        "USK: Ages 6+"
+      ],
+      "macro_f1": 0.7382106931992127,
+      "macro_precision": 0.7287457205104263,
+      "macro_recall": 0.7492051371051718,
+      "min_class_count": 11,
+      "model_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\models\\region_rating_unterhaltungssoftware_selbstkontrolle_usk.joblib",
+      "per_class": {
+        "USK: Ages 12+": {
+          "f1-score": 0.9647058823529412,
+          "precision": 0.9761904761904762,
+          "recall": 0.9534883720930233,
+          "support": 43.0
+        },
+        "USK: Ages 16+": {
+          "f1-score": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "support": 5.0
+        },
+        "USK: Ages 18+": {
+          "f1-score": 0.9888475836431226,
+          "precision": 0.9851851851851852,
+          "recall": 0.9925373134328358,
+          "support": 134.0
+        },
+        "USK: Ages 6+": {
+          "f1-score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 2.0
+        },
+        "USK: All ages": {
+          "f1-score": 0.9375,
+          "precision": 0.8823529411764706,
+          "recall": 1.0,
+          "support": 15.0
+        },
+        "accuracy": 0.9698492462311558,
+        "macro avg": {
+          "f1-score": 0.7382106931992128,
+          "precision": 0.7287457205104264,
+          "recall": 0.7492051371051718,
+          "support": 199.0
+        },
+        "weighted avg": {
+          "f1-score": 0.9650775334138437,
+          "precision": 0.9609361779329263,
+          "recall": 0.9698492462311558,
+          "support": 199.0
+        }
+      },
+      "predictions_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\outputs\\analysis\\current\\metrics\\region_rating_predictions\\unterhaltungssoftware_selbstkontrolle_usk.csv",
+      "sample_count": 1322,
+      "test_distribution": {
+        "USK: Ages 12+": 43,
+        "USK: Ages 16+": 5,
+        "USK: Ages 18+": 134,
+        "USK: Ages 6+": 2,
+        "USK: All ages": 15
+      },
+      "test_size": 199,
+      "train_size": 1123,
+      "trained": true,
+      "weighted_f1": 0.9650775334138437
+    }
+  },
+  "metadata": {
+    "input_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\data\\raw\\real_20260615_full.samples.jsonl",
+    "min_class_count": 3,
+    "min_classes": 2,
+    "min_samples": 100,
+    "model": "LightGBM",
+    "model_params": {
+      "force_row_wise": true,
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "min_child_samples": 10,
+      "n_estimators": 300,
+      "num_leaves": 15,
+      "random_state": 42,
+      "subsample": 0.9,
+      "verbosity": -1
+    },
+    "random_seed": 42,
+    "skipped_authorities": [
+      "Game Rating and Administration Committee (GRAC)",
+      "General Authority of Media Regulation (Gmedia)"
+    ],
+    "test_size": 0.15,
+    "trained_authorities": [
+      "Australian Classification Board (ACB)",
+      "Classificação Indicativa (ClassInd)",
+      "Digital Game Self-regulation Committee (DGSC)",
+      "Entertainment Software Rating Board (ESRB)",
+      "Google Play",
+      "IARC Generic",
+      "Pan-European Game Information (PEGI)",
+      "Unterhaltungssoftware Selbstkontrolle (USK)"
+    ]
+  }
+}

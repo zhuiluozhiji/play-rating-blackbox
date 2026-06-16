@@ -1,0 +1,101 @@
+model,rank,feature,importance,feature_type,question_key,question_text,question_type,option_text,question_seen_count
+decision_tree,1,answer__q_6bdc905e3f72_Scary_elements_Learn_more,0.1962935291472233,answer,q_6bdc905e3f72,Please select all that the game includes:,multi,Scary elements Learn more,276
+decision_tree,2,visible_question_count,0.1723698017613212,derived,,,,,
+decision_tree,3,answer__q_1b293e4babdc_Social_or_Communication,0.1217828114368506,answer,q_1b293e4babdc,Category,single,Social or Communication,1322
+decision_tree,4,answer__q_bd5378991a14_No,0.0727717714953419,answer,q_bd5378991a14,Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.,single,No,510
+decision_tree,5,answer__q_507a4755324a_No,0.0458461633216245,answer,q_507a4755324a,"Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",single,No,469
+decision_tree,6,answer__q_93e10cb84a82_Yes,0.0428588284658237,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,Yes,250
+decision_tree,7,interactive_element_count,0.0403310153038779,derived,,,,,
+decision_tree,8,answer__q_7711385eb421_No,0.0365289942963333,answer,q_7711385eb421,Does the game advocate committing acts of terrorism?,single,No,510
+decision_tree,9,answer__q_94281255eeea_Yes,0.0327843495861626,answer,q_94281255eeea,"Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",single,Yes,469
+decision_tree,10,answer__q_07cc5d8fc5f2_Reference_Use,0.0217154353719881,answer,q_07cc5d8fc5f2,Illegal or Recreational Drugs,multi,Reference | Use,57
+decision_tree,11,answer__q_fa879063695d_Yes,0.0215942547685609,answer,q_fa879063695d,Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?,single,Yes,250
+decision_tree,12,answer__q_f5cfa9d035e8_No,0.0213737982659186,answer,q_f5cfa9d035e8,Does the app contain pictures or sounds likely to be scary or horrifying?,single,No,228
+decision_tree,13,answer__q_55327882e80f_Yes,0.0194671481603938,answer,q_55327882e80f,Is this content the focus of the app?,single,Yes,119
+decision_tree,14,answer__q_09670428687d_Yes,0.0169778549542751,answer,q_09670428687d,Are there detailed descriptions of techniques that could be used in criminal offenses?,single,Yes,235
+decision_tree,15,answer__q_a4d0a299c5a1_Yes,0.0135444861868211,answer,q_a4d0a299c5a1,Is this the primary focus of the app?,single,Yes,136
+decision_tree,16,answer__q_7dbd7f3e394c_Often_depicted_from_a_close_up_perspective_Often_depicted_from_a_distant_perspective_Rarely_depicted_from_a_close_up_perspective_Referred_to,0.0134884991529379,answer,q_7dbd7f3e394c,How is this violence presented in the game?,multi,Often depicted from a close-up perspective | Often depicted from a distant perspective | Rarely depicted from a close-up perspective | Referred to,142
+decision_tree,17,content_descriptor_count,0.0126343884458081,derived,,,,,
+decision_tree,18,answer__q_d6a91ad297c0_Rare,0.011962929383612,answer,q_d6a91ad297c0,How frequent are the horrifying elements?,single,Rare,184
+decision_tree,19,answer__q_7e3c719bbc27_No,0.0109552973906231,answer,q_7e3c719bbc27,Can this sexual material be visually depicted?,single,No,124
+decision_tree,20,answer__q_0ce68b31ce40_No,0.0097128811364348,answer,q_0ce68b31ce40,Are these gambling themes prominently featured or a strong focus of the product?,single,No,124
+extra_trees,1,answer__q_6bdc905e3f72_Scary_elements_Learn_more,0.0305285787767842,answer,q_6bdc905e3f72,Please select all that the game includes:,multi,Scary elements Learn more,276
+extra_trees,2,answer__q_1b293e4babdc_Social_or_Communication,0.0188185391133808,answer,q_1b293e4babdc,Category,single,Social or Communication,1322
+extra_trees,3,answer__q_bca3ec5dda43_Yes,0.018365033941776,answer,q_bca3ec5dda43,"Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",single,Yes,510
+extra_trees,4,visible_question_count,0.0176286226678714,derived,,,,,
+extra_trees,5,answer__q_7711385eb421_No,0.0167265539425712,answer,q_7711385eb421,Does the game advocate committing acts of terrorism?,single,No,510
+extra_trees,6,answer__q_bd5378991a14_No,0.0145976033080364,answer,q_bd5378991a14,Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.,single,No,510
+extra_trees,7,answer__q_7e327631a16c_No,0.0141668099967611,answer,q_7e327631a16c,"Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",single,No,510
+extra_trees,8,answer__q_d6986c0f5284_Communication_used_to_communicate_with_people_already_known_to_the_user_in_one_on_one_or_small_group_conversations_Skype_SMS_and_Gmail_are_examples_of_these,0.0134402410273178,answer,q_d6986c0f5284,Which of the following would best describe the app?,single,Communication used to communicate with people already known to the user in one on one or small group conversations Skype SMS and Gmail are examples of these,343
+extra_trees,9,answer__q_94281255eeea_No,0.0132449993266314,answer,q_94281255eeea,"Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",single,No,469
+extra_trees,10,answer__q_93e10cb84a82_No,0.0124211626369808,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,No,250
+extra_trees,11,answer__q_0fdfd05fcf6c_No,0.0117723966017588,answer,q_0fdfd05fcf6c,"Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",single,No,469
+extra_trees,12,answer__q_4bc85050df07_Yes,0.011641530535473,answer,q_4bc85050df07,Are these crimes or criminal techniques likely to be imitated by children or youths?,single,Yes,235
+extra_trees,13,answer__q_9f0067fa0227_No,0.0112281853198738,answer,q_9f0067fa0227,"Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",single,No,510
+extra_trees,14,answer__q_f48caccfa701_No,0.0112076972374884,answer,q_f48caccfa701,"Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",single,No,510
+extra_trees,15,answer__q_0efb748cf130_No,0.0111344529372496,answer,q_0efb748cf130,Can interactions in the game be limited to invited friends only?,single,No,239
+extra_trees,16,answer__q_93e10cb84a82_Yes,0.0111168809252466,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,Yes,250
+extra_trees,17,answer__q_507a4755324a_No,0.0109193094505121,answer,q_507a4755324a,"Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",single,No,469
+extra_trees,18,answer__q_5d84cbf44792_Often,0.0109012545493377,answer,q_5d84cbf44792,How frequent are the scary elements?,single,Often,178
+extra_trees,19,answer__q_fa879063695d_No,0.0108013852013264,answer,q_fa879063695d,Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?,single,No,250
+extra_trees,20,answer__q_bd5378991a14_Yes,0.0106761814064805,answer,q_bd5378991a14,Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.,single,Yes,510
+lightgbm,1,visible_question_count,2637.0,derived,,,,,
+lightgbm,2,interactive_element_count,698.0,derived,,,,,
+lightgbm,3,content_descriptor_count,480.0,derived,,,,,
+lightgbm,4,answer__q_6bdc905e3f72_Scary_elements_Learn_more,194.0,answer,q_6bdc905e3f72,Please select all that the game includes:,multi,Scary elements Learn more,276
+lightgbm,5,answer__q_a4d0a299c5a1_Yes,190.0,answer,q_a4d0a299c5a1,Is this the primary focus of the app?,single,Yes,136
+lightgbm,6,answer__q_46e0aaa8e62a_No,173.0,answer,q_46e0aaa8e62a,Does the app share the user's current and precise physical location with other users?,single,No,343
+lightgbm,7,answer__q_fa879063695d_No,165.0,answer,q_fa879063695d,Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?,single,No,250
+lightgbm,8,answer__q_93e10cb84a82_Yes,160.0,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,Yes,250
+lightgbm,9,answer__q_7711385eb421_No,156.0,answer,q_7711385eb421,Does the game advocate committing acts of terrorism?,single,No,510
+lightgbm,10,answer__q_507a4755324a_No,151.0,answer,q_507a4755324a,"Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",single,No,469
+lightgbm,11,answer__q_94281255eeea_No,147.0,answer,q_94281255eeea,"Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",single,No,469
+lightgbm,12,answer__q_93e10cb84a82_No,143.0,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,No,250
+lightgbm,13,answer__q_cadf78f7f22c_Yes,132.0,answer,q_cadf78f7f22c,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,Yes,249
+lightgbm,14,answer__q_4bc85050df07_Yes,131.0,answer,q_4bc85050df07,Are these crimes or criminal techniques likely to be imitated by children or youths?,single,Yes,235
+lightgbm,15,answer__q_507a4755324a_Yes,130.0,answer,q_507a4755324a,"Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",single,Yes,469
+lightgbm,16,answer__q_6c31394cbc39_No,126.0,answer,q_6c31394cbc39,Does the app permit the public sharing of nudity?,single,No,250
+lightgbm,17,answer__q_5cc1024ee5fb_No,122.0,answer,q_5cc1024ee5fb,Does the app allow users to purchase digital goods?,single,No,343
+lightgbm,18,answer__q_94281255eeea_Yes,116.0,answer,q_94281255eeea,"Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",single,Yes,469
+lightgbm,19,answer__q_fa879063695d_Yes,116.0,answer,q_fa879063695d,Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?,single,Yes,250
+lightgbm,20,answer__q_7711385eb421_Yes,113.0,answer,q_7711385eb421,Does the game advocate committing acts of terrorism?,single,Yes,510
+random_forest,1,visible_question_count,0.0488231048784535,derived,,,,,
+random_forest,2,answer__q_6bdc905e3f72_Scary_elements_Learn_more,0.0279914025540057,answer,q_6bdc905e3f72,Please select all that the game includes:,multi,Scary elements Learn more,276
+random_forest,3,content_descriptor_count,0.0216939118324453,derived,,,,,
+random_forest,4,interactive_element_count,0.0185287023065478,derived,,,,,
+random_forest,5,answer__q_bca3ec5dda43_Yes,0.0184802016124075,answer,q_bca3ec5dda43,"Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",single,Yes,510
+random_forest,6,answer__q_7711385eb421_No,0.016528150207317,answer,q_7711385eb421,Does the game advocate committing acts of terrorism?,single,No,510
+random_forest,7,answer__q_1b293e4babdc_Social_or_Communication,0.0156459088385035,answer,q_1b293e4babdc,Category,single,Social or Communication,1322
+random_forest,8,answer__q_7e327631a16c_No,0.0136332149818559,answer,q_7e327631a16c,"Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",single,No,510
+random_forest,9,answer__q_f48caccfa701_No,0.0134517151285223,answer,q_f48caccfa701,"Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",single,No,510
+random_forest,10,answer__q_507a4755324a_No,0.0128377595395094,answer,q_507a4755324a,"Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",single,No,469
+random_forest,11,answer__q_94281255eeea_No,0.0124158306380853,answer,q_94281255eeea,"Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",single,No,469
+random_forest,12,answer__q_bd5378991a14_No,0.0109956775804728,answer,q_bd5378991a14,Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.,single,No,510
+random_forest,13,answer__q_93e10cb84a82_No,0.0109837509809897,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,No,250
+random_forest,14,answer__q_5d84cbf44792_Often,0.0109346257216946,answer,q_5d84cbf44792,How frequent are the scary elements?,single,Often,178
+random_forest,15,answer__q_5cc1024ee5fb_Yes,0.0103380958564508,answer,q_5cc1024ee5fb,Does the app allow users to purchase digital goods?,single,Yes,343
+random_forest,16,answer__q_156f495d441a_No,0.0103204951044595,answer,q_156f495d441a,"Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",single,No,469
+random_forest,17,answer__q_9f0067fa0227_No,0.01018419160891,answer,q_9f0067fa0227,"Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",single,No,510
+random_forest,18,answer__q_4bc85050df07_Yes,0.0101785660292521,answer,q_4bc85050df07,Are these crimes or criminal techniques likely to be imitated by children or youths?,single,Yes,235
+random_forest,19,answer__q_93e10cb84a82_Yes,0.0101517255436109,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,Yes,250
+random_forest,20,answer__q_7e327631a16c_Yes,0.0096349403458472,answer,q_7e327631a16c,"Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",single,Yes,510
+xgboost,1,answer__q_1b293e4babdc_Social_or_Communication,0.08514172,answer,q_1b293e4babdc,Category,single,Social or Communication,1322
+xgboost,2,answer__q_93e10cb84a82_Yes,0.0265044,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,Yes,250
+xgboost,3,answer__q_93e10cb84a82_No,0.024115918,answer,q_93e10cb84a82,"Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",single,No,250
+xgboost,4,answer__q_6bdc905e3f72_Scary_elements_Learn_more,0.023190025,answer,q_6bdc905e3f72,Please select all that the game includes:,multi,Scary elements Learn more,276
+xgboost,5,answer__q_fa879063695d_Yes,0.01805629,answer,q_fa879063695d,Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?,single,Yes,250
+xgboost,6,answer__q_507a4755324a_Yes,0.015991792,answer,q_507a4755324a,"Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",single,Yes,469
+xgboost,7,answer__q_7711385eb421_No,0.015888976,answer,q_7711385eb421,Does the game advocate committing acts of terrorism?,single,No,510
+xgboost,8,answer__q_fa879063695d_No,0.015684322,answer,q_fa879063695d,Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?,single,No,250
+xgboost,9,answer__q_a4d0a299c5a1_Yes,0.013365217,answer,q_a4d0a299c5a1,Is this the primary focus of the app?,single,Yes,136
+xgboost,10,answer__q_d6a91ad297c0_Rare,0.013081113,answer,q_d6a91ad297c0,How frequent are the horrifying elements?,single,Rare,184
+xgboost,11,visible_question_count,0.0124103995,derived,,,,,
+xgboost,12,answer__q_94281255eeea_No,0.012341145,answer,q_94281255eeea,"Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",single,No,469
+xgboost,13,answer__q_6bdc905e3f72_Horrifying_elements_Learn_more,0.011769615,answer,q_6bdc905e3f72,Please select all that the game includes:,multi,Horrifying elements Learn more,276
+xgboost,14,answer__q_7711385eb421_Yes,0.010979978,answer,q_7711385eb421,Does the game advocate committing acts of terrorism?,single,Yes,510
+xgboost,15,answer__q_507a4755324a_No,0.010424028,answer,q_507a4755324a,"Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",single,No,469
+xgboost,16,answer__q_0fdfd05fcf6c_No,0.010331941,answer,q_0fdfd05fcf6c,"Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",single,No,469
+xgboost,17,answer__q_fc2c78fd7069_Mucus_belching_flatulence_sounds,0.009698722,answer,q_fc2c78fd7069,What bodily functions are used for humorous purposes in the app? Please check all that apply.,multi,"Mucus, belching, flatulence sounds",129
+xgboost,18,answer__q_94281255eeea_Yes,0.009161539,answer,q_94281255eeea,"Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",single,Yes,469
+xgboost,19,answer__q_f48caccfa701_No,0.008478412,answer,q_f48caccfa701,"Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",single,No,510
+xgboost,20,content_descriptor_count,0.008391199,derived,,,,,

@@ -1,0 +1,22 @@
+{
+  "changed_prediction_examples": 62,
+  "max_rows_per_feature": 5,
+  "model": "optimized_lightgbm",
+  "note": "Feature flips are model-level perturbations and may not correspond to valid questionnaire paths.",
+  "prediction_transitions": {
+    "12+->18+": 24,
+    "12+->3+": 4,
+    "12+->7+": 1,
+    "16+->18+": 12,
+    "16+->3+": 4,
+    "16+->7+": 1,
+    "18+->12+": 1,
+    "18+->16+": 4,
+    "18+->3+": 1,
+    "3+->18+": 1,
+    "3+->7+": 1,
+    "7+->12+": 7,
+    "7+->18+": 1
+  },
+  "tested_features": 25
+}

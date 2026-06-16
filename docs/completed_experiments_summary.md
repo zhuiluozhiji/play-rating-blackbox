@@ -488,6 +488,7 @@ cv_stability_macro_f1.png
 optimized_error_transitions.png
 google_play_vs_iarc_match.png
 authority_presence_counts.png
+region_rating_prediction_performance.png
 ```
 
 推荐放入报告正文的图表：
@@ -503,6 +504,7 @@ authority_presence_counts.png
 | `decision_tree_feature_importance.png` | 黑盒机制解释 | 展示可解释规则模型的重要特征 |
 | `lightgbm_feature_importance.png` | 黑盒机制解释 | 展示最佳模型族的重要特征 |
 | `google_play_vs_iarc_match.png` | 扩展分析 | 展示 Google Play 与 IARC 口径差异 |
+| `region_rating_prediction_performance.png` | 扩展分析 | 展示不同地区评级机构的预测效果 |
 
 图表解释注意：
 
@@ -560,6 +562,73 @@ mismatch_count = 574
 
 主要差异来源是 Google Play 中存在 `Rated for 19+`，而当前主标签使用 IARC Generic 的 `18+` 口径。当前实验暂不改变主标签，但该结果可以作为报告中的扩展分析。
 
+## 11.1 地区评级预测任务
+
+实验脚本：
+
+```text
+scripts/train_region_rating_models.py
+```
+
+详细文档：
+
+```text
+docs/region_rating_prediction_summary.md
+```
+
+输出文件：
+
+```text
+outputs/analysis/current/metrics/region_rating_model_metrics.json
+outputs/analysis/current/metrics/region_rating_model_summary.csv
+outputs/analysis/current/metrics/region_rating_confusion/
+outputs/analysis/current/metrics/region_rating_predictions/
+outputs/analysis/current/models/region_rating_*.joblib
+outputs/analysis/current/figures/region_rating_prediction_performance.png
+```
+
+该任务使用 `result_region_ratings` 中的不同机构标签分别训练模型。为了避免标签泄漏，训练地区评级模型时显式移除了主标签 `result_age_rating`，只使用问卷答案和派生统计特征。
+
+训练设置：
+
+```text
+model = LightGBM
+random_seed = 42
+test_size = 0.15
+sample_weight = balanced
+min_samples = 100
+min_classes = 2
+min_class_count = 3
+```
+
+第一版地区评级预测结果：
+
+| 机构 | 样本数 | 类别数 | Accuracy | Macro-F1 | Balanced Acc |
+|---|---:|---:|---:|---:|---:|
+| `IARC Generic` | 1322 | 5 | 0.975 | 0.829 | 0.767 |
+| `ESRB` | 1322 | 5 | 0.884 | 0.822 | 0.807 |
+| `Google Play` | 1322 | 6 | 0.960 | 0.811 | 0.787 |
+| `PEGI` | 1322 | 6 | 0.960 | 0.748 | 0.744 |
+| `USK` | 1322 | 5 | 0.970 | 0.738 | 0.749 |
+| `ClassInd` | 1322 | 6 | 0.915 | 0.674 | 0.691 |
+| `DGSC` | 514 | 5 | 0.897 | 0.585 | 0.676 |
+| `ACB` | 514 | 6 | 0.910 | 0.522 | 0.516 |
+
+跳过机构：
+
+| 机构 | 样本数 | 类别数 | 最小类别样本数 | 原因 |
+|---|---:|---:|---:|---|
+| `GRAC` | 514 | 4 | 2 | `min_class_count < 3` |
+| `Gmedia` | 514 | 6 | 1 | `min_class_count < 3` |
+
+地区评级预测结论：
+
+1. 当前问卷特征不仅能预测主标签，也能预测多个地区/机构评级标签。
+2. `ESRB` 的 macro-F1 达到 `0.822`，说明它在各类别之间表现相对均衡。
+3. `Google Play` 的 macro-F1 达到 `0.811`，且它包含 `Rated for 19+`，不是 IARC Generic 标签的简单复制。
+4. `ACB` 和 `DGSC` 的 accuracy 不低，但 macro-F1 较低，主要受 514 样本规模和极端类别不均衡影响。
+5. `GRAC` 和 `Gmedia` 因最小类别样本数过低，本轮只保留统计分析，不报告模型指标。
+
 ## 12. 已通过的验证
 
 当前已运行：
@@ -586,6 +655,7 @@ make_figures.py
 run_feature_ablation.py
 summarize_experiment_results.py
 analyze_region_ratings.py
+train_region_rating_models.py
 ```
 
 ## 13. 局限性与注意事项
@@ -688,6 +758,7 @@ analyze_region_ratings.py
 5. CV 稳定性实验表明少数类导致评估波动，报告中应谨慎解释单次 holdout。
 6. 错误案例主要是保守高估，没有观察到 `18+` 被严重低估到低龄类别。
 7. 多机构评级分析显示 Google Play 与 IARC Generic 存在显示口径差异，可作为扩展讨论。
+8. 地区评级预测任务进一步证明问卷特征可以迁移到多个评级机构标签，ESRB、Google Play 和 IARC Generic 均取得较高 macro-F1。
 
 当前实验部分已经足够支撑完整课程报告。后续主要工作应转向报告写作、图表整理和结论表达。
 
