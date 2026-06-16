@@ -1,0 +1,183 @@
+{
+  "authority_count_distribution": {
+    "6": 808,
+    "10": 514
+  },
+  "authority_presence_counts": {
+    "Australian Classification Board (ACB)": 514,
+    "Classificação Indicativa (ClassInd)": 1322,
+    "Digital Game Self-regulation Committee (DGSC)": 514,
+    "Entertainment Software Rating Board (ESRB)": 1322,
+    "Game Rating and Administration Committee (GRAC)": 514,
+    "General Authority of Media Regulation (Gmedia)": 514,
+    "Google Play": 1322,
+    "IARC Generic": 1322,
+    "Pan-European Game Information (PEGI)": 1322,
+    "Unterhaltungssoftware Selbstkontrolle (USK)": 1322
+  },
+  "authority_rating_distributions": {
+    "Australian Classification Board (ACB)": {
+      "General": 4,
+      "Mature": 10,
+      "Parental Guidance": 3,
+      "Refused Classification": 387,
+      "Restricted to 15+": 63,
+      "Restricted to 18+": 47
+    },
+    "Classificação Indicativa (ClassInd)": {
+      "All ages": 218,
+      "Rated 10+": 7,
+      "Rated 12+": 48,
+      "Rated 14+": 133,
+      "Rated 16+": 51,
+      "Rated 18+": 865
+    },
+    "Digital Game Self-regulation Committee (DGSC)": {
+      "General Public": 3,
+      "Parental Guidance 12": 7,
+      "Parental Guidance 15": 20,
+      "Refused Classification": 423,
+      "Restricted": 61
+    },
+    "Entertainment Software Rating Board (ESRB)": {
+      "Adults only 18+": 691,
+      "Everyone": 115,
+      "Everyone 10+": 16,
+      "Mature 17+": 335,
+      "Teen": 165
+    },
+    "Game Rating and Administration Committee (GRAC)": {
+      "12+": 2,
+      "15+": 10,
+      "All ages": 20,
+      "Refused Classification": 482
+    },
+    "General Authority of Media Regulation (Gmedia)": {
+      "12": 3,
+      "16": 12,
+      "18": 153,
+      "3": 2,
+      "7": 1,
+      "Refused Classification": 343
+    },
+    "Google Play": {
+      "Rated for 12+": 225,
+      "Rated for 16+": 28,
+      "Rated for 18+": 439,
+      "Rated for 19+": 574,
+      "Rated for 3+": 37,
+      "Rated for 7+": 19
+    },
+    "IARC Generic": {
+      "Rated for 12+": 225,
+      "Rated for 16+": 28,
+      "Rated for 18+": 1013,
+      "Rated for 3+": 37,
+      "Rated for 7+": 19
+    },
+    "Pan-European Game Information (PEGI)": {
+      "PEGI 12": 26,
+      "PEGI 16": 28,
+      "PEGI 18": 1013,
+      "PEGI 3": 37,
+      "PEGI 7": 19,
+      "Parental guidance": 199
+    },
+    "Unterhaltungssoftware Selbstkontrolle (USK)": {
+      "USK: Ages 12+": 284,
+      "USK: Ages 16+": 33,
+      "USK: Ages 18+": 894,
+      "USK: Ages 6+": 11,
+      "USK: All ages": 100
+    }
+  },
+  "distinct_authority_count": 10,
+  "google_play_vs_iarc_generic": {
+    "both_present_count": 1322,
+    "exact_match_count": 748,
+    "mismatch_count": 574,
+    "mismatch_examples": [
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "f85c18310b34",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0386"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "1061124406f0",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0005"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "6aa6d6dcd99e",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0007"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "95fd54805035",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0008"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "65868b8f244f",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0009"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "59699fc1d011",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0011"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "723a4fcb7d34",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0013"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "be1747039080",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0016"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "0fdfce573461",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0018"
+      },
+      {
+        "google_play": "Rated for 19+",
+        "iarc_generic": "Rated for 18+",
+        "response_signature": "80e04d661824",
+        "result_age_rating": "18+",
+        "sample_id": "sample_0028"
+      }
+    ]
+  },
+  "missing_region_ratings": 0,
+  "primary_label_distribution": {
+    "12+": 225,
+    "16+": 28,
+    "18+": 1013,
+    "3+": 37,
+    "7+": 19
+  },
+  "samples_with_multiple_authorities": 1322,
+  "samples_with_region_ratings": 1322,
+  "total_success_samples": 1322
+}
