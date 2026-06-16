@@ -25,6 +25,10 @@ data/raw/html/
 data/raw/logs/
 data/raw/*.sqlite
 data/raw/*.db
+outputs/questionnaire_samples_cdp/*/screenshots/
+outputs/questionnaire_samples_cdp/*/html/
+outputs/probes/**/screenshots/
+outputs/probes/**/html/
 
 # Local scratch
 tmp/

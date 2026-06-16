@@ -1,0 +1,2339 @@
+[
+  {
+    "answer_count": 22,
+    "completed_at": "2026-06-15T19:37:17",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 21,
+    "final_state_signature": "41e9d582e0e1",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_cda051c90138",
+        "option_label": "Game",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_e83235f47702"
+        ],
+        "option_labels": [
+          "Horrifying elements Learn more"
+        ],
+        "question_key": "q_6bdc905e3f72",
+        "question_text": "Please select all that the game includes:"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_d5e62fc1fc3b",
+        "option_label": "Rare",
+        "question_key": "q_d6a91ad297c0",
+        "question_text": "How frequent are the horrifying elements?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_e86417bacec9"
+        ],
+        "option_labels": [
+          "Any other games that use in-game currency/tokens to play and can reward the same currency through gameplay."
+        ],
+        "question_key": "q_a6253f0e3e6b",
+        "question_text": "Please select all that the game includes:"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_e461ec7b5e8e"
+        ],
+        "option_labels": [
+          "Act of human defecation visually depicted"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_2e8b242e01d7"
+        ],
+        "option_labels": [
+          "Purchases of digital goods Learn more"
+        ],
+        "question_key": "q_e8892e310c69",
+        "question_text": "Please select all that the game includes:"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_6c9ee501b527",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_587428cb4ee9",
+        "question_text": "Does the game have a system for players to trade items with each other using real money or in-game currency purchased with real money? (e.g. auction house, item exchange)"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?"
+      }
+    ],
+    "path_id": "path_1f6b1c504844",
+    "path_summary": "Category -> Game | [continue] | Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content. -> No | Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content. -> Yes | Please select all that the game includes: -> {Horrifying elements Learn more} | How frequent are the horrifying elements? -> Rare | Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content. -> No | Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content. -> Yes | Please select all that the game includes: -> {Any other games that use in-game currency/tokens to play and can reward the same currency through gameplay.} | Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content. -> No | Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content. -> No | Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content. -> Yes | What bodily functions are used for humorous purposes in the game? Please check all that apply. -> {Act of human defecation visually depicted} | Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> Yes | Please select all that the game includes: -> {Purchases of digital goods Learn more} | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> No | Does the game have a system for players to trade items with each other using real money or in-game currency purchased with real money? (e.g. auction house, item exchange) -> No | Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the game share the user's current and precise physical location with other users? -> Yes | Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany? -> Yes | Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts? -> No | Does the game advocate committing acts of terrorism? -> No | Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Horror"
+      ],
+      "primary_interactive_elements": [
+        "Shares Location",
+        "In-Game Purchases"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Australian Classification Board (ACB)",
+          "content_descriptors": [
+            "Simulated Gambling",
+            "Online Interactivity",
+            "In-Game Purchases"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "Restricted to 18+"
+        },
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Sensitive themes"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "Rated 14+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "Mild Violence",
+            "Crude Humor"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "Mature 17+"
+        },
+        {
+          "authority": "Game Rating and Administration Committee (GRAC)",
+          "content_descriptors": [
+            "Fear"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "All ages"
+        },
+        {
+          "authority": "Digital Game Self-regulation Committee (DGSC)",
+          "content_descriptors": [
+            "Card or Casual Games",
+            "Horror"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "Parental Guidance 15"
+        },
+        {
+          "authority": "General Authority of Media Regulation (Gmedia)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "18"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Horror"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "PEGI 12"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "USK: Ages 18+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Horror"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Horror"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-Game Purchases"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nGame\nFear\nPictures or sounds likely to be horrifying (Rarely)\nGambling Themes, Simulated Gambling, or Real Gambling\nOther games that use and reward in-game currency through gameplay\nCrude Humor\nAct of human defecation visually depicted\nDigital Purchases, Cash Convertible Rewards, or NFTs\nCan purchase digital goods\nMiscellaneous\nGeo-location of device shared\nContains Nazi symbols, references or propaganda\nRating authority: Australian Classification Board (ACB)\nRating\nRestricted to 18+\nContent descriptors\nSimulated Gambling\nOnline Interactivity\nIn-Game Purchases\nInteractive elements\nShares Location\nIn-Game Purchases\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 14+\nContent descriptors\nSensitive themes\nInteractive elements\nShares Location\nIn-Game Purchases\nRating authority: Entertainm",
+      "summary_body_fingerprint": "1f2ce87a889d",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "8d9429f24960",
+    "response_signature": "9e3bfaf3e29c",
+    "responses": [
+      {
+        "option_keys": [
+          "o_cda051c90138"
+        ],
+        "option_labels": [
+          "Game"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_e83235f47702"
+        ],
+        "option_labels": [
+          "Horrifying elements Learn more"
+        ],
+        "question_key": "q_6bdc905e3f72",
+        "question_text": "Please select all that the game includes:",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_d5e62fc1fc3b"
+        ],
+        "option_labels": [
+          "Rare"
+        ],
+        "question_key": "q_d6a91ad297c0",
+        "question_text": "How frequent are the horrifying elements?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_e86417bacec9"
+        ],
+        "option_labels": [
+          "Any other games that use in-game currency/tokens to play and can reward the same currency through gameplay."
+        ],
+        "question_key": "q_a6253f0e3e6b",
+        "question_text": "Please select all that the game includes:",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_e461ec7b5e8e"
+        ],
+        "option_labels": [
+          "Act of human defecation visually depicted"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply.",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_2e8b242e01d7"
+        ],
+        "option_labels": [
+          "Purchases of digital goods Learn more"
+        ],
+        "question_key": "q_e8892e310c69",
+        "question_text": "Please select all that the game includes:",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_6c9ee501b527",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_587428cb4ee9",
+        "question_text": "Does the game have a system for players to trade items with each other using real money or in-game currency purchased with real money? (e.g. auction house, item exchange)",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1230",
+    "status": "complete"
+  },
+  {
+    "answer_count": 18,
+    "completed_at": "2026-06-15T19:38:24",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 17,
+    "final_state_signature": "b62765b28524",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_cda051c90138",
+        "option_label": "Game",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_231d050b6f66"
+        ],
+        "option_labels": [
+          "Minor profanities (e.g., \"go to hell\")"
+        ],
+        "question_key": "q_946159baef71",
+        "question_text": "Please select all that the game includes:"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_6b77993c3476",
+        "option_label": "Often",
+        "question_key": "q_323a8eac0485",
+        "question_text": "How frequently do minor profanities occur?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_edd10dff58e0",
+          "o_11bf9c348c0c"
+        ],
+        "option_labels": [
+          "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting",
+          "Urination, urine, realistically depicted feces"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?"
+      }
+    ],
+    "path_id": "path_fde3562d0f79",
+    "path_summary": "Category -> Game | [continue] | Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content. -> No | Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content. -> No | Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content. -> No | Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content. -> No | Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content. -> Yes | Please select all that the game includes: -> {Minor profanities (e.g., \"go to hell\")} | How frequently do minor profanities occur? -> Often | Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content. -> No | Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content. -> Yes | What bodily functions are used for humorous purposes in the game? Please check all that apply. -> {Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting, Urination, urine, realistically depicted feces} | Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the game share the user's current and precise physical location with other users? -> Yes | Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany? -> Yes | Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts? -> Yes | Does the game advocate committing acts of terrorism? -> No | Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "-"
+      ],
+      "primary_interactive_elements": [
+        "Shares Location"
+      ],
+      "primary_rating": "Rated for 3+",
+      "ratings": [
+        {
+          "authority": "Australian Classification Board (ACB)",
+          "content_descriptors": [
+            "Crude Humour",
+            "Online Interactivity"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "Mature"
+        },
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Sensitive themes",
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "Rated 10+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "Mild Language",
+            "Crude Humor"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "Teen"
+        },
+        {
+          "authority": "Game Rating and Administration Committee (GRAC)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "Refused Classification"
+        },
+        {
+          "authority": "Digital Game Self-regulation Committee (DGSC)",
+          "content_descriptors": [
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "Parental Guidance 12"
+        },
+        {
+          "authority": "General Authority of Media Regulation (Gmedia)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "18"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "PEGI 3"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "USK: Ages 18+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "Rated for 3+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location"
+          ],
+          "rating": "Rated for 3+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\nwarning\nYour app will be unavailable in South Korea until it's approved by the GRAC. You can contact the GRAC at rc.globalratings@grac.or.kr.\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nGame\nLanguage\nMinor profanities (Often)\nCrude Humor\nFlatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting\nUrination, urine, realistically depicted feces\nMiscellaneous\nGeo-location of device shared\nContains Nazi symbols, references or propaganda\nContent erodes national identity of the Republic of Korea\nRating authority: Australian Classification Board (ACB)\nRating\nMature\nContent descriptors\nCrude Humour\nOnline Interactivity\nInteractive elements\nShares Location\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 10+\nContent descriptors\nSensitive themes\nInappropriate Language\nInteractive elements\nShar",
+      "summary_body_fingerprint": "d3e586f6def9",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "be4d22121406",
+    "response_signature": "e1cfefe1c3d2",
+    "responses": [
+      {
+        "option_keys": [
+          "o_cda051c90138"
+        ],
+        "option_labels": [
+          "Game"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_231d050b6f66"
+        ],
+        "option_labels": [
+          "Minor profanities (e.g., \"go to hell\")"
+        ],
+        "question_key": "q_946159baef71",
+        "question_text": "Please select all that the game includes:",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_6b77993c3476"
+        ],
+        "option_labels": [
+          "Often"
+        ],
+        "question_key": "q_323a8eac0485",
+        "question_text": "How frequently do minor profanities occur?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_edd10dff58e0",
+          "o_11bf9c348c0c"
+        ],
+        "option_labels": [
+          "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting",
+          "Urination, urine, realistically depicted feces"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply.",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1231",
+    "status": "complete"
+  },
+  {
+    "answer_count": 20,
+    "completed_at": "2026-06-15T19:41:05",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 19,
+    "final_state_signature": "b1ca4f329908",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_cda051c90138",
+        "option_label": "Game",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_e83235f47702"
+        ],
+        "option_labels": [
+          "Horrifying elements Learn more"
+        ],
+        "question_key": "q_6bdc905e3f72",
+        "question_text": "Please select all that the game includes:"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_d5e62fc1fc3b",
+        "option_label": "Rare",
+        "question_key": "q_d6a91ad297c0",
+        "question_text": "How frequent are the horrifying elements?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_e461ec7b5e8e",
+          "o_edd10dff58e0",
+          "o_b74eb77ca49c"
+        ],
+        "option_labels": [
+          "Act of human defecation visually depicted",
+          "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting",
+          "Mucus, belching, flatulence sounds"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_4bc85050df07",
+        "question_text": "Are these crimes or criminal techniques likely to be imitated by children or youths?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_09670428687d",
+        "question_text": "Are there detailed descriptions of techniques that could be used in criminal offenses?"
+      }
+    ],
+    "path_id": "path_3512de02100f",
+    "path_summary": "Category -> Game | [continue] | Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content. -> No | Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content. -> Yes | Please select all that the game includes: -> {Horrifying elements Learn more} | How frequent are the horrifying elements? -> Rare | Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content. -> No | Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content. -> No | Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content. -> No | Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content. -> No | Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content. -> Yes | What bodily functions are used for humorous purposes in the game? Please check all that apply. -> {Act of human defecation visually depicted, Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting, Mucus, belching, flatulence sounds} | Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the game share the user's current and precise physical location with other users? -> No | Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany? -> Yes | Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts? -> No | Does the game advocate committing acts of terrorism? -> No | Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses? -> Yes | Are these crimes or criminal techniques likely to be imitated by children or youths? -> Yes | Are there detailed descriptions of techniques that could be used in criminal offenses? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Horror"
+      ],
+      "primary_interactive_elements": [],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Australian Classification Board (ACB)",
+          "content_descriptors": [
+            "Strong Themes",
+            "Strong Crude Humour"
+          ],
+          "interactive_elements": [],
+          "rating": "Restricted to 15+"
+        },
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Fear",
+            "Sensitive themes",
+            "Criminal Acts"
+          ],
+          "interactive_elements": [],
+          "rating": "Rated 12+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "Mild Violence",
+            "Crude Humor"
+          ],
+          "interactive_elements": [],
+          "rating": "Mature 17+"
+        },
+        {
+          "authority": "Game Rating and Administration Committee (GRAC)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "Refused Classification"
+        },
+        {
+          "authority": "Digital Game Self-regulation Committee (DGSC)",
+          "content_descriptors": [
+            "Anti-society",
+            "Horror"
+          ],
+          "interactive_elements": [],
+          "rating": "Restricted"
+        },
+        {
+          "authority": "General Authority of Media Regulation (Gmedia)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "18"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Horror"
+          ],
+          "interactive_elements": [],
+          "rating": "PEGI 12"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "USK: Ages 18+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Horror"
+          ],
+          "interactive_elements": [],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Horror"
+          ],
+          "interactive_elements": [],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\nwarning\nYour app will be unavailable in South Korea until it's approved by the GRAC. You can contact the GRAC at rc.globalratings@grac.or.kr.\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nGame\nFear\nPictures or sounds likely to be horrifying (Rarely)\nCrude Humor\nMucus, belching, flatulence sounds\nFlatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting\nAct of human defecation visually depicted\nMiscellaneous\nContains Nazi symbols, references or propaganda\nRealistic descriptions of crimes or techniques used in criminal offenses\nCrime or criminal techniques likely to be imitated by children\nRating authority: Australian Classification Board (ACB)\nRating\nRestricted to 15+\nContent descriptors\nStrong Themes\nStrong Crude Humour\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 12+\nContent des",
+      "summary_body_fingerprint": "36929c73a3a0",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "3136eb59b6f0",
+    "response_signature": "75793222e4e2",
+    "responses": [
+      {
+        "option_keys": [
+          "o_cda051c90138"
+        ],
+        "option_labels": [
+          "Game"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_e83235f47702"
+        ],
+        "option_labels": [
+          "Horrifying elements Learn more"
+        ],
+        "question_key": "q_6bdc905e3f72",
+        "question_text": "Please select all that the game includes:",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_d5e62fc1fc3b"
+        ],
+        "option_labels": [
+          "Rare"
+        ],
+        "question_key": "q_d6a91ad297c0",
+        "question_text": "How frequent are the horrifying elements?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_e461ec7b5e8e",
+          "o_edd10dff58e0",
+          "o_b74eb77ca49c"
+        ],
+        "option_labels": [
+          "Act of human defecation visually depicted",
+          "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting",
+          "Mucus, belching, flatulence sounds"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply.",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_4bc85050df07",
+        "question_text": "Are these crimes or criminal techniques likely to be imitated by children or youths?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_09670428687d",
+        "question_text": "Are there detailed descriptions of techniques that could be used in criminal offenses?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1232",
+    "status": "complete"
+  },
+  {
+    "answer_count": 12,
+    "completed_at": "2026-06-15T19:44:54",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 11,
+    "final_state_signature": "b8bddc150c42",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_52570a2e51d2",
+        "option_label": "Social or Communication",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_aaff2107e460",
+        "option_label": "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products.",
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?"
+      }
+    ],
+    "path_id": "path_c495186da258",
+    "path_summary": "Category -> Social or Communication | [continue] | Which of the following would best describe the app? -> Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products. | Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors? -> No | Does the app permit the public sharing of nudity? -> No | Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context? -> No | Does the app share the user's current and precise physical location with other users? -> No | Does the app allow users to purchase digital goods? -> Yes | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> Yes | Does the app include the ability to block users or user-generated content? -> Yes | Does the app include the ability to report users or user-generated content? -> No | Does the app include chat moderation? -> Yes | Can interactions in the app be limited to invited friends only? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Parental Guidance Recommended"
+      ],
+      "primary_interactive_elements": [
+        "Users Interact",
+        "In-App Purchases (Includes Random Items)"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Rated 18+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Teen"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "USK: Ages 12+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nSocial or Communication\nSocial or Communication\nApp is a social networking app\nCan purchase digital goods\nCan include or contribute to random rewards\nUsers or user-generated content can be blocked\nModerated chat\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 18+\nContent descriptors\nInappropriate Language\nInteractive elements\nUsers Interact\nIn-App Purchases (Includes Random Items)\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nTeen\nContent descriptors\n-\nInteractive elements\nUsers Interact\nIn-App Purchases (Includes Random Items)\nRating authority: Pan-European Game Information (PEGI)\nRating\nParental guidance\nContent descriptors\nParental Guidance Recommended\nInteractive elements\nUsers Interact\nIn-App Purchases (Includes Random Items)\nRating authority: Unterhaltungs",
+      "summary_body_fingerprint": "74666d3f1ddb",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "96132b7ce5af",
+    "response_signature": "39fe62989ff2",
+    "responses": [
+      {
+        "option_keys": [
+          "o_52570a2e51d2"
+        ],
+        "option_labels": [
+          "Social or Communication"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_aaff2107e460"
+        ],
+        "option_labels": [
+          "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products."
+        ],
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1233",
+    "status": "complete"
+  },
+  {
+    "answer_count": 18,
+    "completed_at": "2026-06-15T20:00:25",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 17,
+    "final_state_signature": "e3dff313e988",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_cda051c90138",
+        "option_label": "Game",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_edd10dff58e0"
+        ],
+        "option_labels": [
+          "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_4bc85050df07",
+        "question_text": "Are these crimes or criminal techniques likely to be imitated by children or youths?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_09670428687d",
+        "question_text": "Are there detailed descriptions of techniques that could be used in criminal offenses?"
+      }
+    ],
+    "path_id": "path_8344f7cb726c",
+    "path_summary": "Category -> Game | [continue] | Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content. -> No | Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content. -> No | Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content. -> No | Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content. -> No | Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content. -> No | Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content. -> No | Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content. -> Yes | What bodily functions are used for humorous purposes in the game? Please check all that apply. -> {Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting} | Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the game share the user's current and precise physical location with other users? -> No | Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany? -> Yes | Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts? -> No | Does the game advocate committing acts of terrorism? -> No | Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses? -> Yes | Are these crimes or criminal techniques likely to be imitated by children or youths? -> Yes | Are there detailed descriptions of techniques that could be used in criminal offenses? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "-"
+      ],
+      "primary_interactive_elements": [],
+      "primary_rating": "Rated for 3+",
+      "ratings": [
+        {
+          "authority": "Australian Classification Board (ACB)",
+          "content_descriptors": [
+            "Strong Themes"
+          ],
+          "interactive_elements": [],
+          "rating": "Restricted to 15+"
+        },
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Criminal Acts"
+          ],
+          "interactive_elements": [],
+          "rating": "Rated 10+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "Crude Humor"
+          ],
+          "interactive_elements": [],
+          "rating": "Everyone"
+        },
+        {
+          "authority": "Game Rating and Administration Committee (GRAC)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "Refused Classification"
+        },
+        {
+          "authority": "Digital Game Self-regulation Committee (DGSC)",
+          "content_descriptors": [
+            "Anti-society"
+          ],
+          "interactive_elements": [],
+          "rating": "Restricted"
+        },
+        {
+          "authority": "General Authority of Media Regulation (Gmedia)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "18"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "PEGI 3"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "USK: Ages 18+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "Rated for 3+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "Rated for 3+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\nwarning\nYour app will be unavailable in South Korea until it's approved by the GRAC. You can contact the GRAC at rc.globalratings@grac.or.kr.\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nGame\nCrude Humor\nFlatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting\nMiscellaneous\nContains Nazi symbols, references or propaganda\nRealistic descriptions of crimes or techniques used in criminal offenses\nCrime or criminal techniques likely to be imitated by children\nRating authority: Australian Classification Board (ACB)\nRating\nRestricted to 15+\nContent descriptors\nStrong Themes\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 10+\nContent descriptors\nCriminal Acts\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nEveryone\nContent descriptors\nCrude Humor\nRating authority: Game",
+      "summary_body_fingerprint": "b711c5e16657",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "7713d8ff8fb5",
+    "response_signature": "edaea2381571",
+    "responses": [
+      {
+        "option_keys": [
+          "o_cda051c90138"
+        ],
+        "option_labels": [
+          "Game"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_edd10dff58e0"
+        ],
+        "option_labels": [
+          "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting"
+        ],
+        "question_key": "q_9146217d2e6e",
+        "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply.",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_4bc85050df07",
+        "question_text": "Are these crimes or criminal techniques likely to be imitated by children or youths?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_09670428687d",
+        "question_text": "Are there detailed descriptions of techniques that could be used in criminal offenses?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1234",
+    "status": "complete"
+  }
+]

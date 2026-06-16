@@ -15,7 +15,7 @@ from src.data.validation import validate_records
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate raw JSONL samples.")
     parser.add_argument("--input", default="data/raw/samples.jsonl")
-    parser.add_argument("--output", default="outputs/metrics/dataset_validation.json")
+    parser.add_argument("--output", default="outputs/analysis/current/metrics/dataset_validation.json")
     args = parser.parse_args()
 
     records = JsonlStore(args.input).read_all()

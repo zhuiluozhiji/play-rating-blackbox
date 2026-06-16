@@ -26,10 +26,10 @@ def main() -> None:
     df = pd.read_csv(dataset_path)
     X, y = build_feature_matrix(df, label_column=modeling.get("label_column", "result_age_rating"))
     written = explain_saved_models(
-        models_dir=modeling.get("models_dir", "outputs/models"),
+        models_dir=modeling.get("models_dir", "outputs/analysis/current/models"),
         X=X,
         y=y,
-        output_dir=modeling.get("explanations_dir", "outputs/explanations"),
+        output_dir=modeling.get("explanations_dir", "outputs/analysis/current/explanations"),
     )
     for name, path in written.items():
         print(f"{name}: {path}")

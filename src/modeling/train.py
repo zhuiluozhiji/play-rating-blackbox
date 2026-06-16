@@ -91,8 +91,8 @@ def train_and_evaluate(
     modeling = config.get("modeling", config)
     seed = int(modeling.get("random_seed", 42))
     test_size = float(modeling.get("test_size", 0.15))
-    models_dir = ensure_dir(modeling.get("models_dir", "outputs/models"))
-    metrics_dir = ensure_dir(modeling.get("metrics_dir", "outputs/metrics"))
+    models_dir = ensure_dir(modeling.get("models_dir", "outputs/analysis/current/models"))
+    metrics_dir = ensure_dir(modeling.get("metrics_dir", "outputs/analysis/current/metrics"))
     age_order = list(modeling.get("age_order", ["3+", "7+", "12+", "16+", "18+"]))
     labels = sorted(y.dropna().unique().tolist(), key=lambda value: age_order.index(value) if value in age_order else 999)
 

@@ -656,10 +656,15 @@ data/
     valid.csv
     test.csv
 outputs/
-  figures/
-  models/
-  metrics/
-  explanations/
+  analysis/
+    current/
+      figures/
+      models/
+      metrics/
+      explanations/
+    archive/
+  probes/
+  questionnaire_samples_cdp/
 src/
   collector/
   data/

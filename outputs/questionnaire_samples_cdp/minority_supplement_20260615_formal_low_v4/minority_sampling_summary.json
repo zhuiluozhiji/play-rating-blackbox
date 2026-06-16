@@ -1,0 +1,53 @@
+{
+  "accepted_primary_ratings": [
+    "12+",
+    "3+",
+    "7+"
+  ],
+  "completion_count": 5,
+  "completion_rate": 1.0,
+  "duplicate_skipped": 0,
+  "endpoint_url": "http://127.0.0.1:9222",
+  "exclusion_signature_count": 1229,
+  "existing_samples_before_resume": 5,
+  "generated_at": "2026-06-15T20:22:01",
+  "output_total_samples": 5,
+  "policy_rating_counts": {
+    "12+": 144,
+    "3+": 29,
+    "7+": 3
+  },
+  "policy_sources": [
+    "data\\raw\\real_20260615_full.samples.jsonl"
+  ],
+  "primary_rating_counts": {
+    "Rated for 12+": 3,
+    "Rated for 3+": 2
+  },
+  "rating_filtered_skipped": 0,
+  "resume_mode": true,
+  "risk_profile": "low",
+  "samples_json_path": "outputs\\questionnaire_samples_cdp\\minority_supplement_20260615_formal_low_v4\\samples.json",
+  "samples_jsonl_path": "outputs\\questionnaire_samples_cdp\\minority_supplement_20260615_formal_low_v4\\samples.jsonl",
+  "seed": 20260618,
+  "session_completion_count": 0,
+  "session_completion_rate": 0.0,
+  "session_new_samples": 0,
+  "session_primary_rating_counts": {},
+  "session_status_counts": {},
+  "status_counts": {
+    "complete": 5
+  },
+  "summary_path": "outputs\\questionnaire_samples_cdp\\minority_supplement_20260615_formal_low_v4\\summary.json",
+  "target_new_samples": 0,
+  "target_substring": "play.google.com/console",
+  "target_total_samples": 5,
+  "template_counts": {
+    "12+": 144,
+    "3+": 29,
+    "7+": 3
+  },
+  "total_known_signatures": 1234,
+  "unique_primary_rating_count": 2,
+  "unique_response_count": 5
+}

@@ -5,6 +5,7 @@ import argparse
 import asyncio
 import json
 import random
+import re
 from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime
@@ -49,6 +50,7 @@ class SampleConfig:
     seed: Optional[int] = None
     resume: bool = False
     exclude_signatures: frozenset = frozenset()
+    accepted_primary_ratings: frozenset = frozenset()
 
 
 SUMMARY_PRIMARY_AUTHORITIES = (
@@ -64,6 +66,7 @@ SUMMARY_STOP_LINES = {
     "Status dashboard",
     "Help",
 }
+PRIMARY_RATING_PATTERN = re.compile(r"(?P<age>3|7|12|16|18)\s*\+")
 
 
 async def quick_wait_after_action(page: Any, settle_ms: int) -> None:
@@ -364,6 +367,14 @@ async def save_and_extract_ratings(page: Any, settle_ms: int) -> Dict[str, Any]:
         "summary_body_excerpt": summary_body_text[:2000],
         "parsed": parsed,
     }
+
+
+def normalize_primary_rating(value: Any) -> str:
+    text = str(value or "")
+    match = PRIMARY_RATING_PATTERN.search(text)
+    if not match:
+        return ""
+    return f"{match.group('age')}+"
 
 
 def action_to_response(action: Dict[str, Any]) -> Optional[Dict[str, Any]]:
@@ -669,6 +680,23 @@ def _load_jsonl_signatures(jsonl_path: Path) -> set:
     return signatures
 
 
+def _load_jsonl_records(jsonl_path: Path) -> List[Dict[str, Any]]:
+    records: List[Dict[str, Any]] = []
+    if not jsonl_path.exists():
+        return records
+    for line in jsonl_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(record, dict):
+            records.append(record)
+    return records
+
+
 def _append_jsonl(jsonl_path: Path, record: Dict[str, Any]) -> None:
     """Append a single record to a JSONL file (atomic per line)."""
     jsonl_path.parent.mkdir(parents=True, exist_ok=True)
@@ -688,14 +716,24 @@ async def run_sampling(config: SampleConfig) -> Dict[str, Any]:
 
     # --- Resume: load already-collected signatures from JSONL ---
     samples_jsonl_path = config.output_dir / "samples.jsonl"
+    existing_samples = _load_jsonl_records(samples_jsonl_path) if config.resume else []
+    existing_signatures = {
+        str(record.get("response_signature") or "")
+        for record in existing_samples
+        if str(record.get("response_signature") or "")
+    }
     seen_signatures: set = set(config.exclude_signatures)
+    seen_signatures.update(existing_signatures)
+    existing_output_count = len(existing_samples)
+    target_total_samples = config.sample_count
+    target_new_samples = max(0, target_total_samples - existing_output_count) if config.resume else target_total_samples
     if config.resume:
-        existing_sigs = _load_jsonl_signatures(samples_jsonl_path)
-        seen_signatures.update(existing_sigs)
         # Offset seed so RNG doesn't replay the same sequence
-        effective_seed = (config.seed or 42) + len(existing_sigs)
-        print(f"Resume mode: loaded {len(existing_sigs)} existing samples from {samples_jsonl_path}")
+        effective_seed = (config.seed or 42) + existing_output_count
+        print(f"Resume mode: loaded {existing_output_count} existing samples from {samples_jsonl_path}")
         print(f"  Seed adjusted: {config.seed} -> {effective_seed} (to skip already-explored paths)")
+        if target_new_samples == 0:
+            print(f"  Target already reached: existing={existing_output_count}, requested_total={target_total_samples}")
     else:
         effective_seed = config.seed
     if config.exclude_signatures:
@@ -704,184 +742,245 @@ async def run_sampling(config: SampleConfig) -> Dict[str, Any]:
 
     # --- In-memory buffer for the current session (used for final stats) ---
     samples: List[Dict[str, Any]] = []
+    duplicate_skipped = 0
+    rating_filtered_skipped = 0
 
-    async with async_playwright() as playwright:
-        connect_target = config.endpoint_url
-        if config.endpoint_url.startswith("http://") or config.endpoint_url.startswith("https://"):
-            version_info = fetch_json(config.endpoint_url.rstrip("/") + "/json/version")
-            connect_target = version_info.get("webSocketDebuggerUrl") or config.endpoint_url
+    if target_new_samples > 0:
+        async with async_playwright() as playwright:
+            connect_target = config.endpoint_url
+            if config.endpoint_url.startswith("http://") or config.endpoint_url.startswith("https://"):
+                version_info = fetch_json(config.endpoint_url.rstrip("/") + "/json/version")
+                connect_target = version_info.get("webSocketDebuggerUrl") or config.endpoint_url
 
-        browser = await playwright.chromium.connect_over_cdp(connect_target, no_defaults=True)
-        page = await choose_page(
-            browser,
-            config.target_substring,
-            page_index=config.page_index,
-            prompt_user=not config.assume_ready and config.page_index is None,
-        )
-        print(f"Using page: {page.url}")
-        if not config.assume_ready:
-            await asyncio.to_thread(input, "When the questionnaire page is ready, press Enter to start sampling...")
+            browser = await playwright.chromium.connect_over_cdp(connect_target, no_defaults=True)
+            page = await choose_page(
+                browser,
+                config.target_substring,
+                page_index=config.page_index,
+                prompt_user=not config.assume_ready and config.page_index is None,
+            )
+            print(f"Using page: {page.url}")
+            if not config.assume_ready:
+                await asyncio.to_thread(input, "When the questionnaire page is ready, press Enter to start sampling...")
 
-        await quick_wait_after_action(page, config.settle_ms)
-        start_url = page.url
-        if not start_url or start_url == "about:blank":
-            raise RuntimeError("The selected page is still about:blank. Open the questionnaire page first.")
+            await quick_wait_after_action(page, config.settle_ms)
+            start_url = page.url
+            if not start_url or start_url == "about:blank":
+                raise RuntimeError("The selected page is still about:blank. Open the questionnaire page first.")
 
-        collected_this_session = 0
-        duplicate_skipped = 0
-        recoveries = 0
-        consecutive_errors = 0
-        max_collection_attempts = config.sample_count * 10  # safety limit for real collection attempts
-        collection_attempts = 0
-        # Stable total: initial known signatures + target new samples
-        base_seen_count = len(seen_signatures)
-        total_target = base_seen_count + config.sample_count
-        while collected_this_session < config.sample_count and collection_attempts < max_collection_attempts:
-            running_index = base_seen_count + collected_this_session + 1
-            collection_attempts += 1
-            try:
-                sample = await collect_one_sample(
-                    page,
-                    start_url=start_url,
-                    sample_index=running_index,
-                    rng=rng,
-                    config=config,
-                )
-                consecutive_errors = 0  # reset on success
-            except Exception as exc:
-                recoveries += 1
-                consecutive_errors += 1
-                collection_attempts -= 1  # don't count failures toward limit
-                error_msg = str(exc)
-                print(
-                    f"[{collected_this_session + 1:04d}/{config.sample_count:04d}] "
-                    f"ERROR collecting sample: {exc} "
-                    f"(recovery #{recoveries}, consecutive={consecutive_errors})"
-                )
+            collected_this_session = 0
+            consecutive_duplicate_skips = 0
+            recoveries = 0
+            consecutive_errors = 0
+            max_attempt_multiplier = 50 if config.accepted_primary_ratings else 10
+            max_collection_attempts = max(1, target_new_samples) * max_attempt_multiplier
+            max_duplicate_streak = max(25, max(1, target_new_samples) * 3)
+            collection_attempts = 0
+            # Stable total: initial known signatures + target new samples
+            base_seen_count = len(seen_signatures)
+            while collected_this_session < target_new_samples and collection_attempts < max_collection_attempts:
+                progress_index = existing_output_count + collected_this_session + 1
+                running_index = base_seen_count + collected_this_session + 1
+                collection_attempts += 1
+                try:
+                    sample = await collect_one_sample(
+                        page,
+                        start_url=start_url,
+                        sample_index=running_index,
+                        rng=rng,
+                        config=config,
+                    )
+                    consecutive_errors = 0  # reset on success
+                except Exception as exc:
+                    recoveries += 1
+                    consecutive_errors += 1
+                    collection_attempts -= 1  # don't count failures toward limit
+                    error_msg = str(exc)
+                    print(
+                        f"[{progress_index:04d}/{target_total_samples:04d}] "
+                        f"ERROR collecting sample: {exc} "
+                        f"(recovery #{recoveries}, consecutive={consecutive_errors})"
+                    )
 
-                # Fatal: browser/context closed — need full CDP reconnect
-                if "has been closed" in error_msg:
-                    print(f"  Browser connection lost. Reconnecting to Chrome CDP...")
+                    # Fatal: browser/context closed — need full CDP reconnect
+                    if "has been closed" in error_msg:
+                        print(f"  Browser connection lost. Reconnecting to Chrome CDP...")
+                        try:
+                            await browser.close()
+                        except Exception:
+                            pass
+                        await asyncio.sleep(3)
+                        try:
+                            connect_target = config.endpoint_url
+                            if config.endpoint_url.startswith("http://") or config.endpoint_url.startswith("https://"):
+                                version_info = fetch_json(config.endpoint_url.rstrip("/") + "/json/version")
+                                connect_target = version_info.get("webSocketDebuggerUrl") or config.endpoint_url
+                            browser = await playwright.chromium.connect_over_cdp(connect_target, no_defaults=True)
+                            page = await choose_page(
+                                browser,
+                                config.target_substring,
+                                page_index=config.page_index,
+                                prompt_user=False,
+                            )
+                            print(f"  Reconnected to page: {page.url}")
+                            start_url = page.url
+                            consecutive_errors = 0
+                        except Exception as reconnect_exc:
+                            print(f"  Reconnect failed: {reconnect_exc}")
+                            await asyncio.sleep(10)
+                        continue
+
+                    # Page-level error: try recovery
+                    if consecutive_errors >= 10:
+                        print(f"  Attempting aggressive recovery: reloading start URL...")
+                        try:
+                            await page.goto(start_url, wait_until="domcontentloaded", timeout=15000)
+                            await asyncio.sleep(2)
+                            await return_to_category_step(page, config.settle_ms)
+                        except Exception:
+                            pass
+                    cool_down = min(consecutive_errors * 3, 60)
+                    await asyncio.sleep(cool_down)
                     try:
-                        await browser.close()
-                    except Exception:
-                        pass
-                    await asyncio.sleep(3)
-                    try:
-                        connect_target = config.endpoint_url
-                        if config.endpoint_url.startswith("http://") or config.endpoint_url.startswith("https://"):
-                            version_info = fetch_json(config.endpoint_url.rstrip("/") + "/json/version")
-                            connect_target = version_info.get("webSocketDebuggerUrl") or config.endpoint_url
-                        browser = await playwright.chromium.connect_over_cdp(connect_target, no_defaults=True)
-                        page = await choose_page(
-                            browser,
-                            config.target_substring,
-                            page_index=config.page_index,
-                            prompt_user=False,
-                        )
-                        print(f"  Reconnected to page: {page.url}")
-                        start_url = page.url
-                        consecutive_errors = 0
-                    except Exception as reconnect_exc:
-                        print(f"  Reconnect failed: {reconnect_exc}")
-                        await asyncio.sleep(10)
-                    continue
-
-                # Page-level error: try recovery
-                if consecutive_errors >= 10:
-                    print(f"  Attempting aggressive recovery: reloading start URL...")
-                    try:
-                        await page.goto(start_url, wait_until="domcontentloaded", timeout=15000)
-                        await asyncio.sleep(2)
                         await return_to_category_step(page, config.settle_ms)
                     except Exception:
                         pass
-                cool_down = min(consecutive_errors * 3, 60)
-                await asyncio.sleep(cool_down)
-                try:
-                    await return_to_category_step(page, config.settle_ms)
-                except Exception:
-                    pass
-                continue
+                    continue
 
-            sig = sample.get("response_signature", "")
-            if sig and sig in seen_signatures:
-                duplicate_skipped += 1
+                sig = sample.get("response_signature", "")
+                primary_rating = sample.get("rating_result", {}).get("primary_rating", "")
+                normalized_primary_rating = normalize_primary_rating(primary_rating)
+                accepted_ratings = set(config.accepted_primary_ratings or [])
+                if accepted_ratings and normalized_primary_rating not in accepted_ratings and primary_rating not in accepted_ratings:
+                    rating_filtered_skipped += 1
+                    print(
+                        f"[{progress_index:04d}/{target_total_samples:04d}] "
+                        f"SKIP rating={primary_rating or '-'} signature={sig or '-'} "
+                        f"(outside target ratings, {rating_filtered_skipped} skipped so far)"
+                    )
+                    continue
+                if sig and sig in seen_signatures:
+                    duplicate_skipped += 1
+                    consecutive_duplicate_skips += 1
+                    print(
+                        f"[{progress_index:04d}/{target_total_samples:04d}] "
+                        f"SKIP duplicate signature={sig} "
+                        f"(retrying, {duplicate_skipped} skipped so far)"
+                    )
+                    if consecutive_duplicate_skips % 10 == 0:
+                        print("  Duplicate streak detected. Reloading the questionnaire page before retrying...")
+                        try:
+                            await page.goto(start_url, wait_until="domcontentloaded", timeout=15000)
+                            await asyncio.sleep(1)
+                            await return_to_category_step(page, config.settle_ms)
+                        except Exception:
+                            pass
+                    if consecutive_duplicate_skips >= max_duplicate_streak:
+                        print(
+                            "  Stopping early because the sampler hit too many consecutive duplicates. "
+                            "Try a different risk profile or a new seed."
+                        )
+                        break
+                    continue
+
+                consecutive_duplicate_skips = 0
+                # --- Immediately persist to JSONL ---
+                _append_jsonl(samples_jsonl_path, sample)
+                seen_signatures.add(sig)
+                samples.append(sample)
+                collected_this_session += 1
+
                 print(
-                    f"[{collected_this_session + 1:04d}/{config.sample_count:04d}] "
-                    f"SKIP duplicate signature={sig} "
-                    f"(retrying, {duplicate_skipped} skipped so far)"
+                    f"[{existing_output_count + collected_this_session:04d}/{target_total_samples:04d}] "
+                    f"status={sample['status']} answers={sample['answer_count']} "
+                    f"signature={sig} "
+                    f"rating={primary_rating or '-'}"
                 )
-                continue
 
-            # --- Immediately persist to JSONL ---
-            _append_jsonl(samples_jsonl_path, sample)
-            seen_signatures.add(sig)
-            samples.append(sample)
-            collected_this_session += 1
+                # --- Periodically write checkpoint ---
+                if collected_this_session % 20 == 0:
+                    checkpoint = {
+                        "checkpoint_at": datetime.now().isoformat(timespec="seconds"),
+                        "resume_mode": config.resume,
+                        "existing_samples_before_resume": existing_output_count,
+                        "session_collected": collected_this_session,
+                        "output_total_samples": existing_output_count + collected_this_session,
+                        "target_total_samples": target_total_samples,
+                        "remaining_samples": max(0, target_total_samples - (existing_output_count + collected_this_session)),
+                        "total_known_signatures": len(seen_signatures),
+                        "seed": config.seed,
+                    }
+                    write_json(config.output_dir / "checkpoint.json", checkpoint)
 
-            primary_rating = sample.get("rating_result", {}).get("primary_rating", "")
-            print(
-                f"[{collected_this_session + 1:04d}/{config.sample_count:04d}] "
-                f"status={sample['status']} answers={sample['answer_count']} "
-                f"signature={sig} "
-                f"rating={primary_rating or '-'}"
-            )
+            if duplicate_skipped:
+                print(f"Deduplication: skipped {duplicate_skipped} duplicate response signatures.")
+            if rating_filtered_skipped:
+                print(f"Rating filter: skipped {rating_filtered_skipped} samples outside accepted ratings.")
 
-            # --- Periodically write checkpoint ---
-            if collected_this_session % 20 == 0:
-                checkpoint = {
-                    "checkpoint_at": datetime.now().isoformat(timespec="seconds"),
-                    "session_collected": collected_this_session,
-                    "total_known_signatures": len(seen_signatures),
-                    "target_new": config.sample_count,
-                    "seed": config.seed,
-                }
-                write_json(config.output_dir / "checkpoint.json", checkpoint)
-
-        if duplicate_skipped:
-            print(f"Deduplication: skipped {duplicate_skipped} duplicate response signatures.")
-
-        await browser.close()
+            await browser.close()
 
     # --- Final stats and summary ---
-    status_counts = Counter(sample["status"] for sample in samples)
-    signature_counts = Counter(sample["response_signature"] for sample in samples)
+    all_samples = existing_samples + samples
+    status_counts = Counter(sample["status"] for sample in all_samples)
+    signature_counts = Counter(sample["response_signature"] for sample in all_samples)
     primary_rating_counts = Counter(
+        sample.get("rating_result", {}).get("primary_rating", "")
+        for sample in all_samples
+        if sample.get("status") == "complete" and sample.get("rating_result", {}).get("primary_rating")
+    )
+    session_status_counts = Counter(sample["status"] for sample in samples)
+    session_primary_rating_counts = Counter(
         sample.get("rating_result", {}).get("primary_rating", "")
         for sample in samples
         if sample.get("status") == "complete" and sample.get("rating_result", {}).get("primary_rating")
     )
     completion_count = status_counts.get("complete", 0)
+    output_total_samples = len(all_samples)
+    session_completion_count = session_status_counts.get("complete", 0)
 
     summary = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "endpoint_url": config.endpoint_url,
         "target_substring": config.target_substring,
+        "resume_mode": config.resume,
+        "existing_samples_before_resume": existing_output_count,
+        "target_total_samples": target_total_samples,
+        "target_new_samples": target_new_samples,
         "session_new_samples": len(samples),
+        "output_total_samples": output_total_samples,
         "total_known_signatures": len(seen_signatures),
         "completion_count": completion_count,
-        "completion_rate": completion_count / len(samples) if samples else 0.0,
+        "completion_rate": completion_count / output_total_samples if output_total_samples else 0.0,
+        "session_completion_count": session_completion_count,
+        "session_completion_rate": session_completion_count / len(samples) if samples else 0.0,
         "unique_response_count": len(signature_counts),
         "unique_primary_rating_count": len(primary_rating_counts),
         "primary_rating_counts": dict(primary_rating_counts),
+        "session_primary_rating_counts": dict(session_primary_rating_counts),
+        "accepted_primary_ratings": sorted(config.accepted_primary_ratings),
+        "rating_filtered_skipped": rating_filtered_skipped,
+        "duplicate_skipped": duplicate_skipped,
         "seed": config.seed,
         "status_counts": dict(status_counts),
+        "session_status_counts": dict(session_status_counts),
         "samples_jsonl_path": str(samples_jsonl_path),
         "samples_json_path": str(config.output_dir / "samples.json"),
         "summary_path": str(config.output_dir / "summary.json"),
     }
 
-    write_json(config.output_dir / "samples.json", samples)
+    write_json(config.output_dir / "samples.json", all_samples)
     write_json(config.output_dir / "summary.json", summary)
-    # Final checkpoint
     checkpoint = {
         "checkpoint_at": datetime.now().isoformat(timespec="seconds"),
+        "resume_mode": config.resume,
+        "existing_samples_before_resume": existing_output_count,
         "session_collected": len(samples),
+        "output_total_samples": output_total_samples,
+        "target_total_samples": target_total_samples,
+        "remaining_samples": max(0, target_total_samples - output_total_samples),
         "total_known_signatures": len(seen_signatures),
-        "target_new": config.sample_count,
         "seed": config.seed,
-        "completed": True,
+        "completed": output_total_samples >= target_total_samples,
     }
     write_json(config.output_dir / "checkpoint.json", checkpoint)
     return summary

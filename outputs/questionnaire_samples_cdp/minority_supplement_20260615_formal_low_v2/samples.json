@@ -1,0 +1,3845 @@
+[
+  {
+    "answer_count": 9,
+    "completed_at": "2026-06-15T14:05:52",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 8,
+    "final_state_signature": "0c84c9da27f1",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_52570a2e51d2",
+        "option_label": "Social or Communication",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_e8ca0abcda67",
+        "option_label": "Communication - used to communicate with people already known to the user in one-on-one or small group conversations. Skype, SMS, and Gmail are examples of these types of products.",
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?"
+      }
+    ],
+    "path_id": "path_5d0cc9db71e1",
+    "path_summary": "Category -> Social or Communication | [continue] | Which of the following would best describe the app? -> Communication - used to communicate with people already known to the user in one-on-one or small group conversations. Skype, SMS, and Gmail are examples of these types of products. | Does the app share the user's current and precise physical location with other users? -> Yes | Does the app allow users to purchase digital goods? -> Yes | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> No | Does the app include the ability to block users or user-generated content? -> No | Does the app include the ability to report users or user-generated content? -> No | Does the app include chat moderation? -> Yes | Can interactions in the app be limited to invited friends only? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Parental Guidance Recommended"
+      ],
+      "primary_interactive_elements": [
+        "Users Interact",
+        "Shares Location",
+        "In-App Purchases"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated 14+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Everyone"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "USK: All ages"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nSocial or Communication\nSocial or Communication\nApp is a communication app\nGeo-location of device shared\nCan purchase digital goods\nModerated chat\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 14+\nContent descriptors\n-\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nEveryone\nContent descriptors\n-\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases\nRating authority: Pan-European Game Information (PEGI)\nRating\nParental guidance\nContent descriptors\nParental Guidance Recommended\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases\nRating authority: Unterhaltungssoftware Selbstkontrolle (USK)\nRating\nUSK: All ages\nContent descriptors\n-\nInteractive elements\nUsers Inter",
+      "summary_body_fingerprint": "749b26c05b8c",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "0042c5cd1ef7",
+    "response_signature": "36e0538a7078",
+    "responses": [
+      {
+        "option_keys": [
+          "o_52570a2e51d2"
+        ],
+        "option_labels": [
+          "Social or Communication"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_e8ca0abcda67"
+        ],
+        "option_labels": [
+          "Communication - used to communicate with people already known to the user in one-on-one or small group conversations. Skype, SMS, and Gmail are examples of these types of products."
+        ],
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1220",
+    "status": "complete"
+  },
+  {
+    "answer_count": 10,
+    "completed_at": "2026-06-15T14:15:02",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 9,
+    "final_state_signature": "d53e480e23a7",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_fd2bcd42c1d9",
+        "option_label": "All Other App Types",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?"
+      }
+    ],
+    "path_id": "path_1ee3aed1dd80",
+    "path_summary": "Category -> All Other App Types | [continue] | Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)? -> No | Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app. -> No | Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling? -> No | Does the app share the user's current and precise physical location with other users? -> No | Does the app allow users to purchase digital goods? -> No | Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Is the app a web browser or search engine? -> Yes | Is the app primarily a news or educational product? -> Yes",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "-"
+      ],
+      "primary_interactive_elements": [
+        "Unrestricted Internet"
+      ],
+      "primary_rating": "Rated for 3+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "All ages"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "Everyone"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "PEGI 3"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "Contents for Different Age Groups"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "USK: All ages"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "Rated for 3+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "Rated for 3+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nAll Other App Types\nMiscellaneous\nApp is a web browser or search engine\nApp is primarily a news or educational product\nRating authority: Classificação Indicativa (ClassInd)\nRating\nAll ages\nContent descriptors\n-\nInteractive elements\nUnrestricted Internet\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nEveryone\nContent descriptors\n-\nInteractive elements\nUnrestricted Internet\nRating authority: Pan-European Game Information (PEGI)\nRating\nPEGI 3\nContent descriptors\n-\nInteractive elements\nUnrestricted Internet\nRating authority: Unterhaltungssoftware Selbstkontrolle (USK)\nRating\nUSK: All ages\nContent descriptors\nContents for Different Age Groups\nInteractive elements\nUnrestricted Internet\nRating authority: IARC Generic\nRating\nRated for 3+\nContent descriptors\n-\nInteractive elements\nUnrestric",
+      "summary_body_fingerprint": "31188fd775a2",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "a78844103ac9",
+    "response_signature": "dae3948d3e16",
+    "responses": [
+      {
+        "option_keys": [
+          "o_fd2bcd42c1d9"
+        ],
+        "option_labels": [
+          "All Other App Types"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1221",
+    "status": "complete"
+  },
+  {
+    "answer_count": 12,
+    "completed_at": "2026-06-15T14:24:12",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 11,
+    "final_state_signature": "5e2253ce6480",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_52570a2e51d2",
+        "option_label": "Social or Communication",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_aaff2107e460",
+        "option_label": "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products.",
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?"
+      }
+    ],
+    "path_id": "path_94a294fdcb84",
+    "path_summary": "Category -> Social or Communication | [continue] | Which of the following would best describe the app? -> Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products. | Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors? -> No | Does the app permit the public sharing of nudity? -> No | Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context? -> No | Does the app share the user's current and precise physical location with other users? -> Yes | Does the app allow users to purchase digital goods? -> Yes | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> Yes | Does the app include the ability to block users or user-generated content? -> Yes | Does the app include the ability to report users or user-generated content? -> Yes | Does the app include chat moderation? -> No | Can interactions in the app be limited to invited friends only? -> Yes",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Parental Guidance Recommended"
+      ],
+      "primary_interactive_elements": [
+        "Users Interact",
+        "Shares Location",
+        "In-App Purchases (Includes Random Items)"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Rated 18+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Teen"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "USK: Ages 12+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases (Includes Random Items)"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nSocial or Communication\nSocial or Communication\nApp is a social networking app\nGeo-location of device shared\nCan purchase digital goods\nCan include or contribute to random rewards\nUsers or user-generated content can be blocked\nUsers or user-generated content can be reported\nInteractions can be limited to invited friends only\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 18+\nContent descriptors\nInappropriate Language\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases (Includes Random Items)\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nTeen\nContent descriptors\n-\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases (Includes Random Items)\nRating authority: Pan-European Game Information (PEGI)\nRating\nParental guidance\nContent des",
+      "summary_body_fingerprint": "dfe33bc5955f",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "debab7e4f379",
+    "response_signature": "67f2dffec3e9",
+    "responses": [
+      {
+        "option_keys": [
+          "o_52570a2e51d2"
+        ],
+        "option_labels": [
+          "Social or Communication"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_aaff2107e460"
+        ],
+        "option_labels": [
+          "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products."
+        ],
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1222",
+    "status": "complete"
+  },
+  {
+    "answer_count": 11,
+    "completed_at": "2026-06-15T14:33:33",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 10,
+    "final_state_signature": "73dc079598bf",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_fd2bcd42c1d9",
+        "option_label": "All Other App Types",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_d560309b2cbc",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?"
+      }
+    ],
+    "path_id": "path_f26fd722c2d8",
+    "path_summary": "Category -> All Other App Types | [continue] | Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)? -> No | Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app. -> No | Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling? -> No | Does the app share the user's current and precise physical location with other users? -> Yes | Does the app allow users to purchase digital goods? -> Yes | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> No | Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Is the app a web browser or search engine? -> No | Is the app primarily a news or educational product? -> Yes",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "-"
+      ],
+      "primary_interactive_elements": [
+        "Shares Location",
+        "In-App Purchases"
+      ],
+      "primary_rating": "Rated for 3+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "All ages"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Everyone"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "PEGI 3"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "Contents for Different Age Groups"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "USK: All ages"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 3+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 3+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nAll Other App Types\nMiscellaneous\nGeo-location of device shared\nCan purchase digital goods\nApp is primarily a news or educational product\nRating authority: Classificação Indicativa (ClassInd)\nRating\nAll ages\nContent descriptors\n-\nInteractive elements\nShares Location\nIn-App Purchases\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nEveryone\nContent descriptors\n-\nInteractive elements\nShares Location\nIn-App Purchases\nRating authority: Pan-European Game Information (PEGI)\nRating\nPEGI 3\nContent descriptors\n-\nInteractive elements\nShares Location\nIn-App Purchases\nRating authority: Unterhaltungssoftware Selbstkontrolle (USK)\nRating\nUSK: All ages\nContent descriptors\nContents for Different Age Groups\nInteractive elements\nShares Location\nIn-App Purchases\nRating authority: IARC Generic\nRating\nRa",
+      "summary_body_fingerprint": "c3194c9904c1",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "9a4a22d83e15",
+    "response_signature": "90f1230b3f92",
+    "responses": [
+      {
+        "option_keys": [
+          "o_fd2bcd42c1d9"
+        ],
+        "option_labels": [
+          "All Other App Types"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_d560309b2cbc",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1223",
+    "status": "complete"
+  },
+  {
+    "answer_count": 22,
+    "completed_at": "2026-06-15T14:38:01",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 21,
+    "final_state_signature": "1bd85bfd822d",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_fd2bcd42c1d9",
+        "option_label": "All Other App Types",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_ade703578a13",
+        "question_text": "Can the app contain violent material? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews)."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a56e8406d75c",
+        "question_text": "Can the app contain sexual material or nudity (except in a natural or scientific setting)? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews)."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_871b0cf50d10",
+        "question_text": "Can the app contain any potentially offensive language? Please note that this does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_3116aa449503",
+        "question_text": "Is this content the focus of the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_a99b97727a68",
+        "question_text": "Can the app contain minor profanities (e.g., \"go to hell\")?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_74094f46a402",
+        "question_text": "Can the app contain moderate swearing or other language that could be considered moderately or significantly offensive?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4b87e38cf355",
+        "question_text": "Can the app contain discriminatory language?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_a8715c5ee8bf",
+        "question_text": "Can the app contain sexual expletives?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_fba7766efb10",
+        "question_text": "Can the app contain references to or depictions of illegal or recreational drugs? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews)."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_55327882e80f",
+        "question_text": "Is this content the focus of the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_b23d1d969526",
+        "question_text": "Can this app contain visual depictions of illegal or recreational drugs?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_37593604faab",
+        "question_text": "Can illegal or recreational drugs be referred to through text or spoken about?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?"
+      }
+    ],
+    "path_id": "path_e95a11d4b601",
+    "path_summary": "Category -> All Other App Types | [continue] | Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)? -> No | Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app. -> Yes | Can the app contain violent material? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews). -> No | Can the app contain sexual material or nudity (except in a natural or scientific setting)? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews). -> No | Can the app contain any potentially offensive language? Please note that this does not refer to user-generated content. -> Yes | Is this content the focus of the app? -> Yes | Can the app contain minor profanities (e.g., \"go to hell\")? -> Yes | Can the app contain moderate swearing or other language that could be considered moderately or significantly offensive? -> Yes | Can the app contain discriminatory language? -> No | Can the app contain sexual expletives? -> Yes | Can the app contain references to or depictions of illegal or recreational drugs? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews). -> Yes | Is this content the focus of the app? -> No | Can this app contain visual depictions of illegal or recreational drugs? -> No | Can illegal or recreational drugs be referred to through text or spoken about? -> Yes | Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling? -> No | Does the app share the user's current and precise physical location with other users? -> No | Does the app allow users to purchase digital goods? -> No | Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Is the app a web browser or search engine? -> Yes | Is the app primarily a news or educational product? -> Yes",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "-"
+      ],
+      "primary_interactive_elements": [
+        "Unrestricted Internet"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "All ages"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "Everyone 10+"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "USK: Ages 12+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Unrestricted Internet"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nAll Other App Types\nOnline Content\nApp features or promotes online content\nLanguage\nApp can provide access to products containing offensive language\nAccessing material that can contain offensive language is a focus of the app.\nMild swearing and/or language that could be considered offensive\nMild swearing and/or language that could be considered offensive\nApp can provide access to products containing sexual expletives\nControlled Substance\nApp can provide access to products containing references to or depictions of illegal or recreational drugs\nApp can provide access to products containing references to illegal or recreational drugs\nMiscellaneous\nApp is a web browser or search engine\nApp is primarily a news or educational product\nRating authority: Classificação Indicativa (ClassInd)\nRating\nAll ages\nConte",
+      "summary_body_fingerprint": "1766be95560e",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "893752289b9a",
+    "response_signature": "4bb701005c43",
+    "responses": [
+      {
+        "option_keys": [
+          "o_fd2bcd42c1d9"
+        ],
+        "option_labels": [
+          "All Other App Types"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_ade703578a13",
+        "question_text": "Can the app contain violent material? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews).",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a56e8406d75c",
+        "question_text": "Can the app contain sexual material or nudity (except in a natural or scientific setting)? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews).",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_871b0cf50d10",
+        "question_text": "Can the app contain any potentially offensive language? Please note that this does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_3116aa449503",
+        "question_text": "Is this content the focus of the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_a99b97727a68",
+        "question_text": "Can the app contain minor profanities (e.g., \"go to hell\")?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_74094f46a402",
+        "question_text": "Can the app contain moderate swearing or other language that could be considered moderately or significantly offensive?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4b87e38cf355",
+        "question_text": "Can the app contain discriminatory language?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_a8715c5ee8bf",
+        "question_text": "Can the app contain sexual expletives?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_fba7766efb10",
+        "question_text": "Can the app contain references to or depictions of illegal or recreational drugs? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews).",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_55327882e80f",
+        "question_text": "Is this content the focus of the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_b23d1d969526",
+        "question_text": "Can this app contain visual depictions of illegal or recreational drugs?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_37593604faab",
+        "question_text": "Can illegal or recreational drugs be referred to through text or spoken about?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1224",
+    "status": "complete"
+  },
+  {
+    "answer_count": 18,
+    "completed_at": "2026-06-15T14:41:14",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 17,
+    "final_state_signature": "3a16afa6cfda",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_fd2bcd42c1d9",
+        "option_label": "All Other App Types",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_b7e65fe49e89",
+        "question_text": "Is shared, user-generated content the primary source of content in the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_d1e73f127dff",
+        "question_text": "Does the app permit the public sharing of nudity?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_077c2b7ce4bb",
+        "question_text": "Is this the primary focus of the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_cadf78f7f22c",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_5b8de61634dc",
+        "question_text": "Does the app include the ability to block users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_375f4ae8bd42",
+        "question_text": "Does the app include the ability to report users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5f81c1b2ff38",
+        "question_text": "Does the app include chat moderation?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_4e285fcb8276",
+        "question_text": "Can interactions in the app be limited to invited friends only?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?"
+      }
+    ],
+    "path_id": "path_08631bbccfc7",
+    "path_summary": "Category -> All Other App Types | [continue] | Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)? -> No | Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> Yes | Is shared, user-generated content the primary source of content in the app? -> No | Does the app permit the public sharing of nudity? -> Yes | Is this the primary focus of the app? -> No | Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context? -> No | Does the app include the ability to block users or user-generated content? -> No | Does the app include the ability to report users or user-generated content? -> Yes | Does the app include chat moderation? -> Yes | Can interactions in the app be limited to invited friends only? -> Yes | Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app. -> No | Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling? -> No | Does the app share the user's current and precise physical location with other users? -> No | Does the app allow users to purchase digital goods? -> No | Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Is the app a web browser or search engine? -> Yes | Is the app primarily a news or educational product? -> Yes",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "-"
+      ],
+      "primary_interactive_elements": [
+        "Users Interact",
+        "Unrestricted Internet"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet"
+          ],
+          "rating": "All ages"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet"
+          ],
+          "rating": "Teen"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet"
+          ],
+          "rating": "USK: Ages 12+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nAll Other App Types\nUser Content Sharing\nAllows public sharing of nudity\nUsers or user-generated content can be reported\nModerated chat\nInteractions can be limited to invited friends only\nMiscellaneous\nApp is a web browser or search engine\nApp is primarily a news or educational product\nRating authority: Classificação Indicativa (ClassInd)\nRating\nAll ages\nContent descriptors\n-\nInteractive elements\nUsers Interact\nUnrestricted Internet\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nTeen\nContent descriptors\n-\nInteractive elements\nUsers Interact\nUnrestricted Internet\nRating authority: Pan-European Game Information (PEGI)\nRating\nParental guidance\nContent descriptors\n-\nInteractive elements\nUsers Interact\nUnrestricted Internet\nRating authority: Unterhaltungssoftware Selbstkontrolle (USK)\nR",
+      "summary_body_fingerprint": "c7ebf44521b8",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "3fcd7a9cefe6",
+    "response_signature": "b4bc00a6a93b",
+    "responses": [
+      {
+        "option_keys": [
+          "o_fd2bcd42c1d9"
+        ],
+        "option_labels": [
+          "All Other App Types"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_b7e65fe49e89",
+        "question_text": "Is shared, user-generated content the primary source of content in the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_d1e73f127dff",
+        "question_text": "Does the app permit the public sharing of nudity?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_077c2b7ce4bb",
+        "question_text": "Is this the primary focus of the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_cadf78f7f22c",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_5b8de61634dc",
+        "question_text": "Does the app include the ability to block users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_375f4ae8bd42",
+        "question_text": "Does the app include the ability to report users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5f81c1b2ff38",
+        "question_text": "Does the app include chat moderation?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_4e285fcb8276",
+        "question_text": "Can interactions in the app be limited to invited friends only?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1225",
+    "status": "complete"
+  },
+  {
+    "answer_count": 22,
+    "completed_at": "2026-06-15T15:22:18",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 21,
+    "final_state_signature": "f1fb595d8662",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_cda051c90138",
+        "option_label": "Game",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_231d050b6f66"
+        ],
+        "option_labels": [
+          "Minor profanities (e.g., \"go to hell\")"
+        ],
+        "question_key": "q_946159baef71",
+        "question_text": "Please select all that the game includes:"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_6b77993c3476",
+        "option_label": "Often",
+        "question_key": "q_323a8eac0485",
+        "question_text": "How frequently do minor profanities occur?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer_multi",
+        "option_keys": [
+          "o_2e8b242e01d7"
+        ],
+        "option_labels": [
+          "Purchases of digital goods Learn more"
+        ],
+        "question_key": "q_e8892e310c69",
+        "question_text": "Please select all that the game includes:"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_6c9ee501b527",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_587428cb4ee9",
+        "question_text": "Does the game have a system for players to trade items with each other using real money or in-game currency purchased with real money? (e.g. auction house, item exchange)"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4bc85050df07",
+        "question_text": "Are these crimes or criminal techniques likely to be imitated by children or youths?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_09670428687d",
+        "question_text": "Are there detailed descriptions of techniques that could be used in criminal offenses?"
+      }
+    ],
+    "path_id": "path_f7c4aa9818b9",
+    "path_summary": "Category -> Game | [continue] | Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content. -> No | Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content. -> No | Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content. -> No | Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content. -> No | Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content. -> Yes | Please select all that the game includes: -> {Minor profanities (e.g., \"go to hell\")} | How frequently do minor profanities occur? -> Often | Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content. -> No | Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content. -> No | Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> Yes | Please select all that the game includes: -> {Purchases of digital goods Learn more} | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> No | Does the game have a system for players to trade items with each other using real money or in-game currency purchased with real money? (e.g. auction house, item exchange) -> No | Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> No | Does the game share the user's current and precise physical location with other users? -> No | Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany? -> Yes | Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts? -> Yes | Does the game advocate committing acts of terrorism? -> No | Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses? -> Yes | Are these crimes or criminal techniques likely to be imitated by children or youths? -> No | Are there detailed descriptions of techniques that could be used in criminal offenses? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "-"
+      ],
+      "primary_interactive_elements": [
+        "In-Game Purchases"
+      ],
+      "primary_rating": "Rated for 3+",
+      "ratings": [
+        {
+          "authority": "Australian Classification Board (ACB)",
+          "content_descriptors": [
+            "Mature Themes",
+            "In-Game Purchases"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "Mature"
+        },
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "Rated 14+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "Mild Language"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "Everyone 10+"
+        },
+        {
+          "authority": "Game Rating and Administration Committee (GRAC)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [],
+          "rating": "Refused Classification"
+        },
+        {
+          "authority": "Digital Game Self-regulation Committee (DGSC)",
+          "content_descriptors": [
+            "Anti-society",
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "Parental Guidance 15"
+        },
+        {
+          "authority": "General Authority of Media Regulation (Gmedia)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "18"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "PEGI 3"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "USK: Ages 18+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "Rated for 3+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "In-Game Purchases"
+          ],
+          "rating": "Rated for 3+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\nwarning\nYour app will be unavailable in South Korea until it's approved by the GRAC. You can contact the GRAC at rc.globalratings@grac.or.kr.\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nGame\nLanguage\nMinor profanities (Often)\nDigital Purchases, Cash Convertible Rewards, or NFTs\nCan purchase digital goods\nMiscellaneous\nContains Nazi symbols, references or propaganda\nContent erodes national identity of the Republic of Korea\nRealistic descriptions of crimes or techniques used in criminal offenses\nRating authority: Australian Classification Board (ACB)\nRating\nMature\nContent descriptors\nMature Themes\nIn-Game Purchases\nInteractive elements\nIn-Game Purchases\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 14+\nContent descriptors\nInappropriate Language\nInteractive elements\nIn-Game Purchases\nRating authority: Entertainment Software Rat",
+      "summary_body_fingerprint": "925b85e711ba",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "e9bef5b72edd",
+    "response_signature": "16e5ca84e743",
+    "responses": [
+      {
+        "option_keys": [
+          "o_cda051c90138"
+        ],
+        "option_labels": [
+          "Game"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7e327631a16c",
+        "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_bca3ec5dda43",
+        "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f48caccfa701",
+        "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fdb2f701d9d4",
+        "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_bd5378991a14",
+        "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_231d050b6f66"
+        ],
+        "option_labels": [
+          "Minor profanities (e.g., \"go to hell\")"
+        ],
+        "question_key": "q_946159baef71",
+        "question_text": "Please select all that the game includes:",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_6b77993c3476"
+        ],
+        "option_labels": [
+          "Often"
+        ],
+        "question_key": "q_323a8eac0485",
+        "question_text": "How frequently do minor profanities occur?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_9f0067fa0227",
+        "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_5ebbe602e5b2",
+        "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_4ae86f2db81e",
+        "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_2e8b242e01d7"
+        ],
+        "option_labels": [
+          "Purchases of digital goods Learn more"
+        ],
+        "question_key": "q_e8892e310c69",
+        "question_text": "Please select all that the game includes:",
+        "question_type": "multi"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_6c9ee501b527",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_587428cb4ee9",
+        "question_text": "Does the game have a system for players to trade items with each other using real money or in-game currency purchased with real money? (e.g. auction house, item exchange)",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4298248e0d7e",
+        "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_5bf1e7de7f5a",
+        "question_text": "Does the game share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_60c024179acd",
+        "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_0cbfa914eb04",
+        "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_7711385eb421",
+        "question_text": "Does the game advocate committing acts of terrorism?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_3f4040ef5ac3",
+        "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4bc85050df07",
+        "question_text": "Are these crimes or criminal techniques likely to be imitated by children or youths?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_09670428687d",
+        "question_text": "Are there detailed descriptions of techniques that could be used in criminal offenses?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1226",
+    "status": "complete"
+  },
+  {
+    "answer_count": 13,
+    "completed_at": "2026-06-15T15:31:14",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 12,
+    "final_state_signature": "93a3a5636d12",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_52570a2e51d2",
+        "option_label": "Social or Communication",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_aaff2107e460",
+        "option_label": "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products.",
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a4d0a299c5a1",
+        "question_text": "Is this the primary focus of the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?"
+      }
+    ],
+    "path_id": "path_a200da7aa4c4",
+    "path_summary": "Category -> Social or Communication | [continue] | Which of the following would best describe the app? -> Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products. | Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors? -> No | Does the app permit the public sharing of nudity? -> Yes | Is this the primary focus of the app? -> No | Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context? -> No | Does the app share the user's current and precise physical location with other users? -> Yes | Does the app allow users to purchase digital goods? -> Yes | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> No | Does the app include the ability to block users or user-generated content? -> Yes | Does the app include the ability to report users or user-generated content? -> No | Does the app include chat moderation? -> Yes | Can interactions in the app be limited to invited friends only? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Parental Guidance Recommended"
+      ],
+      "primary_interactive_elements": [
+        "Users Interact",
+        "Shares Location",
+        "In-App Purchases"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Nudity",
+            "Sexual Content",
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated 18+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Mature 17+"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "USK: Ages 18+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Shares Location",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nSocial or Communication\nSocial or Communication\nApp is a social networking app\nAllows public sharing of nudity\nGeo-location of device shared\nCan purchase digital goods\nUsers or user-generated content can be blocked\nModerated chat\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 18+\nContent descriptors\nNudity\nSexual Content\nInappropriate Language\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nMature 17+\nContent descriptors\n-\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases\nRating authority: Pan-European Game Information (PEGI)\nRating\nParental guidance\nContent descriptors\nParental Guidance Recommended\nInteractive elements\nUsers Interact\nShares Location\nIn-App Purchases\nRating au",
+      "summary_body_fingerprint": "990c22b49c0e",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "c001ed4bb0c7",
+    "response_signature": "9aca55e4bfc6",
+    "responses": [
+      {
+        "option_keys": [
+          "o_52570a2e51d2"
+        ],
+        "option_labels": [
+          "Social or Communication"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_aaff2107e460"
+        ],
+        "option_labels": [
+          "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products."
+        ],
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a4d0a299c5a1",
+        "question_text": "Is this the primary focus of the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1227",
+    "status": "complete"
+  },
+  {
+    "answer_count": 12,
+    "completed_at": "2026-06-15T16:22:03",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 11,
+    "final_state_signature": "c763750ab729",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_52570a2e51d2",
+        "option_label": "Social or Communication",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_aaff2107e460",
+        "option_label": "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products.",
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?"
+      }
+    ],
+    "path_id": "path_7fb0dcabb1bc",
+    "path_summary": "Category -> Social or Communication | [continue] | Which of the following would best describe the app? -> Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products. | Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors? -> No | Does the app permit the public sharing of nudity? -> No | Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context? -> No | Does the app share the user's current and precise physical location with other users? -> No | Does the app allow users to purchase digital goods? -> Yes | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> No | Does the app include the ability to block users or user-generated content? -> Yes | Does the app include the ability to report users or user-generated content? -> No | Does the app include chat moderation? -> No | Can interactions in the app be limited to invited friends only? -> Yes",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Parental Guidance Recommended"
+      ],
+      "primary_interactive_elements": [
+        "Users Interact",
+        "In-App Purchases"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases"
+          ],
+          "rating": "Rated 14+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases"
+          ],
+          "rating": "Teen"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases"
+          ],
+          "rating": "USK: Ages 12+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nSocial or Communication\nSocial or Communication\nApp is a social networking app\nCan purchase digital goods\nUsers or user-generated content can be blocked\nInteractions can be limited to invited friends only\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 14+\nContent descriptors\nInappropriate Language\nInteractive elements\nUsers Interact\nIn-App Purchases\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nTeen\nContent descriptors\n-\nInteractive elements\nUsers Interact\nIn-App Purchases\nRating authority: Pan-European Game Information (PEGI)\nRating\nParental guidance\nContent descriptors\nParental Guidance Recommended\nInteractive elements\nUsers Interact\nIn-App Purchases\nRating authority: Unterhaltungssoftware Selbstkontrolle (USK)\nRating\nUSK: Ages 12+\nContent descriptors\n-\nInter",
+      "summary_body_fingerprint": "c4e9223bbddc",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "881494cda96e",
+    "response_signature": "e5ea4abb080b",
+    "responses": [
+      {
+        "option_keys": [
+          "o_52570a2e51d2"
+        ],
+        "option_labels": [
+          "Social or Communication"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_aaff2107e460"
+        ],
+        "option_labels": [
+          "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products."
+        ],
+        "question_key": "q_d6986c0f5284",
+        "question_text": "Which of the following would best describe the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fa879063695d",
+        "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_6c31394cbc39",
+        "question_text": "Does the app permit the public sharing of nudity?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_93e10cb84a82",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_46e0aaa8e62a",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5cc1024ee5fb",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_fc1f50d87bd0",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_aa6a8b99b99a",
+        "question_text": "Does the app include the ability to block users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_1189ea881316",
+        "question_text": "Does the app include the ability to report users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_24f3b3344402",
+        "question_text": "Does the app include chat moderation?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_f56acd04bdd6",
+        "question_text": "Can interactions in the app be limited to invited friends only?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1228",
+    "status": "complete"
+  },
+  {
+    "answer_count": 19,
+    "completed_at": "2026-06-15T16:42:15",
+    "continue_count": 1,
+    "error": "",
+    "final_can_continue": false,
+    "final_can_finalize": true,
+    "final_errors": [],
+    "final_question_count": 18,
+    "final_state_signature": "9926796f22e1",
+    "final_title": "Content ratings | The Same Old Waves",
+    "final_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire",
+    "path": [
+      {
+        "kind": "answer",
+        "option_key": "o_fd2bcd42c1d9",
+        "option_label": "All Other App Types",
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category"
+      },
+      {
+        "kind": "continue"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_b7e65fe49e89",
+        "question_text": "Is shared, user-generated content the primary source of content in the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_d1e73f127dff",
+        "question_text": "Does the app permit the public sharing of nudity?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_077c2b7ce4bb",
+        "question_text": "Is this the primary focus of the app?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_cadf78f7f22c",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_5b8de61634dc",
+        "question_text": "Does the app include the ability to block users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_375f4ae8bd42",
+        "question_text": "Does the app include the ability to report users or user-generated content?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_5f81c1b2ff38",
+        "question_text": "Does the app include chat moderation?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_4e285fcb8276",
+        "question_text": "Can interactions in the app be limited to invited friends only?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app."
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_d560309b2cbc",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fb360f9c09ac",
+        "option_label": "Yes",
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?"
+      },
+      {
+        "kind": "answer",
+        "option_key": "o_fd1286353570",
+        "option_label": "No",
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?"
+      }
+    ],
+    "path_id": "path_1e291eb72457",
+    "path_summary": "Category -> All Other App Types | [continue] | Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)? -> No | Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio? -> Yes | Is shared, user-generated content the primary source of content in the app? -> Yes | Does the app permit the public sharing of nudity? -> Yes | Is this the primary focus of the app? -> No | Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context? -> No | Does the app include the ability to block users or user-generated content? -> Yes | Does the app include the ability to report users or user-generated content? -> Yes | Does the app include chat moderation? -> No | Can interactions in the app be limited to invited friends only? -> No | Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app. -> No | Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling? -> No | Does the app share the user's current and precise physical location with other users? -> No | Does the app allow users to purchase digital goods? -> Yes | Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases? -> No | Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)? -> No | Is the app a web browser or search engine? -> Yes | Is the app primarily a news or educational product? -> No",
+    "rating_result": {
+      "error": "",
+      "ok": true,
+      "primary_authority": "IARC Generic",
+      "primary_content_descriptors": [
+        "Parental Guidance Recommended"
+      ],
+      "primary_interactive_elements": [
+        "Users Interact",
+        "Unrestricted Internet",
+        "In-App Purchases"
+      ],
+      "primary_rating": "Rated for 12+",
+      "ratings": [
+        {
+          "authority": "Classificação Indicativa (ClassInd)",
+          "content_descriptors": [
+            "Nudity",
+            "Sexual Content",
+            "Inappropriate Language"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet",
+            "In-App Purchases"
+          ],
+          "rating": "Rated 18+"
+        },
+        {
+          "authority": "Entertainment Software Rating Board (ESRB)",
+          "content_descriptors": [
+            "Diverse Content: Discretion Advised"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet",
+            "In-App Purchases"
+          ],
+          "rating": "Mature 17+"
+        },
+        {
+          "authority": "Pan-European Game Information (PEGI)",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet",
+            "In-App Purchases"
+          ],
+          "rating": "Parental guidance"
+        },
+        {
+          "authority": "Unterhaltungssoftware Selbstkontrolle (USK)",
+          "content_descriptors": [
+            "-"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet",
+            "In-App Purchases"
+          ],
+          "rating": "USK: Ages 18+"
+        },
+        {
+          "authority": "IARC Generic",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        },
+        {
+          "authority": "Google Play",
+          "content_descriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "interactive_elements": [
+            "Users Interact",
+            "Unrestricted Internet",
+            "In-App Purchases"
+          ],
+          "rating": "Rated for 12+"
+        }
+      ],
+      "summary_body_excerpt": "Loading Google Play Console\nTo publish apps, finish setting up your developer account\nView details\nnotifications\nNotifications\nThe Same Old Waves\nkeyboard_backspace\nAll apps\ndashboard\nDashboard\nbar_chart\nStatistics\noverview\nPublishing overview\nshield\nProtected with Play\nrocket_launch\nTest and release\nvital_signs\nMonitor and improve\nReach and devices\nexpand_more\nRatings and reviews\nexpand_more\nAndroid vitals\nexpand_more\nPolicy and programs\nexpand_less\nPolicy status\nApp content\nTeacher Approved\nfinance_mode\nGrow users\nsell\nMonetize with Play\nkeyboard_backspace\nApp content\nDiscard changes\ncheck\nCategory\ncheck\nQuestionnaire\n3\nSummary\n\nRatings shown below may differ from the ratings shown to users on Google Play.\n\nGoogle may reject your app or app update for misrepresentation of your app’s content\nGoogle may use your questionnaire responses to generate ratings for specific territories as required by local law\nRating authorities participating in IARC may change your app's rating after they review it\n\nGoogle and IARC will share your contact information, questionnaire responses, ratings, developer support requests, and app details with rating authorities. Learn more\n\nCategory\nAll Other App Types\nUser Content Sharing\nUsers sharing content is the primary source of content in the app\nAllows public sharing of nudity\nUsers or user-generated content can be blocked\nUsers or user-generated content can be reported\nMiscellaneous\nCan purchase digital goods\nApp is a web browser or search engine\nRating authority: Classificação Indicativa (ClassInd)\nRating\nRated 18+\nContent descriptors\nNudity\nSexual Content\nInappropriate Language\nInteractive elements\nUsers Interact\nUnrestricted Internet\nIn-App Purchases\nRating authority: Entertainment Software Rating Board (ESRB)\nRating\nMature 17+\nContent descriptors\nDiverse Content: Discretion Advised\nInteractive elements\nUsers Interact\nUnrestricted Internet\nIn-App Purchases\nRating authority: Pan-European Game Information (PEGI)\nRating\nParental guidance",
+      "summary_body_fingerprint": "285b815b2e0c",
+      "summary_state_signature": "56e9fb3ffca2",
+      "summary_title": "Content ratings | The Same Old Waves",
+      "summary_url": "https://play.google.com/console/u/0/developers/6147841152309536951/app/4975581156673272002/app-content/content-rating-iarc-questionnaire"
+    },
+    "rating_signature": "b3e83fc1d1d3",
+    "response_signature": "3a6da4612b77",
+    "responses": [
+      {
+        "option_keys": [
+          "o_fd2bcd42c1d9"
+        ],
+        "option_labels": [
+          "All Other App Types"
+        ],
+        "question_key": "q_1b293e4babdc",
+        "question_text": "Category",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_0fdfd05fcf6c",
+        "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_156f495d441a",
+        "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_b7e65fe49e89",
+        "question_text": "Is shared, user-generated content the primary source of content in the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_d1e73f127dff",
+        "question_text": "Does the app permit the public sharing of nudity?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_077c2b7ce4bb",
+        "question_text": "Is this the primary focus of the app?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_cadf78f7f22c",
+        "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_5b8de61634dc",
+        "question_text": "Does the app include the ability to block users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_375f4ae8bd42",
+        "question_text": "Does the app include the ability to report users or user-generated content?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_5f81c1b2ff38",
+        "question_text": "Does the app include chat moderation?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_4e285fcb8276",
+        "question_text": "Can interactions in the app be limited to invited friends only?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_8f58d3d79839",
+        "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app.",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_507a4755324a",
+        "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_a015a42d9d10",
+        "question_text": "Does the app share the user's current and precise physical location with other users?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_a1d50685cfd6",
+        "question_text": "Does the app allow users to purchase digital goods?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_d560309b2cbc",
+        "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_94281255eeea",
+        "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fb360f9c09ac"
+        ],
+        "option_labels": [
+          "Yes"
+        ],
+        "question_key": "q_1f7530ab41d5",
+        "question_text": "Is the app a web browser or search engine?",
+        "question_type": "single"
+      },
+      {
+        "option_keys": [
+          "o_fd1286353570"
+        ],
+        "option_labels": [
+          "No"
+        ],
+        "question_key": "q_5af3b0b0f6a2",
+        "question_text": "Is the app primarily a news or educational product?",
+        "question_type": "single"
+      }
+    ],
+    "sample_id": "sample_1229",
+    "status": "complete"
+  }
+]

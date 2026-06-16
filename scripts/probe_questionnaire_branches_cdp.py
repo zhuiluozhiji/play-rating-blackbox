@@ -10,6 +10,7 @@ from collections import deque
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
@@ -28,13 +29,21 @@ from probe_questionnaire_branches import (
 
 
 def fetch_json(url: str) -> Any:
+    parsed = urlparse(url)
+    hostname = (parsed.hostname or "").lower()
     request = urllib.request.Request(
         url,
         headers={
             "User-Agent": "play-rating-blackbox-cdp-probe",
         },
     )
-    with urllib.request.urlopen(request, timeout=3) as response:
+    # Local CDP endpoints should bypass system/user HTTP proxies.
+    if hostname in {"127.0.0.1", "localhost"}:
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        response = opener.open(request, timeout=3)
+    else:
+        response = urllib.request.urlopen(request, timeout=3)
+    with response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -293,7 +302,7 @@ async def run_probe_via_cdp(
 
 def default_output_dir() -> Path:
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    return Path("outputs") / "questionnaire_probe_cdp" / stamp
+    return Path("outputs") / "probes" / "cdp" / stamp
 
 
 def parse_args() -> argparse.Namespace:

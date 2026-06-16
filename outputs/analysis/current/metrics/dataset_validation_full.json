@@ -1,0 +1,1253 @@
+{
+  "duplicate_answer_count": 0,
+  "failure_reasons": {},
+  "invalid_samples": 0,
+  "label_distribution": {
+    "12+": 225,
+    "16+": 28,
+    "18+": 1013,
+    "3+": 37,
+    "7+": 19
+  },
+  "missing_label_count": 0,
+  "option_coverage": {
+    "q_01077a096e99": {
+      "No": 22,
+      "Yes, with penalties": 22,
+      "Yes, without penalties": 18
+    },
+    "q_077c2b7ce4bb": {
+      "No": 54,
+      "Yes": 74
+    },
+    "q_07cc5d8fc5f2": {
+      "Detailed Instruction for Use": 21,
+      "Encourages/Glamorizes": 34,
+      "Reference": 30,
+      "Use": 30
+    },
+    "q_088ceefc9972": {
+      "No": 15,
+      "Yes": 20
+    },
+    "q_09670428687d": {
+      "No": 122,
+      "Yes": 113
+    },
+    "q_0beb279c6f25": {
+      "Often": 28,
+      "Rarely": 40
+    },
+    "q_0cbfa914eb04": {
+      "No": 287,
+      "Yes": 223
+    },
+    "q_0ce68b31ce40": {
+      "No": 66,
+      "Yes": 58
+    },
+    "q_0cf988b907b0": {
+      "Any other games that use in-app currency/tokens to play and can reward the same currency through gameplay.": 86,
+      "Gambling themes Learn more": 64,
+      "Playable bingo games": 68,
+      "Playable casino games, lotteries, or racetrack betting Learn more": 66
+    },
+    "q_0d48c815fd70": {
+      "No": 118,
+      "Yes": 110
+    },
+    "q_0dfafc700c5b": {
+      "Large or frequent": 28,
+      "Small and infrequent": 38
+    },
+    "q_0ef5681156d9": {
+      "No": 30,
+      "Yes": 32
+    },
+    "q_0efb748cf130": {
+      "No": 108,
+      "Yes": 131
+    },
+    "q_0fce90ec5ed0": {
+      "No": 21,
+      "Yes": 8
+    },
+    "q_0fdfd05fcf6c": {
+      "No": 241,
+      "Yes": 228
+    },
+    "q_1082af7ebf44": {
+      "Fantastical": 27,
+      "Realistic": 35
+    },
+    "q_11782ad02d56": {
+      "Obscured/Innuendo - Sex act is either entirely off-camera or completely blocked from view": 58,
+      "Shown with Full Frontal Nudity": 70,
+      "Shown with No Nudity - Characters are depicted in a sexual act but no nudity is shown": 62,
+      "Shown with Partial Nudity - Breasts, Buttocks": 58
+    },
+    "q_1189ea881316": {
+      "No": 166,
+      "Yes": 177
+    },
+    "q_12d7b1d2969c": {
+      "No": 35,
+      "Yes": 37
+    },
+    "q_156f495d441a": {
+      "No": 220,
+      "Yes": 249
+    },
+    "q_1648e15447c2": {
+      "Large or frequent": 58,
+      "Small and infrequent": 73
+    },
+    "q_1790c1a1258b": {
+      "No": 62,
+      "Yes": 60
+    },
+    "q_186ccba62849": {
+      "No": 39,
+      "Yes": 29
+    },
+    "q_19bccb6df9df": {
+      "No": 52,
+      "Yes, it has a childlike style (e.g., likely to appeal to younger children)": 62,
+      "Yes, it has a pixelated style": 45
+    },
+    "q_1b293e4babdc": {
+      "All Other App Types": 469,
+      "Game": 510,
+      "Social or Communication": 343
+    },
+    "q_1b980eeb69d9": {
+      "No": 12,
+      "Yes": 17
+    },
+    "q_1d7e06ec70fe": {
+      "Realistic": 28,
+      "Unrealistic": 34
+    },
+    "q_1f7530ab41d5": {
+      "No": 232,
+      "Yes": 237
+    },
+    "q_21182b6c775e": {
+      "No": 28,
+      "Yes": 37
+    },
+    "q_21604d895455": {
+      "No": 23,
+      "Yes": 20
+    },
+    "q_2499ac316d93": {
+      "Often": 32,
+      "Rarely": 38
+    },
+    "q_24f3b3344402": {
+      "No": 161,
+      "Yes": 182
+    },
+    "q_25f720b8fa1b": {
+      "No": 118,
+      "Yes": 121
+    },
+    "q_262cab9814d0": {
+      "Often": 31,
+      "Rarely": 38
+    },
+    "q_266dcf1bec56": {
+      "No": 16,
+      "Yes": 19
+    },
+    "q_27b9b3f80a76": {
+      "Often": 12,
+      "Rarely": 10
+    },
+    "q_297605efc821": {
+      "No": 78,
+      "Yes": 71
+    },
+    "q_297e91b3d442": {
+      "Dating Games - Interactive dating, marriage, or other romantic relationships between game characters": 123,
+      "Depictions of or References to Sexual Violence": 111,
+      "Nudity or Revealing Outfits": 114,
+      "Sexual Activity - Includes both moving and still images of sexual activity": 119,
+      "Suggestive/Sexual Themes or References": 124
+    },
+    "q_2a32e81256f9": {
+      "No": 113,
+      "Yes": 107
+    },
+    "q_2a4c4852adcf": {
+      "Often": 40,
+      "Rarely": 36
+    },
+    "q_2a611dd5cdf3": {
+      "No": 50,
+      "Yes": 72
+    },
+    "q_2a9b393c19d0": {
+      "Nudity": 38,
+      "Revealing Outfits": 35
+    },
+    "q_2bbfd1bf47f4": {
+      "Brief": 52,
+      "Prolonged": 67
+    },
+    "q_2ef22d101f0f": {
+      "No": 31,
+      "Yes": 43
+    },
+    "q_3116aa449503": {
+      "No": 68,
+      "Yes": 63
+    },
+    "q_311fb1823e38": {
+      "Encourages/Glamorizes": 73,
+      "Reference": 78,
+      "Use": 79
+    },
+    "q_323a8eac0485": {
+      "Often": 69,
+      "Rarely": 55
+    },
+    "q_3379a9b4dd9a": {
+      "Female Fantasy Creatures' Breasts, e.g., harpies": 40,
+      "Female Human Breasts with Nipples": 33,
+      "Genitalia": 46,
+      "Human Buttocks": 46,
+      "Nipple-less Breasts or Breasts with Minimal Coverage, e.g., pasties, long hair": 40
+    },
+    "q_3441afd60687": {
+      "No": 73,
+      "Yes": 69
+    },
+    "q_37593604faab": {
+      "No": 56,
+      "Yes": 63
+    },
+    "q_375f4ae8bd42": {
+      "No": 115,
+      "Yes": 134
+    },
+    "q_3a9c14555242": {
+      "Overtly sexual situations or visually depicted innuendo Learn more": 35,
+      "References to sexual activity with descriptive detail Learn more": 27,
+      "References to sexual activity without descriptive detail Learn more": 27,
+      "Sexual situations involving those who appear to be under 18 Learn more": 37,
+      "Suggestive references and innuendo in text, dialogue, or heard Learn more": 37
+    },
+    "q_3cb59da3a559": {
+      "Obscured/Innuendo - Sex act is either entirely off-camera or completely blocked from view": 29,
+      "Shown with Full Frontal Nudity": 30,
+      "Shown with No Nudity - Characters are depicted in a sexual act but no nudity is shown": 33,
+      "Shown with Partial Nudity - Breasts, Buttocks": 29
+    },
+    "q_3d555173e6d5": {
+      "Often": 36,
+      "Rarely": 25
+    },
+    "q_3d60db1bc20c": {
+      "Overtly sexual situations or visually depicted innuendo Learn more": 68,
+      "References to sexual activity with descriptive detail Learn more": 57,
+      "References to sexual activity without descriptive detail Learn more": 76,
+      "Sexual situations involving those who appear to be under 18 Learn more": 63,
+      "Suggestive references and innuendo in text, dialogue, or heard Learn more": 64
+    },
+    "q_3e81d7ae3d48": {
+      "No": 107,
+      "Yes": 121
+    },
+    "q_3f4040ef5ac3": {
+      "No": 275,
+      "Yes": 235
+    },
+    "q_4298248e0d7e": {
+      "No": 271,
+      "Yes": 239
+    },
+    "q_44666a01c9f5": {
+      "High": 9,
+      "Mild/Limited": 15,
+      "Moderate": 25,
+      "None": 13
+    },
+    "q_46e0aaa8e62a": {
+      "No": 165,
+      "Yes": 178
+    },
+    "q_47263db9beef": {
+      "Encourages/Glamorizes": 35,
+      "Reference": 42,
+      "Use": 33
+    },
+    "q_47cfbfaa2128": {
+      "Often": 40,
+      "Rarely": 26
+    },
+    "q_47e01086a856": {
+      "Cash Convertible Rewards - Cash rewards, real-world items of significant monetary value, convertible cryptocurrency rewards or other play-to-earn mechanics": 148,
+      "Issuance (e.g., minting) of transferable digital assets (e.g., NFTs)": 149
+    },
+    "q_48e460900d50": {
+      "No": 55,
+      "Yes": 87
+    },
+    "q_498cc903ba4e": {
+      "Horrifying elements Learn more": 72,
+      "Scary elements Learn more": 83
+    },
+    "q_4ae86f2db81e": {
+      "No": 259,
+      "Yes": 251
+    },
+    "q_4b87e38cf355": {
+      "No": 67,
+      "Yes": 64
+    },
+    "q_4bacc7e2ec48": {
+      "No": 57,
+      "Yes": 67
+    },
+    "q_4bc85050df07": {
+      "No": 104,
+      "Yes": 131
+    },
+    "q_4bf3e917545e": {
+      "No": 20,
+      "Yes": 13
+    },
+    "q_4e285fcb8276": {
+      "No": 126,
+      "Yes": 123
+    },
+    "q_4ee5d1a1aaf6": {
+      "No": 40,
+      "Yes": 25
+    },
+    "q_4f004817384e": {
+      "No": 34,
+      "Yes": 28
+    },
+    "q_4f082bfa2fb0": {
+      "No": 32,
+      "Yes": 36
+    },
+    "q_4f55609f06a2": {
+      "No": 74,
+      "Yes": 85
+    },
+    "q_4f8b66a453da": {
+      "Often": 55,
+      "Rarely": 64
+    },
+    "q_50096b4eb0f4": {
+      "Often": 16,
+      "Rarely": 24
+    },
+    "q_505983803242": {
+      "Encourages/Glamorizes": 37,
+      "Reference": 51,
+      "Use": 46
+    },
+    "q_506c9723d214": {
+      "Referred to only": 53,
+      "Visually depicted": 58
+    },
+    "q_507a4755324a": {
+      "No": 249,
+      "Yes": 220
+    },
+    "q_5427a95baf9a": {
+      "No": 64,
+      "Yes": 78
+    },
+    "q_5490bceea51a": {
+      "No": 122,
+      "Yes": 117
+    },
+    "q_55327882e80f": {
+      "No": 60,
+      "Yes": 59
+    },
+    "q_563320a2a045": {
+      "No": 29,
+      "Yes": 36
+    },
+    "q_56658aa840a5": {
+      "Depictions of or References to Sexual Violence": 57,
+      "Nudity or Revealing Outfits": 55,
+      "Sexual Activity - Includes both moving and still images of sexual activity": 60,
+      "Suggestive/Sexual Themes or References": 64
+    },
+    "q_571d6ca06be6": {
+      "Often": 75,
+      "Rarely": 62
+    },
+    "q_587428cb4ee9": {
+      "No": 83,
+      "Yes": 72
+    },
+    "q_5878d1fe838a": {
+      "No": 54,
+      "Yes, with penalties": 46,
+      "Yes, without penalties": 59
+    },
+    "q_588070d49e7f": {
+      "Graphic Detail": 18,
+      "Limited Detail": 17,
+      "Moderate Detail": 21
+    },
+    "q_5af3b0b0f6a2": {
+      "No": 231,
+      "Yes": 238
+    },
+    "q_5b8de61634dc": {
+      "No": 122,
+      "Yes": 127
+    },
+    "q_5bb78bce43a4": {
+      "No": 67,
+      "Yes": 81
+    },
+    "q_5bf1e7de7f5a": {
+      "No": 245,
+      "Yes": 265
+    },
+    "q_5cbb769d1fc8": {
+      "Often": 28,
+      "Rarely": 32
+    },
+    "q_5cc1024ee5fb": {
+      "No": 149,
+      "Yes": 194
+    },
+    "q_5d84cbf44792": {
+      "Often": 97,
+      "Rare": 81
+    },
+    "q_5ebbe602e5b2": {
+      "No": 237,
+      "Yes": 273
+    },
+    "q_5eeb91f6cf06": {
+      "Often": 43,
+      "Rare": 29
+    },
+    "q_5f81c1b2ff38": {
+      "No": 124,
+      "Yes": 125
+    },
+    "q_5fa8a4813a6d": {
+      "No": 77,
+      "Yes": 72
+    },
+    "q_606e325700bf": {
+      "Fantastical": 81,
+      "Realistic": 78
+    },
+    "q_60c024179acd": {
+      "No": 226,
+      "Yes": 284
+    },
+    "q_60e2a7e48c08": {
+      "High": 37,
+      "Mild/Limited": 33,
+      "Moderate": 48,
+      "None": 41
+    },
+    "q_642810d6452b": {
+      "No": 99,
+      "Yes": 129
+    },
+    "q_69b2c415552c": {
+      "Encourages/Glamorizes": 40,
+      "Reference": 35,
+      "Use": 43
+    },
+    "q_6bdc905e3f72": {
+      "Horrifying elements Learn more": 184,
+      "Scary elements Learn more": 178
+    },
+    "q_6c0ba9cd3485": {
+      "No": 31,
+      "Yes": 31
+    },
+    "q_6c31394cbc39": {
+      "No": 114,
+      "Yes": 136
+    },
+    "q_6c9ee501b527": {
+      "No": 75,
+      "Yes": 80
+    },
+    "q_6d716b4485ae": {
+      "Often": 15,
+      "Rarely": 18
+    },
+    "q_6d8c1eced276": {
+      "Encourages/Glamorizes": 70,
+      "Reference": 86,
+      "Use": 80
+    },
+    "q_70a34d241d26": {
+      "Realistic": 77,
+      "Unrealistic": 82
+    },
+    "q_74094f46a402": {
+      "No": 67,
+      "Yes": 64
+    },
+    "q_762bb8baf2d4": {
+      "Often": 8,
+      "Rarely": 10
+    },
+    "q_7711385eb421": {
+      "No": 283,
+      "Yes": 227
+    },
+    "q_7727cbeee44b": {
+      "No": 58,
+      "Yes": 64
+    },
+    "q_7dbd7f3e394c": {
+      "Often depicted from a close-up perspective": 67,
+      "Often depicted from a distant perspective": 76,
+      "Rarely depicted from a close-up perspective": 72,
+      "Rarely depicted from a distant perspective": 71,
+      "Referred to": 67
+    },
+    "q_7e080cc1316c": {
+      "Often": 23,
+      "Rarely": 23
+    },
+    "q_7e327631a16c": {
+      "No": 262,
+      "Yes": 248
+    },
+    "q_7e3c719bbc27": {
+      "No": 50,
+      "Yes": 74
+    },
+    "q_81c83bee2a9d": {
+      "Often": 10,
+      "Rarely": 16
+    },
+    "q_81f68ae1d6ed": {
+      "Often": 40,
+      "Rare": 43
+    },
+    "q_8259a2e8d3cc": {
+      "No": 123,
+      "Yes": 105
+    },
+    "q_86690295e0c8": {
+      "Encourages/Glamorizes": 64,
+      "Reference": 67,
+      "Use": 77
+    },
+    "q_869c55bff5bc": {
+      "Often": 20,
+      "Rarely": 15
+    },
+    "q_871b0cf50d10": {
+      "No": 122,
+      "Yes": 131
+    },
+    "q_89d9afb2922c": {
+      "No": 95,
+      "Yes": 133
+    },
+    "q_8a347e7fc54c": {
+      "Implied but not seen": 29,
+      "Often depicted from a close-up perspective": 21,
+      "Often depicted from a distant perspective": 28,
+      "Rarely depicted from a close-up perspective": 31,
+      "Rarely depicted from a distant perspective": 27,
+      "Referred to": 27
+    },
+    "q_8c3a01a0db0a": {
+      "High": 36,
+      "Mild/Limited": 29,
+      "Moderate": 39,
+      "None": 38
+    },
+    "q_8c9d548dd82c": {
+      "No": 24,
+      "Yes": 14
+    },
+    "q_8d336dde8f27": {
+      "No": 107,
+      "Yes": 113
+    },
+    "q_8df7505e13e7": {
+      "Realistic": 68,
+      "Unrealistic": 74
+    },
+    "q_8f58d3d79839": {
+      "No": 216,
+      "Yes": 253
+    },
+    "q_9080d63c86cf": {
+      "Often": 10,
+      "Rarely": 12
+    },
+    "q_9146217d2e6e": {
+      "Act of human defecation visually depicted": 165,
+      "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting": 154,
+      "Mucus, belching, flatulence sounds": 137,
+      "Urination, urine, realistically depicted feces": 130
+    },
+    "q_91b1d54ca250": {
+      "No": 42,
+      "Yes": 35
+    },
+    "q_93e10cb84a82": {
+      "No": 140,
+      "Yes": 110
+    },
+    "q_94281255eeea": {
+      "No": 239,
+      "Yes": 230
+    },
+    "q_946159baef71": {
+      "Discriminatory language (against race, religion, sex, etc...)": 144,
+      "Minor profanities (e.g., \"go to hell\")": 124,
+      "Moderate swearing or other language or gestures that could be considered moderately or significantly offensive Learn more": 137,
+      "Sexual expletives Learn more": 123
+    },
+    "q_98ef583f40fa": {
+      "High": 15,
+      "Mild/Limited": 8,
+      "Moderate": 23,
+      "None": 19
+    },
+    "q_9929df26eb60": {
+      "No": 22,
+      "Yes": 13
+    },
+    "q_99cec7a673ee": {
+      "Encourages/Glamorizes": 63,
+      "Reference": 70,
+      "Use": 65
+    },
+    "q_9c25a1c38e03": {
+      "Often depicted from a close-up perspective": 33,
+      "Often depicted from a distant perspective": 31,
+      "Rarely depicted from a close-up perspective": 33,
+      "Rarely depicted from a distant perspective": 30,
+      "Referred to": 35
+    },
+    "q_9e7cbd57e183": {
+      "No": 37,
+      "Yes": 32
+    },
+    "q_9f0067fa0227": {
+      "No": 269,
+      "Yes": 241
+    },
+    "q_a015a42d9d10": {
+      "No": 230,
+      "Yes": 239
+    },
+    "q_a1d50685cfd6": {
+      "No": 214,
+      "Yes": 255
+    },
+    "q_a25499512447": {
+      "No": 77,
+      "Yes": 62
+    },
+    "q_a4d0a299c5a1": {
+      "No": 63,
+      "Yes": 73
+    },
+    "q_a56e8406d75c": {
+      "No": 129,
+      "Yes": 124
+    },
+    "q_a6253f0e3e6b": {
+      "Any other games that use in-game currency/tokens to play and can reward the same currency through gameplay.": 140,
+      "Gambling themes Learn more": 124,
+      "Playable bingo games": 139,
+      "Playable casino games, lotteries, or racetrack betting Learn more": 128
+    },
+    "q_a8715c5ee8bf": {
+      "No": 58,
+      "Yes": 73
+    },
+    "q_a99b97727a68": {
+      "No": 62,
+      "Yes": 69
+    },
+    "q_aa6a8b99b99a": {
+      "No": 155,
+      "Yes": 188
+    },
+    "q_ade703578a13": {
+      "No": 131,
+      "Yes": 122
+    },
+    "q_b1e887fd0d21": {
+      "No": 15,
+      "Yes": 28
+    },
+    "q_b23d1d969526": {
+      "No": 62,
+      "Yes": 57
+    },
+    "q_b2b2aeef52b9": {
+      "Blood that isn't directly related to a violent act (e.g., blood on clothing, blood in the background, blood resulting from performing surgery)": 131,
+      "Disturbing or gory images without a violent act shown.": 133,
+      "Violence against anything other than humans (e.g., animals, fantasy creatures, robots, vehicles) Learn more": 142,
+      "Violence or implied violence against humans Learn more": 159
+    },
+    "q_b5a29f481971": {
+      "Alcohol": 119,
+      "Fantasy Drugs Learn more": 133,
+      "Illegal or Recreational Drugs Learn more": 118,
+      "Medical Drugs Learn more": 136,
+      "Tobacco": 112
+    },
+    "q_b5bf5786fea1": {
+      "Often": 20,
+      "Rarely": 20
+    },
+    "q_b7e65fe49e89": {
+      "No": 112,
+      "Yes": 137
+    },
+    "q_b9b891f452f8": {
+      "No": 29,
+      "Yes": 36
+    },
+    "q_ba1ff35ebd9a": {
+      "Graphic Detail": 42,
+      "Limited Detail": 55,
+      "Moderate Detail": 36
+    },
+    "q_bae124b0ebd8": {
+      "No": 68,
+      "Yes": 55
+    },
+    "q_bca3ec5dda43": {
+      "No": 234,
+      "Yes": 276
+    },
+    "q_bd07da3d536f": {
+      "Often": 58,
+      "Rarely": 54
+    },
+    "q_bd5378991a14": {
+      "No": 266,
+      "Yes": 244
+    },
+    "q_c00eeeb994c1": {
+      "Often": 20,
+      "Rarely": 26
+    },
+    "q_c177a0bc080e": {
+      "No": 40,
+      "Yes": 42
+    },
+    "q_c1f9ab14fc34": {
+      "Often": 55,
+      "Rarely": 64
+    },
+    "q_c3e4fa94aaf4": {
+      "Fantastical": 75,
+      "Realistic": 67
+    },
+    "q_c65d3403d8b8": {
+      "No": 13,
+      "Yes": 17
+    },
+    "q_c9a6ea9fad32": {
+      "No": 71,
+      "Yes": 52
+    },
+    "q_cadf78f7f22c": {
+      "No": 139,
+      "Yes": 110
+    },
+    "q_cc099119b05b": {
+      "Realistic": 30,
+      "Unrealistic": 35
+    },
+    "q_cc70c8c906bc": {
+      "No": 45,
+      "Yes": 38
+    },
+    "q_cd2a6148faca": {
+      "Nudity": 82,
+      "Revealing Outfits": 69
+    },
+    "q_cdc64b3b4d46": {
+      "No": 71,
+      "Yes": 71
+    },
+    "q_cf2004280481": {
+      "No": 38,
+      "Yes": 32
+    },
+    "q_d03579032af9": {
+      "No": 61,
+      "Yes": 58
+    },
+    "q_d1e129084632": {
+      "No": 28,
+      "Yes": 36
+    },
+    "q_d1e3d66e3548": {
+      "No": 21,
+      "Yes": 44
+    },
+    "q_d1e73f127dff": {
+      "No": 121,
+      "Yes": 128
+    },
+    "q_d220e4d74328": {
+      "No": 64,
+      "Yes": 73
+    },
+    "q_d2efcdb297ec": {
+      "No": 79,
+      "Yes": 80
+    },
+    "q_d3bf243f60df": {
+      "No": 56,
+      "Yes": 68
+    },
+    "q_d46377cd7525": {
+      "Implied but not seen": 66,
+      "Often depicted from a close-up perspective": 32,
+      "Often depicted from a distant perspective": 67,
+      "Rarely depicted from a close-up perspective": 61,
+      "Rarely depicted from a distant perspective": 57,
+      "Referred to": 63
+    },
+    "q_d476849a2a36": {
+      "No": 12,
+      "Yes, it has a childlike style (e.g., likely to appeal to younger children)": 20,
+      "Yes, it has a pixelated style": 30
+    },
+    "q_d560309b2cbc": {
+      "No": 138,
+      "Yes": 117
+    },
+    "q_d5ff540a9999": {
+      "Alcohol": 66,
+      "Fantasy Drugs Learn more": 76,
+      "Illegal or Recreational Drugs Learn more": 57,
+      "Medical Drugs Learn more": 61,
+      "Tobacco": 70
+    },
+    "q_d6986c0f5284": {
+      "Communication - used to communicate with people already known to the user in one-on-one or small group conversations. Skype, SMS, and Gmail are examples of these types of products.": 93,
+      "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products.": 250
+    },
+    "q_d6a91ad297c0": {
+      "Often": 83,
+      "Rare": 101
+    },
+    "q_d6dca7ba9e52": {
+      "No": 119,
+      "Yes": 120
+    },
+    "q_d70c5ffff476": {
+      "Female Fantasy Creatures' Breasts, e.g., harpies": 22,
+      "Female Human Breasts with Nipples": 26,
+      "Genitalia": 22,
+      "Human Buttocks": 14,
+      "Nipple-less Breasts or Breasts with Minimal Coverage, e.g., pasties, long hair": 18
+    },
+    "q_d7e62c042b49": {
+      "Often": 65,
+      "Rarely": 68
+    },
+    "q_da8b2508f70d": {
+      "Encourages/Glamorizes": 31,
+      "Reference": 39,
+      "Use": 41
+    },
+    "q_db0108c0bc2e": {
+      "Often": 31,
+      "Rarely": 37
+    },
+    "q_de1a1aa77b7a": {
+      "No": 34,
+      "Yes": 35
+    },
+    "q_e0669851c326": {
+      "Referred to only": 28,
+      "Visually depicted": 29
+    },
+    "q_e1a4860ee224": {
+      "Often": 70,
+      "Rarely": 53
+    },
+    "q_e3591aef7dfb": {
+      "No": 58,
+      "Yes": 70
+    },
+    "q_e3fc3acc2c69": {
+      "No": 37,
+      "Yes": 37
+    },
+    "q_e46f7dbcf100": {
+      "Often": 33,
+      "Rarely": 35
+    },
+    "q_e48c566abebb": {
+      "No": 65,
+      "Yes": 58
+    },
+    "q_e5948a02abe2": {
+      "Blood that isn't directly related to a violent act (e.g., blood on clothing, blood in the background, blood resulting from performing surgery)": 66,
+      "Disturbing or gory images without a violent act shown.": 56,
+      "Violence against anything other than humans (e.g., animals, fantasy creatures, robots, vehicles) Learn more": 65,
+      "Violence or implied violence against humans Learn more": 62
+    },
+    "q_e8892e310c69": {
+      "Cash Convertible Rewards - Cash rewards, real-world items of significant monetary value, convertible cryptocurrency rewards or other play-to-earn mechanics": 137,
+      "Issuance (e.g., minting) of transferable digital assets (e.g., NFTs)": 123,
+      "Purchases of digital goods Learn more": 155
+    },
+    "q_eb8144f44fff": {
+      "No": 100,
+      "Yes": 128
+    },
+    "q_eda59c8a1481": {
+      "Often": 67,
+      "Rarely": 77
+    },
+    "q_edc9f25eba08": {
+      "No": 36,
+      "Yes": 32
+    },
+    "q_edeb592e74ee": {
+      "Often": 50,
+      "Rarely": 32
+    },
+    "q_ef7e523ad5c3": {
+      "No": 37,
+      "Yes": 29
+    },
+    "q_f178f51194bf": {
+      "No": 32,
+      "Yes": 28
+    },
+    "q_f1b39181e7b2": {
+      "Detailed Instruction for Use": 75,
+      "Encourages/Glamorizes": 63,
+      "Reference": 54,
+      "Use": 68
+    },
+    "q_f48caccfa701": {
+      "No": 286,
+      "Yes": 224
+    },
+    "q_f56acd04bdd6": {
+      "No": 173,
+      "Yes": 170
+    },
+    "q_f5cfa9d035e8": {
+      "No": 113,
+      "Yes": 115
+    },
+    "q_f5e28775c7d4": {
+      "Discriminatory language (against race, religion, sex, etc...)": 68,
+      "Minor profanities (e.g., \"go to hell\")": 68,
+      "Moderate swearing or other language or gestures that could be considered moderately or significantly offensive Learn more": 82,
+      "Sexual expletives Learn more": 68
+    },
+    "q_f74a19ddc14e": {
+      "Brief": 29,
+      "Prolonged": 31
+    },
+    "q_f773d3f19b25": {
+      "No": 85,
+      "Yes": 64
+    },
+    "q_fa001198f6cc": {
+      "Often": 3,
+      "Rarely": 11
+    },
+    "q_fa879063695d": {
+      "No": 149,
+      "Yes": 101
+    },
+    "q_fb45c3c7aa4e": {
+      "No": 14,
+      "Yes": 16
+    },
+    "q_fba7766efb10": {
+      "No": 134,
+      "Yes": 119
+    },
+    "q_fc1f50d87bd0": {
+      "No": 99,
+      "Yes": 95
+    },
+    "q_fc2c78fd7069": {
+      "Act of human defecation visually depicted": 74,
+      "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting": 62,
+      "Mucus, belching, flatulence sounds": 59,
+      "Urination, urine, realistically depicted feces": 73
+    },
+    "q_fc3b6001bc0f": {
+      "Often": 72,
+      "Rarely": 64
+    },
+    "q_fdb2f701d9d4": {
+      "No": 269,
+      "Yes": 241
+    },
+    "q_ff72a434448c": {
+      "No": 64,
+      "Yes": 59
+    },
+    "q_ffd81a32312e": {
+      "Fantastical": 39,
+      "Realistic": 26
+    }
+  },
+  "question_coverage": {
+    "q_01077a096e99": 62,
+    "q_077c2b7ce4bb": 128,
+    "q_07cc5d8fc5f2": 57,
+    "q_088ceefc9972": 35,
+    "q_09670428687d": 235,
+    "q_0beb279c6f25": 68,
+    "q_0cbfa914eb04": 510,
+    "q_0ce68b31ce40": 124,
+    "q_0cf988b907b0": 133,
+    "q_0d48c815fd70": 228,
+    "q_0dfafc700c5b": 66,
+    "q_0ef5681156d9": 62,
+    "q_0efb748cf130": 239,
+    "q_0fce90ec5ed0": 29,
+    "q_0fdfd05fcf6c": 469,
+    "q_1082af7ebf44": 62,
+    "q_11782ad02d56": 119,
+    "q_1189ea881316": 343,
+    "q_12d7b1d2969c": 72,
+    "q_156f495d441a": 469,
+    "q_1648e15447c2": 131,
+    "q_1790c1a1258b": 122,
+    "q_186ccba62849": 68,
+    "q_19bccb6df9df": 159,
+    "q_1b293e4babdc": 1322,
+    "q_1b980eeb69d9": 29,
+    "q_1d7e06ec70fe": 62,
+    "q_1f7530ab41d5": 469,
+    "q_21182b6c775e": 65,
+    "q_21604d895455": 43,
+    "q_2499ac316d93": 70,
+    "q_24f3b3344402": 343,
+    "q_25f720b8fa1b": 239,
+    "q_262cab9814d0": 69,
+    "q_266dcf1bec56": 35,
+    "q_27b9b3f80a76": 22,
+    "q_297605efc821": 149,
+    "q_297e91b3d442": 224,
+    "q_2a32e81256f9": 220,
+    "q_2a4c4852adcf": 76,
+    "q_2a611dd5cdf3": 122,
+    "q_2a9b393c19d0": 55,
+    "q_2bbfd1bf47f4": 119,
+    "q_2ef22d101f0f": 74,
+    "q_3116aa449503": 131,
+    "q_311fb1823e38": 133,
+    "q_323a8eac0485": 124,
+    "q_3379a9b4dd9a": 82,
+    "q_3441afd60687": 142,
+    "q_37593604faab": 119,
+    "q_375f4ae8bd42": 249,
+    "q_3a9c14555242": 64,
+    "q_3cb59da3a559": 60,
+    "q_3d555173e6d5": 61,
+    "q_3d60db1bc20c": 124,
+    "q_3e81d7ae3d48": 228,
+    "q_3f4040ef5ac3": 510,
+    "q_4298248e0d7e": 510,
+    "q_44666a01c9f5": 62,
+    "q_46e0aaa8e62a": 343,
+    "q_47263db9beef": 66,
+    "q_47cfbfaa2128": 66,
+    "q_47e01086a856": 230,
+    "q_48e460900d50": 142,
+    "q_498cc903ba4e": 115,
+    "q_4ae86f2db81e": 510,
+    "q_4b87e38cf355": 131,
+    "q_4bacc7e2ec48": 124,
+    "q_4bc85050df07": 235,
+    "q_4bf3e917545e": 33,
+    "q_4e285fcb8276": 249,
+    "q_4ee5d1a1aaf6": 65,
+    "q_4f004817384e": 62,
+    "q_4f082bfa2fb0": 68,
+    "q_4f55609f06a2": 159,
+    "q_4f8b66a453da": 119,
+    "q_50096b4eb0f4": 40,
+    "q_505983803242": 76,
+    "q_506c9723d214": 111,
+    "q_507a4755324a": 469,
+    "q_5427a95baf9a": 142,
+    "q_5490bceea51a": 239,
+    "q_55327882e80f": 119,
+    "q_563320a2a045": 65,
+    "q_56658aa840a5": 105,
+    "q_571d6ca06be6": 137,
+    "q_587428cb4ee9": 155,
+    "q_5878d1fe838a": 159,
+    "q_588070d49e7f": 56,
+    "q_5af3b0b0f6a2": 469,
+    "q_5b8de61634dc": 249,
+    "q_5bb78bce43a4": 148,
+    "q_5bf1e7de7f5a": 510,
+    "q_5cbb769d1fc8": 60,
+    "q_5cc1024ee5fb": 343,
+    "q_5d84cbf44792": 178,
+    "q_5ebbe602e5b2": 510,
+    "q_5eeb91f6cf06": 72,
+    "q_5f81c1b2ff38": 249,
+    "q_5fa8a4813a6d": 149,
+    "q_606e325700bf": 159,
+    "q_60c024179acd": 510,
+    "q_60e2a7e48c08": 159,
+    "q_642810d6452b": 228,
+    "q_69b2c415552c": 70,
+    "q_6bdc905e3f72": 276,
+    "q_6c0ba9cd3485": 62,
+    "q_6c31394cbc39": 250,
+    "q_6c9ee501b527": 155,
+    "q_6d716b4485ae": 33,
+    "q_6d8c1eced276": 136,
+    "q_70a34d241d26": 159,
+    "q_74094f46a402": 131,
+    "q_762bb8baf2d4": 18,
+    "q_7711385eb421": 510,
+    "q_7727cbeee44b": 122,
+    "q_7dbd7f3e394c": 142,
+    "q_7e080cc1316c": 46,
+    "q_7e327631a16c": 510,
+    "q_7e3c719bbc27": 124,
+    "q_81c83bee2a9d": 26,
+    "q_81f68ae1d6ed": 83,
+    "q_8259a2e8d3cc": 228,
+    "q_86690295e0c8": 119,
+    "q_869c55bff5bc": 35,
+    "q_871b0cf50d10": 253,
+    "q_89d9afb2922c": 228,
+    "q_8a347e7fc54c": 62,
+    "q_8c3a01a0db0a": 142,
+    "q_8c9d548dd82c": 38,
+    "q_8d336dde8f27": 220,
+    "q_8df7505e13e7": 142,
+    "q_8f58d3d79839": 469,
+    "q_9080d63c86cf": 22,
+    "q_9146217d2e6e": 273,
+    "q_91b1d54ca250": 77,
+    "q_93e10cb84a82": 250,
+    "q_94281255eeea": 469,
+    "q_946159baef71": 244,
+    "q_98ef583f40fa": 65,
+    "q_9929df26eb60": 35,
+    "q_99cec7a673ee": 112,
+    "q_9c25a1c38e03": 65,
+    "q_9e7cbd57e183": 69,
+    "q_9f0067fa0227": 510,
+    "q_a015a42d9d10": 469,
+    "q_a1d50685cfd6": 469,
+    "q_a25499512447": 139,
+    "q_a4d0a299c5a1": 136,
+    "q_a56e8406d75c": 253,
+    "q_a6253f0e3e6b": 241,
+    "q_a8715c5ee8bf": 131,
+    "q_a99b97727a68": 131,
+    "q_aa6a8b99b99a": 343,
+    "q_ade703578a13": 253,
+    "q_b1e887fd0d21": 43,
+    "q_b23d1d969526": 119,
+    "q_b2b2aeef52b9": 248,
+    "q_b5a29f481971": 241,
+    "q_b5bf5786fea1": 40,
+    "q_b7e65fe49e89": 249,
+    "q_b9b891f452f8": 65,
+    "q_ba1ff35ebd9a": 133,
+    "q_bae124b0ebd8": 123,
+    "q_bca3ec5dda43": 510,
+    "q_bd07da3d536f": 112,
+    "q_bd5378991a14": 510,
+    "q_c00eeeb994c1": 46,
+    "q_c177a0bc080e": 82,
+    "q_c1f9ab14fc34": 119,
+    "q_c3e4fa94aaf4": 142,
+    "q_c65d3403d8b8": 30,
+    "q_c9a6ea9fad32": 123,
+    "q_cadf78f7f22c": 249,
+    "q_cc099119b05b": 65,
+    "q_cc70c8c906bc": 83,
+    "q_cd2a6148faca": 114,
+    "q_cdc64b3b4d46": 142,
+    "q_cf2004280481": 70,
+    "q_d03579032af9": 119,
+    "q_d1e129084632": 64,
+    "q_d1e3d66e3548": 65,
+    "q_d1e73f127dff": 249,
+    "q_d220e4d74328": 137,
+    "q_d2efcdb297ec": 159,
+    "q_d3bf243f60df": 124,
+    "q_d46377cd7525": 159,
+    "q_d476849a2a36": 62,
+    "q_d560309b2cbc": 255,
+    "q_d5ff540a9999": 121,
+    "q_d6986c0f5284": 343,
+    "q_d6a91ad297c0": 184,
+    "q_d6dca7ba9e52": 239,
+    "q_d70c5ffff476": 38,
+    "q_d7e62c042b49": 133,
+    "q_da8b2508f70d": 61,
+    "q_db0108c0bc2e": 68,
+    "q_de1a1aa77b7a": 69,
+    "q_e0669851c326": 57,
+    "q_e1a4860ee224": 123,
+    "q_e3591aef7dfb": 128,
+    "q_e3fc3acc2c69": 74,
+    "q_e46f7dbcf100": 68,
+    "q_e48c566abebb": 123,
+    "q_e5948a02abe2": 110,
+    "q_e8892e310c69": 251,
+    "q_eb8144f44fff": 228,
+    "q_eda59c8a1481": 144,
+    "q_edc9f25eba08": 68,
+    "q_edeb592e74ee": 82,
+    "q_ef7e523ad5c3": 66,
+    "q_f178f51194bf": 60,
+    "q_f1b39181e7b2": 118,
+    "q_f48caccfa701": 510,
+    "q_f56acd04bdd6": 343,
+    "q_f5cfa9d035e8": 228,
+    "q_f5e28775c7d4": 128,
+    "q_f74a19ddc14e": 60,
+    "q_f773d3f19b25": 149,
+    "q_fa001198f6cc": 14,
+    "q_fa879063695d": 250,
+    "q_fb45c3c7aa4e": 30,
+    "q_fba7766efb10": 253,
+    "q_fc1f50d87bd0": 194,
+    "q_fc2c78fd7069": 129,
+    "q_fc3b6001bc0f": 136,
+    "q_fdb2f701d9d4": 510,
+    "q_ff72a434448c": 123,
+    "q_ffd81a32312e": 65
+  },
+  "status_distribution": {
+    "success": 1322
+  },
+  "total_samples": 1322,
+  "unique_answer_count": 1322,
+  "valid_samples": 1322
+}

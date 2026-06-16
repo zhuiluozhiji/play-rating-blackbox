@@ -1,0 +1,3381 @@
+{
+  "question_count": 229,
+  "questions": [
+    {
+      "option_keys": {
+        "o_52570a2e51d2": 297,
+        "o_cda051c90138": 455,
+        "o_fd2bcd42c1d9": 435
+      },
+      "option_labels": {
+        "All Other App Types": 435,
+        "Game": 455,
+        "Social or Communication": 297
+      },
+      "question_key": "q_1b293e4babdc",
+      "question_text": "Category",
+      "question_type": "single",
+      "seen_count": 1187
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 218,
+        "o_fd1286353570": 237
+      },
+      "option_labels": {
+        "No": 237,
+        "Yes": 218
+      },
+      "question_key": "q_0cbfa914eb04",
+      "question_text": "Does the game contain any content that can substantially erode the national identity of the Republic of Korea by describing anti-national acts or distorting historical facts?",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 209,
+        "o_fd1286353570": 246
+      },
+      "option_labels": {
+        "No": 246,
+        "Yes": 209
+      },
+      "question_key": "q_3f4040ef5ac3",
+      "question_text": "Does the game contain realistic descriptions of crimes (e.g., robbery, kidnapping) or techniques that can be used in criminal offenses?",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 212,
+        "o_fd1286353570": 243
+      },
+      "option_labels": {
+        "No": 243,
+        "Yes": 212
+      },
+      "question_key": "q_4298248e0d7e",
+      "question_text": "Does the game natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 238,
+        "o_fd1286353570": 217
+      },
+      "option_labels": {
+        "No": 217,
+        "Yes": 238
+      },
+      "question_key": "q_4ae86f2db81e",
+      "question_text": "Does the game include the purchase or sale of digital goods, cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 238,
+        "o_fd1286353570": 217
+      },
+      "option_labels": {
+        "No": 217,
+        "Yes": 238
+      },
+      "question_key": "q_5bf1e7de7f5a",
+      "question_text": "Does the game share the user's current and precise physical location with other users?",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 229,
+        "o_fd1286353570": 226
+      },
+      "option_labels": {
+        "No": 226,
+        "Yes": 229
+      },
+      "question_key": "q_5ebbe602e5b2",
+      "question_text": "Does the game contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes? Please note that this question does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 249,
+        "o_fd1286353570": 206
+      },
+      "option_labels": {
+        "No": 206,
+        "Yes": 249
+      },
+      "question_key": "q_60c024179acd",
+      "question_text": "Does the game contain any swastikas, other Nazi symbols or propaganda deemed unconstitutional in Germany?",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 227,
+        "o_fd1286353570": 228
+      },
+      "option_labels": {
+        "No": 228,
+        "Yes": 227
+      },
+      "question_key": "q_7711385eb421",
+      "question_text": "Does the game advocate committing acts of terrorism?",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 235,
+        "o_fd1286353570": 220
+      },
+      "option_labels": {
+        "No": 220,
+        "Yes": 235
+      },
+      "question_key": "q_7e327631a16c",
+      "question_text": "Does the game contain inferences of, references to, or depictions of violence, blood, or gory images? This includes violence directed at the player's character. Please note that this question does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 230,
+        "o_fd1286353570": 225
+      },
+      "option_labels": {
+        "No": 225,
+        "Yes": 230
+      },
+      "question_key": "q_9f0067fa0227",
+      "question_text": "Does the game contain any reference to or use of drugs, alcohol, or tobacco? Please note that this question does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 227,
+        "o_fd1286353570": 228
+      },
+      "option_labels": {
+        "No": 228,
+        "Yes": 227
+      },
+      "question_key": "q_bca3ec5dda43",
+      "question_text": "Does the game contain pictures or sounds likely to be scary, horrifying, or disturbing? Please note that this question does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 233,
+        "o_fd1286353570": 222
+      },
+      "option_labels": {
+        "No": 222,
+        "Yes": 233
+      },
+      "question_key": "q_bd5378991a14",
+      "question_text": "Does the game contain any potentially offensive language? Please note that this question does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 221,
+        "o_fd1286353570": 234
+      },
+      "option_labels": {
+        "No": 234,
+        "Yes": 221
+      },
+      "question_key": "q_f48caccfa701",
+      "question_text": "Does the game contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, dating games, revealing attire, or nudity? Please note that this question does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 220,
+        "o_fd1286353570": 235
+      },
+      "option_labels": {
+        "No": 235,
+        "Yes": 220
+      },
+      "question_key": "q_fdb2f701d9d4",
+      "question_text": "Does the game contain gambling, simulations of casino gambling/bingo, or gambling themes? Please note that this question does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 455
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 213,
+        "o_fd1286353570": 222
+      },
+      "option_labels": {
+        "No": 222,
+        "Yes": 213
+      },
+      "question_key": "q_0fdfd05fcf6c",
+      "question_text": "Does the app contain any ratings-relevant content (e.g., sex, violence, language) downloaded as part of the app package (code, assets)?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 229,
+        "o_fd1286353570": 206
+      },
+      "option_labels": {
+        "No": 206,
+        "Yes": 229
+      },
+      "question_key": "q_156f495d441a",
+      "question_text": "Does the app natively allow users to interact or exchange content with other users through voice communication, text, or sharing images or audio?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 213,
+        "o_fd1286353570": 222
+      },
+      "option_labels": {
+        "No": 222,
+        "Yes": 213
+      },
+      "question_key": "q_1f7530ab41d5",
+      "question_text": "Is the app a web browser or search engine?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 211,
+        "o_fd1286353570": 224
+      },
+      "option_labels": {
+        "No": 224,
+        "Yes": 211
+      },
+      "question_key": "q_507a4755324a",
+      "question_text": "Does the app focus on promoting or selling items or activities that are typically age-restricted such as cigarettes, alcohol, firearms, or gambling?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 214,
+        "o_fd1286353570": 221
+      },
+      "option_labels": {
+        "No": 221,
+        "Yes": 214
+      },
+      "question_key": "q_5af3b0b0f6a2",
+      "question_text": "Is the app primarily a news or educational product?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 232,
+        "o_fd1286353570": 203
+      },
+      "option_labels": {
+        "No": 203,
+        "Yes": 232
+      },
+      "question_key": "q_8f58d3d79839",
+      "question_text": "Does the app feature or promote content that isn't part of the initial app download, but can be accessed from the app? Examples of this type of content are movies in the Netflix app, product listings in the Amazon Shopping app, songs in the Spotify app, generated AI content, or news articles in the New York Times app.",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 230,
+        "o_fd1286353570": 205
+      },
+      "option_labels": {
+        "No": 205,
+        "Yes": 230
+      },
+      "question_key": "q_94281255eeea",
+      "question_text": "Does the app include cash rewards, gift cards, play-to-earn features, convertible cryptocurrency rewards, or the issuance of transferable digital assets (e.g., NFTs)?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 221,
+        "o_fd1286353570": 214
+      },
+      "option_labels": {
+        "No": 214,
+        "Yes": 221
+      },
+      "question_key": "q_a015a42d9d10",
+      "question_text": "Does the app share the user's current and precise physical location with other users?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 235,
+        "o_fd1286353570": 200
+      },
+      "option_labels": {
+        "No": 200,
+        "Yes": 235
+      },
+      "question_key": "q_a1d50685cfd6",
+      "question_text": "Does the app allow users to purchase digital goods?",
+      "question_type": "single",
+      "seen_count": 435
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 153,
+        "o_fd1286353570": 144
+      },
+      "option_labels": {
+        "No": 144,
+        "Yes": 153
+      },
+      "question_key": "q_1189ea881316",
+      "question_text": "Does the app include the ability to report users or user-generated content?",
+      "question_type": "single",
+      "seen_count": 297
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 156,
+        "o_fd1286353570": 141
+      },
+      "option_labels": {
+        "No": 141,
+        "Yes": 156
+      },
+      "question_key": "q_24f3b3344402",
+      "question_text": "Does the app include chat moderation?",
+      "question_type": "single",
+      "seen_count": 297
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 148,
+        "o_fd1286353570": 149
+      },
+      "option_labels": {
+        "No": 149,
+        "Yes": 148
+      },
+      "question_key": "q_46e0aaa8e62a",
+      "question_text": "Does the app share the user's current and precise physical location with other users?",
+      "question_type": "single",
+      "seen_count": 297
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 162,
+        "o_fd1286353570": 135
+      },
+      "option_labels": {
+        "No": 135,
+        "Yes": 162
+      },
+      "question_key": "q_5cc1024ee5fb",
+      "question_text": "Does the app allow users to purchase digital goods?",
+      "question_type": "single",
+      "seen_count": 297
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 161,
+        "o_fd1286353570": 136
+      },
+      "option_labels": {
+        "No": 136,
+        "Yes": 161
+      },
+      "question_key": "q_aa6a8b99b99a",
+      "question_text": "Does the app include the ability to block users or user-generated content?",
+      "question_type": "single",
+      "seen_count": 297
+    },
+    {
+      "option_keys": {
+        "o_aaff2107e460": 207,
+        "o_e8ca0abcda67": 90
+      },
+      "option_labels": {
+        "Communication - used to communicate with people already known to the user in one-on-one or small group conversations. Skype, SMS, and Gmail are examples of these types of products.": 90,
+        "Social - used to communicate, post, and share content with large groups of people or for meeting new people. Facebook, Twitter, Instagram, Tinder are examples of these types of products.": 207
+      },
+      "question_key": "q_d6986c0f5284",
+      "question_text": "Which of the following would best describe the app?",
+      "question_type": "single",
+      "seen_count": 297
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 147,
+        "o_fd1286353570": 150
+      },
+      "option_labels": {
+        "No": 150,
+        "Yes": 147
+      },
+      "question_key": "q_f56acd04bdd6",
+      "question_text": "Can interactions in the app be limited to invited friends only?",
+      "question_type": "single",
+      "seen_count": 297
+    },
+    {
+      "option_keys": {
+        "o_2e8b242e01d7": 142,
+        "o_3db89c02acdd": 123,
+        "o_43fddd2d06b0": 137
+      },
+      "option_labels": {
+        "Cash Convertible Rewards - Cash rewards, real-world items of significant monetary value, convertible cryptocurrency rewards or other play-to-earn mechanics": 137,
+        "Issuance (e.g., minting) of transferable digital assets (e.g., NFTs)": 123,
+        "Purchases of digital goods Learn more": 142
+      },
+      "question_key": "q_e8892e310c69",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 238
+    },
+    {
+      "option_keys": {
+        "o_29d5e55cb847": 150,
+        "o_82040d87d130": 130,
+        "o_c271480e61a2": 120,
+        "o_f8a84c179d62": 135
+      },
+      "option_labels": {
+        "Blood that isn't directly related to a violent act (e.g., blood on clothing, blood in the background, blood resulting from performing surgery)": 120,
+        "Disturbing or gory images without a violent act shown.": 130,
+        "Violence against anything other than humans (e.g., animals, fantasy creatures, robots, vehicles) Learn more": 135,
+        "Violence or implied violence against humans Learn more": 150
+      },
+      "question_key": "q_b2b2aeef52b9",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 235
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 109,
+        "o_fd1286353570": 126
+      },
+      "option_labels": {
+        "No": 126,
+        "Yes": 109
+      },
+      "question_key": "q_d560309b2cbc",
+      "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+      "question_type": "single",
+      "seen_count": 235
+    },
+    {
+      "option_keys": {
+        "o_231d050b6f66": 118,
+        "o_3e8ab29c2948": 141,
+        "o_b256b40deb30": 115,
+        "o_e776c3be6e76": 135
+      },
+      "option_labels": {
+        "Discriminatory language (against race, religion, sex, etc...)": 141,
+        "Minor profanities (e.g., \"go to hell\")": 118,
+        "Moderate swearing or other language or gestures that could be considered moderately or significantly offensive Learn more": 135,
+        "Sexual expletives Learn more": 115
+      },
+      "question_key": "q_946159baef71",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 233
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 115,
+        "o_fd1286353570": 117
+      },
+      "option_labels": {
+        "No": 117,
+        "Yes": 115
+      },
+      "question_key": "q_871b0cf50d10",
+      "question_text": "Can the app contain any potentially offensive language? Please note that this does not refer to user-generated content.",
+      "question_type": "single",
+      "seen_count": 232
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 111,
+        "o_fd1286353570": 121
+      },
+      "option_labels": {
+        "No": 121,
+        "Yes": 111
+      },
+      "question_key": "q_a56e8406d75c",
+      "question_text": "Can the app contain sexual material or nudity (except in a natural or scientific setting)? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews).",
+      "question_type": "single",
+      "seen_count": 232
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 111,
+        "o_fd1286353570": 121
+      },
+      "option_labels": {
+        "No": 121,
+        "Yes": 111
+      },
+      "question_key": "q_ade703578a13",
+      "question_text": "Can the app contain violent material? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews).",
+      "question_type": "single",
+      "seen_count": 232
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 114,
+        "o_fd1286353570": 118
+      },
+      "option_labels": {
+        "No": 118,
+        "Yes": 114
+      },
+      "question_key": "q_fba7766efb10",
+      "question_text": "Can the app contain references to or depictions of illegal or recreational drugs? Content that sellers create as part of the app catalog needs to be considered; however, this question does not refer to user-generated content (e.g., comments and reviews).",
+      "question_type": "single",
+      "seen_count": 232
+    },
+    {
+      "option_keys": {
+        "o_3db89c02acdd": 149,
+        "o_43fddd2d06b0": 148
+      },
+      "option_labels": {
+        "Cash Convertible Rewards - Cash rewards, real-world items of significant monetary value, convertible cryptocurrency rewards or other play-to-earn mechanics": 148,
+        "Issuance (e.g., minting) of transferable digital assets (e.g., NFTs)": 149
+      },
+      "question_key": "q_47e01086a856",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 230
+    },
+    {
+      "option_keys": {
+        "o_52efcb6c3e9a": 117,
+        "o_55db8a624302": 129,
+        "o_70178a609a4b": 105,
+        "o_d7dffac3e64c": 125,
+        "o_f7739c661b0b": 118
+      },
+      "option_labels": {
+        "Alcohol": 117,
+        "Fantasy Drugs Learn more": 125,
+        "Illegal or Recreational Drugs Learn more": 118,
+        "Medical Drugs Learn more": 129,
+        "Tobacco": 105
+      },
+      "question_key": "q_b5a29f481971",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 230
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 120,
+        "o_fd1286353570": 109
+      },
+      "option_labels": {
+        "No": 109,
+        "Yes": 120
+      },
+      "question_key": "q_375f4ae8bd42",
+      "question_text": "Does the app include the ability to report users or user-generated content?",
+      "question_type": "single",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 109,
+        "o_fd1286353570": 120
+      },
+      "option_labels": {
+        "No": 120,
+        "Yes": 109
+      },
+      "question_key": "q_4e285fcb8276",
+      "question_text": "Can interactions in the app be limited to invited friends only?",
+      "question_type": "single",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 113,
+        "o_fd1286353570": 116
+      },
+      "option_labels": {
+        "No": 116,
+        "Yes": 113
+      },
+      "question_key": "q_5b8de61634dc",
+      "question_text": "Does the app include the ability to block users or user-generated content?",
+      "question_type": "single",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 111,
+        "o_fd1286353570": 118
+      },
+      "option_labels": {
+        "No": 118,
+        "Yes": 111
+      },
+      "question_key": "q_5f81c1b2ff38",
+      "question_text": "Does the app include chat moderation?",
+      "question_type": "single",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_11bf9c348c0c": 124,
+        "o_b74eb77ca49c": 117,
+        "o_e461ec7b5e8e": 127,
+        "o_edd10dff58e0": 132
+      },
+      "option_labels": {
+        "Act of human defecation visually depicted": 127,
+        "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting": 132,
+        "Mucus, belching, flatulence sounds": 117,
+        "Urination, urine, realistically depicted feces": 124
+      },
+      "question_key": "q_9146217d2e6e",
+      "question_text": "What bodily functions are used for humorous purposes in the game? Please check all that apply.",
+      "question_type": "multi",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 124,
+        "o_fd1286353570": 105
+      },
+      "option_labels": {
+        "No": 105,
+        "Yes": 124
+      },
+      "question_key": "q_b7e65fe49e89",
+      "question_text": "Is shared, user-generated content the primary source of content in the app?",
+      "question_type": "single",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 110,
+        "o_fd1286353570": 119
+      },
+      "option_labels": {
+        "No": 119,
+        "Yes": 110
+      },
+      "question_key": "q_cadf78f7f22c",
+      "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+      "question_type": "single",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 110,
+        "o_fd1286353570": 119
+      },
+      "option_labels": {
+        "No": 119,
+        "Yes": 110
+      },
+      "question_key": "q_d1e73f127dff",
+      "question_text": "Does the app permit the public sharing of nudity?",
+      "question_type": "single",
+      "seen_count": 229
+    },
+    {
+      "option_keys": {
+        "o_7bbdf7489023": 152,
+        "o_e83235f47702": 153
+      },
+      "option_labels": {
+        "Horrifying elements Learn more": 153,
+        "Scary elements Learn more": 152
+      },
+      "question_key": "q_6bdc905e3f72",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 227
+    },
+    {
+      "option_keys": {
+        "o_0f652d1bae0d": 111,
+        "o_43006c819832": 114,
+        "o_4d379d47d2e4": 121,
+        "o_73fdd1dd5d4c": 120,
+        "o_d79b6cf31c44": 119
+      },
+      "option_labels": {
+        "Dating Games - Interactive dating, marriage, or other romantic relationships between game characters": 120,
+        "Depictions of or References to Sexual Violence": 111,
+        "Nudity or Revealing Outfits": 114,
+        "Sexual Activity - Includes both moving and still images of sexual activity": 119,
+        "Suggestive/Sexual Themes or References": 121
+      },
+      "question_key": "q_297e91b3d442",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 221
+    },
+    {
+      "option_keys": {
+        "o_25a419ba0750": 107,
+        "o_4bc99f9a3d4a": 123,
+        "o_c58ebcdd71c7": 123,
+        "o_e86417bacec9": 122
+      },
+      "option_labels": {
+        "Any other games that use in-game currency/tokens to play and can reward the same currency through gameplay.": 122,
+        "Gambling themes Learn more": 107,
+        "Playable bingo games": 123,
+        "Playable casino games, lotteries, or racetrack betting Learn more": 123
+      },
+      "question_key": "q_a6253f0e3e6b",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 220
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 102,
+        "o_fd1286353570": 111
+      },
+      "option_labels": {
+        "No": 111,
+        "Yes": 102
+      },
+      "question_key": "q_0d48c815fd70",
+      "question_text": "Does the app contain inferences of, references to, or depictions of violence, blood, or gory images?",
+      "question_type": "single",
+      "seen_count": 213
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 113,
+        "o_fd1286353570": 100
+      },
+      "option_labels": {
+        "No": 100,
+        "Yes": 113
+      },
+      "question_key": "q_3e81d7ae3d48",
+      "question_text": "Does the app contain any reference to or use of drugs, alcohol, or tobacco?",
+      "question_type": "single",
+      "seen_count": 213
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 116,
+        "o_fd1286353570": 97
+      },
+      "option_labels": {
+        "No": 97,
+        "Yes": 116
+      },
+      "question_key": "q_642810d6452b",
+      "question_text": "Does the app contain any bodily functions such as belching, flatulence, or vomiting when used for humorous purposes?",
+      "question_type": "single",
+      "seen_count": 213
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 105,
+        "o_fd1286353570": 108
+      },
+      "option_labels": {
+        "No": 108,
+        "Yes": 105
+      },
+      "question_key": "q_8259a2e8d3cc",
+      "question_text": "Does the app contain inferences of, references to, or depictions of sexuality, sexual violence, suggestiveness, revealing attire, or nudity?",
+      "question_type": "single",
+      "seen_count": 213
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 119,
+        "o_fd1286353570": 94
+      },
+      "option_labels": {
+        "No": 94,
+        "Yes": 119
+      },
+      "question_key": "q_89d9afb2922c",
+      "question_text": "Does the app contain gambling, simulations of casino gambling/bingo, or gambling themes?",
+      "question_type": "single",
+      "seen_count": 213
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 113,
+        "o_fd1286353570": 100
+      },
+      "option_labels": {
+        "No": 100,
+        "Yes": 113
+      },
+      "question_key": "q_eb8144f44fff",
+      "question_text": "Does the app contain any potentially offensive language?",
+      "question_type": "single",
+      "seen_count": 213
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 105,
+        "o_fd1286353570": 108
+      },
+      "option_labels": {
+        "No": 108,
+        "Yes": 105
+      },
+      "question_key": "q_f5cfa9d035e8",
+      "question_text": "Does the app contain pictures or sounds likely to be scary or horrifying?",
+      "question_type": "single",
+      "seen_count": 213
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 106,
+        "o_fd1286353570": 106
+      },
+      "option_labels": {
+        "No": 106,
+        "Yes": 106
+      },
+      "question_key": "q_0efb748cf130",
+      "question_text": "Can interactions in the game be limited to invited friends only?",
+      "question_type": "single",
+      "seen_count": 212
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 100,
+        "o_fd1286353570": 112
+      },
+      "option_labels": {
+        "No": 112,
+        "Yes": 100
+      },
+      "question_key": "q_25f720b8fa1b",
+      "question_text": "Does the game include the ability to block users or user-generated content?",
+      "question_type": "single",
+      "seen_count": 212
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 103,
+        "o_fd1286353570": 109
+      },
+      "option_labels": {
+        "No": 109,
+        "Yes": 103
+      },
+      "question_key": "q_5490bceea51a",
+      "question_text": "Does the game include the ability to report users or user-generated content?",
+      "question_type": "single",
+      "seen_count": 212
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 99,
+        "o_fd1286353570": 113
+      },
+      "option_labels": {
+        "No": 113,
+        "Yes": 99
+      },
+      "question_key": "q_d6dca7ba9e52",
+      "question_text": "Does the game include chat moderation?",
+      "question_type": "single",
+      "seen_count": 212
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 99,
+        "o_fd1286353570": 112
+      },
+      "option_labels": {
+        "No": 112,
+        "Yes": 99
+      },
+      "question_key": "q_2a32e81256f9",
+      "question_text": "Does the product focus on promoting alcohol or tobacco?",
+      "question_type": "single",
+      "seen_count": 211
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 105,
+        "o_fd1286353570": 106
+      },
+      "option_labels": {
+        "No": 106,
+        "Yes": 105
+      },
+      "question_key": "q_8d336dde8f27",
+      "question_text": "Does the product focus on any other age-restricted activities or items?",
+      "question_type": "single",
+      "seen_count": 211
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 113,
+        "o_fd1286353570": 96
+      },
+      "option_labels": {
+        "No": 96,
+        "Yes": 113
+      },
+      "question_key": "q_09670428687d",
+      "question_text": "Are there detailed descriptions of techniques that could be used in criminal offenses?",
+      "question_type": "single",
+      "seen_count": 209
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 107,
+        "o_fd1286353570": 102
+      },
+      "option_labels": {
+        "No": 102,
+        "Yes": 107
+      },
+      "question_key": "q_4bc85050df07",
+      "question_text": "Are these crimes or criminal techniques likely to be imitated by children or youths?",
+      "question_type": "single",
+      "seen_count": 209
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 110,
+        "o_fd1286353570": 97
+      },
+      "option_labels": {
+        "No": 97,
+        "Yes": 110
+      },
+      "question_key": "q_6c31394cbc39",
+      "question_text": "Does the app permit the public sharing of nudity?",
+      "question_type": "single",
+      "seen_count": 207
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 110,
+        "o_fd1286353570": 97
+      },
+      "option_labels": {
+        "No": 97,
+        "Yes": 110
+      },
+      "question_key": "q_93e10cb84a82",
+      "question_text": "Does the app permit the public sharing of real-world, graphic violence outside of a newsworthy context?",
+      "question_type": "single",
+      "seen_count": 207
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 98,
+        "o_fd1286353570": 109
+      },
+      "option_labels": {
+        "No": 109,
+        "Yes": 98
+      },
+      "question_key": "q_fa879063695d",
+      "question_text": "Is a significant portion of the app used to connect people for the purposes of dating or sexual relationships or endeavors?",
+      "question_type": "single",
+      "seen_count": 207
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 82,
+        "o_fd1286353570": 80
+      },
+      "option_labels": {
+        "No": 80,
+        "Yes": 82
+      },
+      "question_key": "q_fc1f50d87bd0",
+      "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+      "question_type": "single",
+      "seen_count": 162
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 73,
+        "o_d5e62fc1fc3b": 80
+      },
+      "option_labels": {
+        "Often": 73,
+        "Rare": 80
+      },
+      "question_key": "q_d6a91ad297c0",
+      "question_text": "How frequent are the horrifying elements?",
+      "question_type": "single",
+      "seen_count": 153
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 80,
+        "o_d5e62fc1fc3b": 72
+      },
+      "option_labels": {
+        "Often": 80,
+        "Rare": 72
+      },
+      "question_key": "q_5d84cbf44792",
+      "question_text": "How frequent are the scary elements?",
+      "question_type": "single",
+      "seen_count": 152
+    },
+    {
+      "option_keys": {
+        "o_403b53369d50": 42,
+        "o_48066792d0b7": 57,
+        "o_fd1286353570": 51
+      },
+      "option_labels": {
+        "No": 51,
+        "Yes, it has a childlike style (e.g., likely to appeal to younger children)": 57,
+        "Yes, it has a pixelated style": 42
+      },
+      "question_key": "q_19bccb6df9df",
+      "question_text": "Does the game have a pixelated or childlike style?",
+      "question_type": "single",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 77,
+        "o_fd1286353570": 73
+      },
+      "option_labels": {
+        "No": 73,
+        "Yes": 77
+      },
+      "question_key": "q_4f55609f06a2",
+      "question_text": "Are there any fierce sounds, sinister or intimidating characters, or dark overtones associated with this violence?",
+      "question_type": "single",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_2b6704c96d51": 43,
+        "o_30e65d5cf70d": 55,
+        "o_fd1286353570": 52
+      },
+      "option_labels": {
+        "No": 52,
+        "Yes, with penalties": 43,
+        "Yes, without penalties": 55
+      },
+      "question_key": "q_5878d1fe838a",
+      "question_text": "Can innocent or defenseless characters be seriously injured or killed?",
+      "question_type": "single",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 74,
+        "o_8360c7460295": 76
+      },
+      "option_labels": {
+        "Fantastical": 76,
+        "Realistic": 74
+      },
+      "question_key": "q_606e325700bf",
+      "question_text": "In what kind of setting (context, storyline) does the violence occur?",
+      "question_type": "single",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_71f8e7976e4c": 40,
+        "o_78cd1257c37f": 42,
+        "o_9235afd3e988": 37,
+        "o_d8db8753863a": 31
+      },
+      "option_labels": {
+        "High": 37,
+        "Mild/Limited": 31,
+        "Moderate": 42,
+        "None": 40
+      },
+      "question_key": "q_60e2a7e48c08",
+      "question_text": "What is the level of blood and/or gore associated with this violence?",
+      "question_type": "single",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 73,
+        "o_af3add735134": 77
+      },
+      "option_labels": {
+        "Realistic": 73,
+        "Unrealistic": 77
+      },
+      "question_key": "q_70a34d241d26",
+      "question_text": "How would you describe the reactions to violence?",
+      "question_type": "single",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 74,
+        "o_fd1286353570": 76
+      },
+      "option_labels": {
+        "No": 76,
+        "Yes": 74
+      },
+      "question_key": "q_d2efcdb297ec",
+      "question_text": "Does the game take place in a realistic or historical war setting?",
+      "question_type": "single",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_0c658ff7ad1d": 29,
+        "o_268c9dd8c84b": 58,
+        "o_92731c5f35ea": 64,
+        "o_ac9c5584ad34": 52,
+        "o_f2ec74239bc8": 64,
+        "o_f5af1fb768b5": 60
+      },
+      "option_labels": {
+        "Implied but not seen": 64,
+        "Often depicted from a close-up perspective": 29,
+        "Often depicted from a distant perspective": 64,
+        "Rarely depicted from a close-up perspective": 58,
+        "Rarely depicted from a distant perspective": 52,
+        "Referred to": 60
+      },
+      "question_key": "q_d46377cd7525",
+      "question_text": "How is this violence presented in the game?",
+      "question_type": "multi",
+      "seen_count": 150
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 71,
+        "o_fd1286353570": 78
+      },
+      "option_labels": {
+        "No": 78,
+        "Yes": 71
+      },
+      "question_key": "q_297605efc821",
+      "question_text": "Does the app contain an integrated marketplace for these assets or promote/feature a particular marketplace for these assets?",
+      "question_type": "single",
+      "seen_count": 149
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 72,
+        "o_fd1286353570": 77
+      },
+      "option_labels": {
+        "No": 77,
+        "Yes": 72
+      },
+      "question_key": "q_5fa8a4813a6d",
+      "question_text": "Is the issuance of these digital assets a significant or promoted aspect of the product?",
+      "question_type": "single",
+      "seen_count": 149
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 64,
+        "o_fd1286353570": 85
+      },
+      "option_labels": {
+        "No": 85,
+        "Yes": 64
+      },
+      "question_key": "q_f773d3f19b25",
+      "question_text": "Does the app include the ability or requirement to make any purchases related to the issuance or earning of these digital assets?",
+      "question_type": "single",
+      "seen_count": 149
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 81,
+        "o_fd1286353570": 67
+      },
+      "option_labels": {
+        "No": 67,
+        "Yes": 81
+      },
+      "question_key": "q_5bb78bce43a4",
+      "question_text": "Does the app include the ability or requirement to wager, purchase entrance fees, additional chances to win, or any other purchases potentially related to winning cash payouts or rewards of significant monetary value?",
+      "question_type": "single",
+      "seen_count": 148
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 72,
+        "o_fd1286353570": 70
+      },
+      "option_labels": {
+        "No": 70,
+        "Yes": 72
+      },
+      "question_key": "q_587428cb4ee9",
+      "question_text": "Does the game have a system for players to trade items with each other using real money or in-game currency purchased with real money? (e.g. auction house, item exchange)",
+      "question_type": "single",
+      "seen_count": 142
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 80,
+        "o_fd1286353570": 62
+      },
+      "option_labels": {
+        "No": 62,
+        "Yes": 80
+      },
+      "question_key": "q_6c9ee501b527",
+      "question_text": "Can these purchases include random items where the purchaser doesn't know what specific items or features they will receive (e.g., loot boxes), the purchase of items that will be used to create or unlock an unknown item or feature (e.g., a key to unlock a loot box, material used to craft a random item), items that can improve the rate of earning random items (e.g., random drop boosts), or any other chance-based purchases?",
+      "question_type": "single",
+      "seen_count": 142
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 64,
+        "o_bc87c943c94f": 77
+      },
+      "option_labels": {
+        "Often": 64,
+        "Rarely": 77
+      },
+      "question_key": "q_eda59c8a1481",
+      "question_text": "How frequently does discriminatory language occur?",
+      "question_type": "single",
+      "seen_count": 141
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 73,
+        "o_fd1286353570": 64
+      },
+      "option_labels": {
+        "No": 64,
+        "Yes": 73
+      },
+      "question_key": "q_d220e4d74328",
+      "question_text": "Does the game include the ability or requirement to wager, purchase entrance fees, additional chances to win, boosts, or any other purchases potentially related to earning or winning cash rewards or rewards of significant monetary value?",
+      "question_type": "single",
+      "seen_count": 137
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 64,
+        "o_fd1286353570": 71
+      },
+      "option_labels": {
+        "No": 71,
+        "Yes": 64
+      },
+      "question_key": "q_3441afd60687",
+      "question_text": "Do any of these creatures behave or respond like humans?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 83,
+        "o_fd1286353570": 52
+      },
+      "option_labels": {
+        "No": 52,
+        "Yes": 83
+      },
+      "question_key": "q_48e460900d50",
+      "question_text": "Does the game have a pixelated or childlike style?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 73,
+        "o_fd1286353570": 62
+      },
+      "option_labels": {
+        "No": 62,
+        "Yes": 73
+      },
+      "question_key": "q_5427a95baf9a",
+      "question_text": "Is any of this violence against real-world animals?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 73,
+        "o_bc87c943c94f": 62
+      },
+      "option_labels": {
+        "Often": 73,
+        "Rarely": 62
+      },
+      "question_key": "q_571d6ca06be6",
+      "question_text": "How frequently does moderate swearing occur?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_0c658ff7ad1d": 63,
+        "o_268c9dd8c84b": 69,
+        "o_92731c5f35ea": 75,
+        "o_ac9c5584ad34": 69,
+        "o_f5af1fb768b5": 63
+      },
+      "option_labels": {
+        "Often depicted from a close-up perspective": 63,
+        "Often depicted from a distant perspective": 75,
+        "Rarely depicted from a close-up perspective": 69,
+        "Rarely depicted from a distant perspective": 69,
+        "Referred to": 63
+      },
+      "question_key": "q_7dbd7f3e394c",
+      "question_text": "How is this violence presented in the game?",
+      "question_type": "multi",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_71f8e7976e4c": 37,
+        "o_78cd1257c37f": 36,
+        "o_9235afd3e988": 34,
+        "o_d8db8753863a": 28
+      },
+      "option_labels": {
+        "High": 34,
+        "Mild/Limited": 28,
+        "Moderate": 36,
+        "None": 37
+      },
+      "question_key": "q_8c3a01a0db0a",
+      "question_text": "What is the level of blood and/or gore associated with this violence?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 64,
+        "o_af3add735134": 71
+      },
+      "option_labels": {
+        "Realistic": 64,
+        "Unrealistic": 71
+      },
+      "question_key": "q_8df7505e13e7",
+      "question_text": "How would you describe the reactions to violence?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 64,
+        "o_8360c7460295": 71
+      },
+      "option_labels": {
+        "Fantastical": 71,
+        "Realistic": 64
+      },
+      "question_key": "q_c3e4fa94aaf4",
+      "question_text": "In what kind of setting (context, storyline) does the violence occur?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 68,
+        "o_fd1286353570": 67
+      },
+      "option_labels": {
+        "No": 67,
+        "Yes": 68
+      },
+      "question_key": "q_cdc64b3b4d46",
+      "question_text": "Are there any fierce sounds, sinister or intimidating characters, or dark overtones associated with this violence?",
+      "question_type": "single",
+      "seen_count": 135
+    },
+    {
+      "option_keys": {
+        "o_321223e00a52": 52,
+        "o_5f4468d31d23": 36,
+        "o_6c8ef246506c": 42
+      },
+      "option_labels": {
+        "Graphic Detail": 42,
+        "Limited Detail": 52,
+        "Moderate Detail": 36
+      },
+      "question_key": "q_ba1ff35ebd9a",
+      "question_text": "How explicitly depicted are these disturbing or gory images?",
+      "question_type": "single",
+      "seen_count": 130
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 80,
+        "o_04489a12bbaa": 75,
+        "o_cacd1b247363": 70
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 70,
+        "Reference": 80,
+        "Use": 75
+      },
+      "question_key": "q_6d8c1eced276",
+      "question_text": "Medical Drugs",
+      "question_type": "multi",
+      "seen_count": 129
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 65,
+        "o_bc87c943c94f": 64
+      },
+      "option_labels": {
+        "Often": 65,
+        "Rarely": 64
+      },
+      "question_key": "q_fc3b6001bc0f",
+      "question_text": "How frequently do medical drugs occur?",
+      "question_type": "single",
+      "seen_count": 129
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 71,
+        "o_04489a12bbaa": 71,
+        "o_cacd1b247363": 73
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 73,
+        "Reference": 71,
+        "Use": 71
+      },
+      "question_key": "q_311fb1823e38",
+      "question_text": "Fantasy Drugs",
+      "question_type": "multi",
+      "seen_count": 125
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 59,
+        "o_bc87c943c94f": 66
+      },
+      "option_labels": {
+        "Often": 59,
+        "Rarely": 66
+      },
+      "question_key": "q_d7e62c042b49",
+      "question_text": "How frequently do fantasy drugs occur?",
+      "question_type": "single",
+      "seen_count": 125
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 62,
+        "o_fd1286353570": 61
+      },
+      "option_labels": {
+        "No": 61,
+        "Yes": 62
+      },
+      "question_key": "q_a25499512447",
+      "question_text": "Can playing these bingo games reward cash payouts or rewards of significant monetary value?",
+      "question_type": "single",
+      "seen_count": 123
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 55,
+        "o_fd1286353570": 68
+      },
+      "option_labels": {
+        "No": 68,
+        "Yes": 55
+      },
+      "question_key": "q_bae124b0ebd8",
+      "question_text": "Is the issuance of these digital assets a significant or promoted aspect of the product?",
+      "question_type": "single",
+      "seen_count": 123
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 70,
+        "o_fd1286353570": 53
+      },
+      "option_labels": {
+        "No": 53,
+        "Yes": 70
+      },
+      "question_key": "q_e3591aef7dfb",
+      "question_text": "Can playing these casino games, lotteries, or racetrack betting games reward cash payouts or rewards of significant monetary value?",
+      "question_type": "single",
+      "seen_count": 123
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 58,
+        "o_fd1286353570": 65
+      },
+      "option_labels": {
+        "No": 65,
+        "Yes": 58
+      },
+      "question_key": "q_e48c566abebb",
+      "question_text": "Does the game include the ability or requirement to make any purchases related to the issuance or earning of these digital assets?",
+      "question_type": "single",
+      "seen_count": 123
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 59,
+        "o_fd1286353570": 64
+      },
+      "option_labels": {
+        "No": 64,
+        "Yes": 59
+      },
+      "question_key": "q_ff72a434448c",
+      "question_text": "Does the game contain an integrated marketplace for these assets or promote/feature a particular marketplace for these assets?",
+      "question_type": "single",
+      "seen_count": 123
+    },
+    {
+      "option_keys": {
+        "o_1486ca8f8fe2": 57,
+        "o_2ac6cba022f8": 73,
+        "o_807c7c56865f": 64,
+        "o_8360d0a0e4c1": 63,
+        "o_aeb1a91252e8": 68
+      },
+      "option_labels": {
+        "Overtly sexual situations or visually depicted innuendo Learn more": 68,
+        "References to sexual activity with descriptive detail Learn more": 57,
+        "References to sexual activity without descriptive detail Learn more": 73,
+        "Sexual situations involving those who appear to be under 18 Learn more": 63,
+        "Suggestive references and innuendo in text, dialogue, or heard Learn more": 64
+      },
+      "question_key": "q_3d60db1bc20c",
+      "question_text": "How would you describe the suggestive/sexual themes contained in the game? Please check all that apply.",
+      "question_type": "multi",
+      "seen_count": 121
+    },
+    {
+      "option_keys": {
+        "o_38ed35299d7d": 58,
+        "o_feb3c220a6e4": 62
+      },
+      "option_labels": {
+        "Large or frequent": 58,
+        "Small and infrequent": 62
+      },
+      "question_key": "q_1648e15447c2",
+      "question_text": "What best describes this type of blood in the game:",
+      "question_type": "single",
+      "seen_count": 120
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 52,
+        "o_fd1286353570": 68
+      },
+      "option_labels": {
+        "No": 68,
+        "Yes": 52
+      },
+      "question_key": "q_c9a6ea9fad32",
+      "question_text": "Are these dating games prominently featured or a strong focus of the product?",
+      "question_type": "single",
+      "seen_count": 120
+    },
+    {
+      "option_keys": {
+        "o_25a419ba0750": 55,
+        "o_4bc99f9a3d4a": 65,
+        "o_c1d845e30968": 74,
+        "o_c58ebcdd71c7": 60
+      },
+      "option_labels": {
+        "Any other games that use in-app currency/tokens to play and can reward the same currency through gameplay.": 74,
+        "Gambling themes Learn more": 55,
+        "Playable bingo games": 65,
+        "Playable casino games, lotteries, or racetrack betting Learn more": 60
+      },
+      "question_key": "q_0cf988b907b0",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 119
+    },
+    {
+      "option_keys": {
+        "o_1c70ea48eec5": 58,
+        "o_7057ec584b69": 62,
+        "o_a7e75b943dc1": 58,
+        "o_c5a82441e174": 70
+      },
+      "option_labels": {
+        "Obscured/Innuendo - Sex act is either entirely off-camera or completely blocked from view": 58,
+        "Shown with Full Frontal Nudity": 70,
+        "Shown with No Nudity - Characters are depicted in a sexual act but no nudity is shown": 62,
+        "Shown with Partial Nudity - Breasts, Buttocks": 58
+      },
+      "question_key": "q_11782ad02d56",
+      "question_text": "How would you describe the depiction of these scenes? Please check all that apply.",
+      "question_type": "multi",
+      "seen_count": 119
+    },
+    {
+      "option_keys": {
+        "o_5555c50ab1e4": 67,
+        "o_57c8ddb090f6": 52
+      },
+      "option_labels": {
+        "Brief": 52,
+        "Prolonged": 67
+      },
+      "question_key": "q_2bbfd1bf47f4",
+      "question_text": "What is the duration of these scenes?",
+      "question_type": "single",
+      "seen_count": 119
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 55,
+        "o_bc87c943c94f": 64
+      },
+      "option_labels": {
+        "Often": 55,
+        "Rarely": 64
+      },
+      "question_key": "q_c1f9ab14fc34",
+      "question_text": "How often do sexual acts occur?",
+      "question_type": "single",
+      "seen_count": 119
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 58,
+        "o_fd1286353570": 61
+      },
+      "option_labels": {
+        "No": 61,
+        "Yes": 58
+      },
+      "question_key": "q_d03579032af9",
+      "question_text": "Do any of these sex acts feature characters that appear to be younger than 18?",
+      "question_type": "single",
+      "seen_count": 119
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 64,
+        "o_bc87c943c94f": 54
+      },
+      "option_labels": {
+        "Often": 64,
+        "Rarely": 54
+      },
+      "question_key": "q_323a8eac0485",
+      "question_text": "How frequently do minor profanities occur?",
+      "question_type": "single",
+      "seen_count": 118
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 54,
+        "o_04489a12bbaa": 68,
+        "o_6698299830d0": 75,
+        "o_cacd1b247363": 63
+      },
+      "option_labels": {
+        "Detailed Instruction for Use": 75,
+        "Encourages/Glamorizes": 63,
+        "Reference": 54,
+        "Use": 68
+      },
+      "question_key": "q_f1b39181e7b2",
+      "question_text": "Illegal or Recreational Drugs",
+      "question_type": "multi",
+      "seen_count": 118
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 54,
+        "o_bc87c943c94f": 63
+      },
+      "option_labels": {
+        "Often": 54,
+        "Rarely": 63
+      },
+      "question_key": "q_4f8b66a453da",
+      "question_text": "How frequently does this alcohol content occur?",
+      "question_type": "single",
+      "seen_count": 117
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 65,
+        "o_04489a12bbaa": 75,
+        "o_cacd1b247363": 64
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 64,
+        "Reference": 65,
+        "Use": 75
+      },
+      "question_key": "q_86690295e0c8",
+      "question_text": "Alcohol",
+      "question_type": "multi",
+      "seen_count": 117
+    },
+    {
+      "option_keys": {
+        "o_11bf9c348c0c": 69,
+        "o_b74eb77ca49c": 52,
+        "o_e461ec7b5e8e": 68,
+        "o_edd10dff58e0": 54
+      },
+      "option_labels": {
+        "Act of human defecation visually depicted": 68,
+        "Flatulence (with depiction of \"flatulence cloud\"), whimsical depictions of feces (\"poo coils\"), vomiting": 54,
+        "Mucus, belching, flatulence sounds": 52,
+        "Urination, urine, realistically depicted feces": 69
+      },
+      "question_key": "q_fc2c78fd7069",
+      "question_text": "What bodily functions are used for humorous purposes in the app? Please check all that apply.",
+      "question_type": "multi",
+      "seen_count": 116
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 51,
+        "o_fd1286353570": 64
+      },
+      "option_labels": {
+        "No": 64,
+        "Yes": 51
+      },
+      "question_key": "q_3116aa449503",
+      "question_text": "Is this content the focus of the app?",
+      "question_type": "single",
+      "seen_count": 115
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 55,
+        "o_fd1286353570": 60
+      },
+      "option_labels": {
+        "No": 60,
+        "Yes": 55
+      },
+      "question_key": "q_4b87e38cf355",
+      "question_text": "Can the app contain discriminatory language?",
+      "question_type": "single",
+      "seen_count": 115
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 55,
+        "o_fd1286353570": 60
+      },
+      "option_labels": {
+        "No": 60,
+        "Yes": 55
+      },
+      "question_key": "q_74094f46a402",
+      "question_text": "Can the app contain moderate swearing or other language that could be considered moderately or significantly offensive?",
+      "question_type": "single",
+      "seen_count": 115
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 59,
+        "o_fd1286353570": 56
+      },
+      "option_labels": {
+        "No": 56,
+        "Yes": 59
+      },
+      "question_key": "q_a8715c5ee8bf",
+      "question_text": "Can the app contain sexual expletives?",
+      "question_type": "single",
+      "seen_count": 115
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 57,
+        "o_fd1286353570": 58
+      },
+      "option_labels": {
+        "No": 58,
+        "Yes": 57
+      },
+      "question_key": "q_a99b97727a68",
+      "question_text": "Can the app contain minor profanities (e.g., \"go to hell\")?",
+      "question_type": "single",
+      "seen_count": 115
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 62,
+        "o_bc87c943c94f": 53
+      },
+      "option_labels": {
+        "Often": 62,
+        "Rarely": 53
+      },
+      "question_key": "q_e1a4860ee224",
+      "question_text": "How frequently do sexual expletives occur?",
+      "question_type": "single",
+      "seen_count": 115
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 61,
+        "o_fd1286353570": 53
+      },
+      "option_labels": {
+        "No": 53,
+        "Yes": 61
+      },
+      "question_key": "q_37593604faab",
+      "question_text": "Can illegal or recreational drugs be referred to through text or spoken about?",
+      "question_type": "single",
+      "seen_count": 114
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 58,
+        "o_fd1286353570": 56
+      },
+      "option_labels": {
+        "No": 56,
+        "Yes": 58
+      },
+      "question_key": "q_55327882e80f",
+      "question_text": "Is this content the focus of the app?",
+      "question_type": "single",
+      "seen_count": 114
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 56,
+        "o_fd1286353570": 58
+      },
+      "option_labels": {
+        "No": 58,
+        "Yes": 56
+      },
+      "question_key": "q_b23d1d969526",
+      "question_text": "Can this app contain visual depictions of illegal or recreational drugs?",
+      "question_type": "single",
+      "seen_count": 114
+    },
+    {
+      "option_keys": {
+        "o_b187401b73c7": 69,
+        "o_e4819bc11867": 82
+      },
+      "option_labels": {
+        "Nudity": 82,
+        "Revealing Outfits": 69
+      },
+      "question_key": "q_cd2a6148faca",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 114
+    },
+    {
+      "option_keys": {
+        "o_52efcb6c3e9a": 61,
+        "o_55db8a624302": 54,
+        "o_70178a609a4b": 67,
+        "o_d7dffac3e64c": 72,
+        "o_f7739c661b0b": 57
+      },
+      "option_labels": {
+        "Alcohol": 61,
+        "Fantasy Drugs Learn more": 72,
+        "Illegal or Recreational Drugs Learn more": 57,
+        "Medical Drugs Learn more": 54,
+        "Tobacco": 67
+      },
+      "question_key": "q_d5ff540a9999",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 113
+    },
+    {
+      "option_keys": {
+        "o_231d050b6f66": 57,
+        "o_3e8ab29c2948": 59,
+        "o_b256b40deb30": 62,
+        "o_e776c3be6e76": 70
+      },
+      "option_labels": {
+        "Discriminatory language (against race, religion, sex, etc...)": 59,
+        "Minor profanities (e.g., \"go to hell\")": 57,
+        "Moderate swearing or other language or gestures that could be considered moderately or significantly offensive Learn more": 70,
+        "Sexual expletives Learn more": 62
+      },
+      "question_key": "q_f5e28775c7d4",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 113
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 52,
+        "o_fd1286353570": 59
+      },
+      "option_labels": {
+        "No": 59,
+        "Yes": 52
+      },
+      "question_key": "q_1790c1a1258b",
+      "question_text": "Can this violent material be referred to through text or spoken about?",
+      "question_type": "single",
+      "seen_count": 111
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 61,
+        "o_fd1286353570": 50
+      },
+      "option_labels": {
+        "No": 50,
+        "Yes": 61
+      },
+      "question_key": "q_2a611dd5cdf3",
+      "question_text": "Can this violent material be visually depicted?",
+      "question_type": "single",
+      "seen_count": 111
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 56,
+        "o_fd1286353570": 55
+      },
+      "option_labels": {
+        "No": 55,
+        "Yes": 56
+      },
+      "question_key": "q_4bacc7e2ec48",
+      "question_text": "Can this sexual material be referred to through text or spoken about?",
+      "question_type": "single",
+      "seen_count": 111
+    },
+    {
+      "option_keys": {
+        "o_c9f5c4ce3941": 53,
+        "o_f9a0feec2bf7": 58
+      },
+      "option_labels": {
+        "Referred to only": 53,
+        "Visually depicted": 58
+      },
+      "question_key": "q_506c9723d214",
+      "question_text": "How is the sexual violence in the game presented?",
+      "question_type": "single",
+      "seen_count": 111
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 54,
+        "o_fd1286353570": 57
+      },
+      "option_labels": {
+        "No": 57,
+        "Yes": 54
+      },
+      "question_key": "q_7727cbeee44b",
+      "question_text": "Is accessing this material the primary purpose of the app?",
+      "question_type": "single",
+      "seen_count": 111
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 63,
+        "o_fd1286353570": 48
+      },
+      "option_labels": {
+        "No": 48,
+        "Yes": 63
+      },
+      "question_key": "q_7e3c719bbc27",
+      "question_text": "Can this sexual material be visually depicted?",
+      "question_type": "single",
+      "seen_count": 111
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 60,
+        "o_fd1286353570": 51
+      },
+      "option_labels": {
+        "No": 51,
+        "Yes": 60
+      },
+      "question_key": "q_d3bf243f60df",
+      "question_text": "Is accessing this material the primary purpose of the app?",
+      "question_type": "single",
+      "seen_count": 111
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 66,
+        "o_fd1286353570": 44
+      },
+      "option_labels": {
+        "No": 44,
+        "Yes": 66
+      },
+      "question_key": "q_077c2b7ce4bb",
+      "question_text": "Is this the primary focus of the app?",
+      "question_type": "single",
+      "seen_count": 110
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 72,
+        "o_fd1286353570": 38
+      },
+      "option_labels": {
+        "No": 38,
+        "Yes": 72
+      },
+      "question_key": "q_a4d0a299c5a1",
+      "question_text": "Is this the primary focus of the app?",
+      "question_type": "single",
+      "seen_count": 110
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 52,
+        "o_fd1286353570": 55
+      },
+      "option_labels": {
+        "No": 55,
+        "Yes": 52
+      },
+      "question_key": "q_0ce68b31ce40",
+      "question_text": "Are these gambling themes prominently featured or a strong focus of the product?",
+      "question_type": "single",
+      "seen_count": 107
+    },
+    {
+      "option_keys": {
+        "o_7bbdf7489023": 74,
+        "o_e83235f47702": 67
+      },
+      "option_labels": {
+        "Horrifying elements Learn more": 67,
+        "Scary elements Learn more": 74
+      },
+      "question_key": "q_498cc903ba4e",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 105
+    },
+    {
+      "option_keys": {
+        "o_0f652d1bae0d": 57,
+        "o_43006c819832": 55,
+        "o_4d379d47d2e4": 64,
+        "o_d79b6cf31c44": 60
+      },
+      "option_labels": {
+        "Depictions of or References to Sexual Violence": 57,
+        "Nudity or Revealing Outfits": 55,
+        "Sexual Activity - Includes both moving and still images of sexual activity": 60,
+        "Suggestive/Sexual Themes or References": 64
+      },
+      "question_key": "q_56658aa840a5",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 105
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 63,
+        "o_04489a12bbaa": 60,
+        "o_cacd1b247363": 63
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 63,
+        "Reference": 63,
+        "Use": 60
+      },
+      "question_key": "q_99cec7a673ee",
+      "question_text": "Tobacco",
+      "question_type": "multi",
+      "seen_count": 105
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 52,
+        "o_bc87c943c94f": 53
+      },
+      "option_labels": {
+        "Often": 52,
+        "Rarely": 53
+      },
+      "question_key": "q_bd07da3d536f",
+      "question_text": "How frequently does this tobacco content occur?",
+      "question_type": "single",
+      "seen_count": 105
+    },
+    {
+      "option_keys": {
+        "o_29d5e55cb847": 58,
+        "o_82040d87d130": 56,
+        "o_c271480e61a2": 58,
+        "o_f8a84c179d62": 59
+      },
+      "option_labels": {
+        "Blood that isn't directly related to a violent act (e.g., blood on clothing, blood in the background, blood resulting from performing surgery)": 58,
+        "Disturbing or gory images without a violent act shown.": 56,
+        "Violence against anything other than humans (e.g., animals, fantasy creatures, robots, vehicles) Learn more": 59,
+        "Violence or implied violence against humans Learn more": 58
+      },
+      "question_key": "q_e5948a02abe2",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 102
+    },
+    {
+      "option_keys": {
+        "o_348c65f68950": 46,
+        "o_7b0eccb837f6": 40,
+        "o_91f2dc1c160c": 46,
+        "o_c455d2c00759": 33,
+        "o_e4387fc6f4f6": 40
+      },
+      "option_labels": {
+        "Female Fantasy Creatures' Breasts, e.g., harpies": 40,
+        "Female Human Breasts with Nipples": 33,
+        "Genitalia": 46,
+        "Human Buttocks": 46,
+        "Nipple-less Breasts or Breasts with Minimal Coverage, e.g., pasties, long hair": 40
+      },
+      "question_key": "q_3379a9b4dd9a",
+      "question_text": "Please select all that the game includes:",
+      "question_type": "multi",
+      "seen_count": 82
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 42,
+        "o_fd1286353570": 40
+      },
+      "option_labels": {
+        "No": 40,
+        "Yes": 42
+      },
+      "question_key": "q_c177a0bc080e",
+      "question_text": "Is any of this content in an erotic, provocative setting or context?",
+      "question_type": "single",
+      "seen_count": 82
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 33,
+        "o_fd1286353570": 42
+      },
+      "option_labels": {
+        "No": 42,
+        "Yes": 33
+      },
+      "question_key": "q_91b1d54ca250",
+      "question_text": "Can the player ever use alcohol in a first-person perspective?",
+      "question_type": "single",
+      "seen_count": 75
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 34,
+        "o_d5e62fc1fc3b": 40
+      },
+      "option_labels": {
+        "Often": 34,
+        "Rare": 40
+      },
+      "question_key": "q_81f68ae1d6ed",
+      "question_text": "How frequent are the scary elements?",
+      "question_type": "single",
+      "seen_count": 74
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 28,
+        "o_fd1286353570": 45
+      },
+      "option_labels": {
+        "No": 45,
+        "Yes": 28
+      },
+      "question_key": "q_cc70c8c906bc",
+      "question_text": "Is there an intense and unrelenting sense of imminent threat?",
+      "question_type": "single",
+      "seen_count": 73
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 36,
+        "o_bc87c943c94f": 36
+      },
+      "option_labels": {
+        "Often": 36,
+        "Rarely": 36
+      },
+      "question_key": "q_2a4c4852adcf",
+      "question_text": "How frequently do fantasy drugs occur?",
+      "question_type": "single",
+      "seen_count": 72
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 48,
+        "o_04489a12bbaa": 43,
+        "o_cacd1b247363": 37
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 37,
+        "Reference": 48,
+        "Use": 43
+      },
+      "question_key": "q_505983803242",
+      "question_text": "Fantasy Drugs",
+      "question_type": "multi",
+      "seen_count": 72
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 32,
+        "o_fd1286353570": 38
+      },
+      "option_labels": {
+        "No": 38,
+        "Yes": 32
+      },
+      "question_key": "q_cf2004280481",
+      "question_text": "Does the game include the ability or requirement to wager, purchase entrance fees, additional chances to win, or any other purchases potentially related to winning cash payouts or rewards of significant monetary value from these casino games, lotteries, or racetrack betting games?",
+      "question_type": "single",
+      "seen_count": 70
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 40,
+        "o_bc87c943c94f": 30
+      },
+      "option_labels": {
+        "Often": 40,
+        "Rarely": 30
+      },
+      "question_key": "q_edeb592e74ee",
+      "question_text": "How frequently does moderate swearing occur?",
+      "question_type": "single",
+      "seen_count": 70
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 31,
+        "o_bc87c943c94f": 38
+      },
+      "option_labels": {
+        "Often": 31,
+        "Rarely": 38
+      },
+      "question_key": "q_262cab9814d0",
+      "question_text": "How frequently are revealing outfits depicted?",
+      "question_type": "single",
+      "seen_count": 69
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 32,
+        "o_fd1286353570": 37
+      },
+      "option_labels": {
+        "No": 37,
+        "Yes": 32
+      },
+      "question_key": "q_9e7cbd57e183",
+      "question_text": "Do these outfits ever appear to be out-of-place, such as a bikini worn on the battlefield or solely wearing undergarments in public?",
+      "question_type": "single",
+      "seen_count": 69
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 35,
+        "o_fd1286353570": 34
+      },
+      "option_labels": {
+        "No": 34,
+        "Yes": 35
+      },
+      "question_key": "q_de1a1aa77b7a",
+      "question_text": "Are these revealing outfits ever depicted in an erotic or provocative setting or context?",
+      "question_type": "single",
+      "seen_count": 69
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 36,
+        "o_fd1286353570": 32
+      },
+      "option_labels": {
+        "No": 32,
+        "Yes": 36
+      },
+      "question_key": "q_4f082bfa2fb0",
+      "question_text": "Is the use of illegal or recreational drugs interactive?",
+      "question_type": "single",
+      "seen_count": 68
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 32,
+        "o_fd1286353570": 36
+      },
+      "option_labels": {
+        "No": 36,
+        "Yes": 32
+      },
+      "question_key": "q_edc9f25eba08",
+      "question_text": "Is the use of illegal or recreational drugs related to incentives or rewards?",
+      "question_type": "single",
+      "seen_count": 68
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 29,
+        "o_bc87c943c94f": 38
+      },
+      "option_labels": {
+        "Often": 29,
+        "Rarely": 38
+      },
+      "question_key": "q_2499ac316d93",
+      "question_text": "How frequently does this tobacco content occur?",
+      "question_type": "single",
+      "seen_count": 67
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 38,
+        "o_d5e62fc1fc3b": 29
+      },
+      "option_labels": {
+        "Often": 38,
+        "Rare": 29
+      },
+      "question_key": "q_5eeb91f6cf06",
+      "question_text": "How frequent are the horrifying elements?",
+      "question_type": "single",
+      "seen_count": 67
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 34,
+        "o_04489a12bbaa": 40,
+        "o_cacd1b247363": 40
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 40,
+        "Reference": 34,
+        "Use": 40
+      },
+      "question_key": "q_69b2c415552c",
+      "question_text": "Tobacco",
+      "question_type": "multi",
+      "seen_count": 67
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 29,
+        "o_fd1286353570": 36
+      },
+      "option_labels": {
+        "No": 36,
+        "Yes": 29
+      },
+      "question_key": "q_186ccba62849",
+      "question_text": "Can playing these bingo games reward cash payouts or rewards of significant monetary value?",
+      "question_type": "single",
+      "seen_count": 65
+    },
+    {
+      "option_keys": {
+        "o_1486ca8f8fe2": 27,
+        "o_2ac6cba022f8": 27,
+        "o_807c7c56865f": 37,
+        "o_8360d0a0e4c1": 37,
+        "o_aeb1a91252e8": 35
+      },
+      "option_labels": {
+        "Overtly sexual situations or visually depicted innuendo Learn more": 35,
+        "References to sexual activity with descriptive detail Learn more": 27,
+        "References to sexual activity without descriptive detail Learn more": 27,
+        "Sexual situations involving those who appear to be under 18 Learn more": 37,
+        "Suggestive references and innuendo in text, dialogue, or heard Learn more": 37
+      },
+      "question_key": "q_3a9c14555242",
+      "question_text": "How would you describe the suggestive/sexual themes contained in the app? Please check all that apply.",
+      "question_type": "multi",
+      "seen_count": 64
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 32,
+        "o_fd1286353570": 31
+      },
+      "option_labels": {
+        "No": 31,
+        "Yes": 32
+      },
+      "question_key": "q_2ef22d101f0f",
+      "question_text": "Can these sexual images depict nudity?",
+      "question_type": "single",
+      "seen_count": 63
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 37,
+        "o_fd1286353570": 26
+      },
+      "option_labels": {
+        "No": 26,
+        "Yes": 37
+      },
+      "question_key": "q_e3fc3acc2c69",
+      "question_text": "Can these sexual images be pornographic?",
+      "question_type": "single",
+      "seen_count": 63
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 28,
+        "o_fd1286353570": 34
+      },
+      "option_labels": {
+        "No": 34,
+        "Yes": 28
+      },
+      "question_key": "q_4f004817384e",
+      "question_text": "Does the game include the ability or requirement to wager, purchase entrance fees, additional chances to win, or any other purchases potentially related to winning cash payouts or rewards of significant monetary value from these bingo games?",
+      "question_type": "single",
+      "seen_count": 62
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 27,
+        "o_bc87c943c94f": 35
+      },
+      "option_labels": {
+        "Often": 27,
+        "Rarely": 35
+      },
+      "question_key": "q_db0108c0bc2e",
+      "question_text": "How frequently do sexual expletives occur?",
+      "question_type": "single",
+      "seen_count": 62
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 30,
+        "o_fd1286353570": 31
+      },
+      "option_labels": {
+        "No": 31,
+        "Yes": 30
+      },
+      "question_key": "q_12d7b1d2969c",
+      "question_text": "Can these violent images be gross or gory?",
+      "question_type": "single",
+      "seen_count": 61
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 37,
+        "o_04489a12bbaa": 29,
+        "o_cacd1b247363": 35
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 35,
+        "Reference": 37,
+        "Use": 29
+      },
+      "question_key": "q_47263db9beef",
+      "question_text": "Alcohol",
+      "question_type": "multi",
+      "seen_count": 61
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 36,
+        "o_bc87c943c94f": 25
+      },
+      "option_labels": {
+        "Often": 36,
+        "Rarely": 25
+      },
+      "question_key": "q_47cfbfaa2128",
+      "question_text": "How frequently does this alcohol content occur?",
+      "question_type": "single",
+      "seen_count": 61
+    },
+    {
+      "option_keys": {
+        "o_1c70ea48eec5": 29,
+        "o_7057ec584b69": 33,
+        "o_a7e75b943dc1": 29,
+        "o_c5a82441e174": 30
+      },
+      "option_labels": {
+        "Obscured/Innuendo - Sex act is either entirely off-camera or completely blocked from view": 29,
+        "Shown with Full Frontal Nudity": 30,
+        "Shown with No Nudity - Characters are depicted in a sexual act but no nudity is shown": 33,
+        "Shown with Partial Nudity - Breasts, Buttocks": 29
+      },
+      "question_key": "q_3cb59da3a559",
+      "question_text": "How would you describe the depiction of these scenes? Please check all that apply.",
+      "question_type": "multi",
+      "seen_count": 60
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 28,
+        "o_bc87c943c94f": 32
+      },
+      "option_labels": {
+        "Often": 28,
+        "Rarely": 32
+      },
+      "question_key": "q_5cbb769d1fc8",
+      "question_text": "How often do sexual acts occur?",
+      "question_type": "single",
+      "seen_count": 60
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 33,
+        "o_fd1286353570": 27
+      },
+      "option_labels": {
+        "No": 27,
+        "Yes": 33
+      },
+      "question_key": "q_b9b891f452f8",
+      "question_text": "Can the player ever use tobacco in a first-person perspective?",
+      "question_type": "single",
+      "seen_count": 60
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 29,
+        "o_fd1286353570": 31
+      },
+      "option_labels": {
+        "No": 31,
+        "Yes": 29
+      },
+      "question_key": "q_ef7e523ad5c3",
+      "question_text": "Can playing these casino games, lotteries, or racetrack betting games reward cash payouts or rewards of significant monetary value?",
+      "question_type": "single",
+      "seen_count": 60
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 28,
+        "o_fd1286353570": 32
+      },
+      "option_labels": {
+        "No": 32,
+        "Yes": 28
+      },
+      "question_key": "q_f178f51194bf",
+      "question_text": "Do any of these sex acts feature characters that appear to be younger than 18?",
+      "question_type": "single",
+      "seen_count": 60
+    },
+    {
+      "option_keys": {
+        "o_5555c50ab1e4": 31,
+        "o_57c8ddb090f6": 29
+      },
+      "option_labels": {
+        "Brief": 29,
+        "Prolonged": 31
+      },
+      "question_key": "q_f74a19ddc14e",
+      "question_text": "What is the duration of these scenes?",
+      "question_type": "single",
+      "seen_count": 60
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 31,
+        "o_fd1286353570": 28
+      },
+      "option_labels": {
+        "No": 28,
+        "Yes": 31
+      },
+      "question_key": "q_21182b6c775e",
+      "question_text": "Are there any fierce sounds, sinister or intimidating characters, or dark overtones associated with this violence?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 19,
+        "o_fd1286353570": 40
+      },
+      "option_labels": {
+        "No": 40,
+        "Yes": 19
+      },
+      "question_key": "q_4ee5d1a1aaf6",
+      "question_text": "Do any of these creatures behave or respond like humans?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 31,
+        "o_fd1286353570": 28
+      },
+      "option_labels": {
+        "No": 28,
+        "Yes": 31
+      },
+      "question_key": "q_563320a2a045",
+      "question_text": "Does the app have a pixelated or childlike style?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_71f8e7976e4c": 18,
+        "o_78cd1257c37f": 18,
+        "o_9235afd3e988": 15,
+        "o_d8db8753863a": 8
+      },
+      "option_labels": {
+        "High": 15,
+        "Mild/Limited": 8,
+        "Moderate": 18,
+        "None": 18
+      },
+      "question_key": "q_98ef583f40fa",
+      "question_text": "What is the level of blood and/or gore associated with this violence?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_0c658ff7ad1d": 30,
+        "o_268c9dd8c84b": 31,
+        "o_92731c5f35ea": 29,
+        "o_ac9c5584ad34": 26,
+        "o_f5af1fb768b5": 30
+      },
+      "option_labels": {
+        "Often depicted from a close-up perspective": 30,
+        "Often depicted from a distant perspective": 29,
+        "Rarely depicted from a close-up perspective": 31,
+        "Rarely depicted from a distant perspective": 26,
+        "Referred to": 30
+      },
+      "question_key": "q_9c25a1c38e03",
+      "question_text": "How is this violence presented in the app?",
+      "question_type": "multi",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 26,
+        "o_af3add735134": 33
+      },
+      "option_labels": {
+        "Realistic": 26,
+        "Unrealistic": 33
+      },
+      "question_key": "q_cc099119b05b",
+      "question_text": "How would you describe the reactions to violence?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 38,
+        "o_fd1286353570": 21
+      },
+      "option_labels": {
+        "No": 21,
+        "Yes": 38
+      },
+      "question_key": "q_d1e3d66e3548",
+      "question_text": "Is any of this violence against real-world animals?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 25,
+        "o_bc87c943c94f": 34
+      },
+      "option_labels": {
+        "Often": 25,
+        "Rarely": 34
+      },
+      "question_key": "q_e46f7dbcf100",
+      "question_text": "How frequently does discriminatory language occur?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 24,
+        "o_8360c7460295": 35
+      },
+      "option_labels": {
+        "Fantastical": 35,
+        "Realistic": 24
+      },
+      "question_key": "q_ffd81a32312e",
+      "question_text": "In what kind of setting (context, storyline) does the violence occur?",
+      "question_type": "single",
+      "seen_count": 59
+    },
+    {
+      "option_keys": {
+        "o_2b6704c96d51": 19,
+        "o_30e65d5cf70d": 17,
+        "o_fd1286353570": 22
+      },
+      "option_labels": {
+        "No": 22,
+        "Yes, with penalties": 19,
+        "Yes, without penalties": 17
+      },
+      "question_key": "q_01077a096e99",
+      "question_text": "Can innocent or defenseless characters be seriously injured or killed?",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_38ed35299d7d": 28,
+        "o_feb3c220a6e4": 30
+      },
+      "option_labels": {
+        "Large or frequent": 28,
+        "Small and infrequent": 30
+      },
+      "question_key": "q_0dfafc700c5b",
+      "question_text": "What best describes this type of blood in the app:",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 28,
+        "o_fd1286353570": 30
+      },
+      "option_labels": {
+        "No": 30,
+        "Yes": 28
+      },
+      "question_key": "q_0ef5681156d9",
+      "question_text": "Does the app take place in a realistic or historical war setting?",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 32,
+        "o_8360c7460295": 26
+      },
+      "option_labels": {
+        "Fantastical": 26,
+        "Realistic": 32
+      },
+      "question_key": "q_1082af7ebf44",
+      "question_text": "In what kind of setting (context, storyline) does the violence occur?",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_4dad68295a4c": 26,
+        "o_af3add735134": 32
+      },
+      "option_labels": {
+        "Realistic": 26,
+        "Unrealistic": 32
+      },
+      "question_key": "q_1d7e06ec70fe",
+      "question_text": "How would you describe the reactions to violence?",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_71f8e7976e4c": 12,
+        "o_78cd1257c37f": 22,
+        "o_9235afd3e988": 9,
+        "o_d8db8753863a": 15
+      },
+      "option_labels": {
+        "High": 9,
+        "Mild/Limited": 15,
+        "Moderate": 22,
+        "None": 12
+      },
+      "question_key": "q_44666a01c9f5",
+      "question_text": "What is the level of blood and/or gore associated with this violence?",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 28,
+        "o_fd1286353570": 30
+      },
+      "option_labels": {
+        "No": 30,
+        "Yes": 28
+      },
+      "question_key": "q_6c0ba9cd3485",
+      "question_text": "Are there any fierce sounds, sinister or intimidating characters, or dark overtones associated with this violence?",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_0c658ff7ad1d": 19,
+        "o_268c9dd8c84b": 28,
+        "o_92731c5f35ea": 27,
+        "o_ac9c5584ad34": 26,
+        "o_f2ec74239bc8": 28,
+        "o_f5af1fb768b5": 24
+      },
+      "option_labels": {
+        "Implied but not seen": 28,
+        "Often depicted from a close-up perspective": 19,
+        "Often depicted from a distant perspective": 27,
+        "Rarely depicted from a close-up perspective": 28,
+        "Rarely depicted from a distant perspective": 26,
+        "Referred to": 24
+      },
+      "question_key": "q_8a347e7fc54c",
+      "question_text": "How is this violence presented in the app?",
+      "question_type": "multi",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_403b53369d50": 29,
+        "o_48066792d0b7": 17,
+        "o_fd1286353570": 12
+      },
+      "option_labels": {
+        "No": 12,
+        "Yes, it has a childlike style (e.g., likely to appeal to younger children)": 17,
+        "Yes, it has a pixelated style": 29
+      },
+      "question_key": "q_d476849a2a36",
+      "question_text": "Does the app have a pixelated or childlike style?",
+      "question_type": "single",
+      "seen_count": 58
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 30,
+        "o_04489a12bbaa": 30,
+        "o_6698299830d0": 21,
+        "o_cacd1b247363": 34
+      },
+      "option_labels": {
+        "Detailed Instruction for Use": 21,
+        "Encourages/Glamorizes": 34,
+        "Reference": 30,
+        "Use": 30
+      },
+      "question_key": "q_07cc5d8fc5f2",
+      "question_text": "Illegal or Recreational Drugs",
+      "question_type": "multi",
+      "seen_count": 57
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 21,
+        "o_bc87c943c94f": 36
+      },
+      "option_labels": {
+        "Often": 21,
+        "Rarely": 36
+      },
+      "question_key": "q_0beb279c6f25",
+      "question_text": "How frequently do minor profanities occur?",
+      "question_type": "single",
+      "seen_count": 57
+    },
+    {
+      "option_keys": {
+        "o_c9f5c4ce3941": 28,
+        "o_f9a0feec2bf7": 29
+      },
+      "option_labels": {
+        "Referred to only": 28,
+        "Visually depicted": 29
+      },
+      "question_key": "q_e0669851c326",
+      "question_text": "How is the sexual violence in the app presented?",
+      "question_type": "single",
+      "seen_count": 57
+    },
+    {
+      "option_keys": {
+        "o_321223e00a52": 17,
+        "o_5f4468d31d23": 21,
+        "o_6c8ef246506c": 18
+      },
+      "option_labels": {
+        "Graphic Detail": 18,
+        "Limited Detail": 17,
+        "Moderate Detail": 21
+      },
+      "question_key": "q_588070d49e7f",
+      "question_text": "How explicitly depicted are these disturbing or gory images?",
+      "question_type": "single",
+      "seen_count": 56
+    },
+    {
+      "option_keys": {
+        "o_b187401b73c7": 35,
+        "o_e4819bc11867": 38
+      },
+      "option_labels": {
+        "Nudity": 38,
+        "Revealing Outfits": 35
+      },
+      "question_key": "q_2a9b393c19d0",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 55
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 30,
+        "o_fd1286353570": 25
+      },
+      "option_labels": {
+        "No": 25,
+        "Yes": 30
+      },
+      "question_key": "q_d1e129084632",
+      "question_text": "Are these gambling themes prominently featured or a strong focus of the product?",
+      "question_type": "single",
+      "seen_count": 55
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 29,
+        "o_bc87c943c94f": 25
+      },
+      "option_labels": {
+        "Often": 29,
+        "Rarely": 25
+      },
+      "question_key": "q_3d555173e6d5",
+      "question_text": "How frequently do medical drugs occur?",
+      "question_type": "single",
+      "seen_count": 54
+    },
+    {
+      "option_keys": {
+        "o_02ab610f4245": 34,
+        "o_04489a12bbaa": 34,
+        "o_cacd1b247363": 31
+      },
+      "option_labels": {
+        "Encourages/Glamorizes": 31,
+        "Reference": 34,
+        "Use": 34
+      },
+      "question_key": "q_da8b2508f70d",
+      "question_text": "Medical Drugs",
+      "question_type": "multi",
+      "seen_count": 54
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 23,
+        "o_bc87c943c94f": 23
+      },
+      "option_labels": {
+        "Often": 23,
+        "Rarely": 23
+      },
+      "question_key": "q_7e080cc1316c",
+      "question_text": "How frequently does the genitalia appear?",
+      "question_type": "single",
+      "seen_count": 46
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 20,
+        "o_bc87c943c94f": 26
+      },
+      "option_labels": {
+        "Often": 20,
+        "Rarely": 26
+      },
+      "question_key": "q_c00eeeb994c1",
+      "question_text": "How frequently do the human buttocks appear?",
+      "question_type": "single",
+      "seen_count": 46
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 18,
+        "o_fd1286353570": 22
+      },
+      "option_labels": {
+        "No": 22,
+        "Yes": 18
+      },
+      "question_key": "q_21604d895455",
+      "question_text": "Can the user ever use tobacco in a first-person perspective?",
+      "question_type": "single",
+      "seen_count": 40
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 16,
+        "o_bc87c943c94f": 24
+      },
+      "option_labels": {
+        "Often": 16,
+        "Rarely": 24
+      },
+      "question_key": "q_50096b4eb0f4",
+      "question_text": "How frequently do the fantasy creatures' breasts appear?",
+      "question_type": "single",
+      "seen_count": 40
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 20,
+        "o_bc87c943c94f": 20
+      },
+      "option_labels": {
+        "Often": 20,
+        "Rarely": 20
+      },
+      "question_key": "q_b5bf5786fea1",
+      "question_text": "How frequently do the nipple-less breasts appear?",
+      "question_type": "single",
+      "seen_count": 40
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 14,
+        "o_fd1286353570": 24
+      },
+      "option_labels": {
+        "No": 24,
+        "Yes": 14
+      },
+      "question_key": "q_8c9d548dd82c",
+      "question_text": "Is any of this content in an erotic, provocative setting or context?",
+      "question_type": "single",
+      "seen_count": 38
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 23,
+        "o_fd1286353570": 15
+      },
+      "option_labels": {
+        "No": 15,
+        "Yes": 23
+      },
+      "question_key": "q_b1e887fd0d21",
+      "question_text": "Is there an intense and unrelenting sense of imminent threat?",
+      "question_type": "single",
+      "seen_count": 38
+    },
+    {
+      "option_keys": {
+        "o_348c65f68950": 14,
+        "o_7b0eccb837f6": 18,
+        "o_91f2dc1c160c": 22,
+        "o_c455d2c00759": 26,
+        "o_e4387fc6f4f6": 22
+      },
+      "option_labels": {
+        "Female Fantasy Creatures' Breasts, e.g., harpies": 22,
+        "Female Human Breasts with Nipples": 26,
+        "Genitalia": 22,
+        "Human Buttocks": 14,
+        "Nipple-less Breasts or Breasts with Minimal Coverage, e.g., pasties, long hair": 18
+      },
+      "question_key": "q_d70c5ffff476",
+      "question_text": "Please select all that the app includes:",
+      "question_type": "multi",
+      "seen_count": 38
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 19,
+        "o_fd1286353570": 16
+      },
+      "option_labels": {
+        "No": 16,
+        "Yes": 19
+      },
+      "question_key": "q_266dcf1bec56",
+      "question_text": "Do these outfits ever appear to be out-of-place, such as a bikini worn on the battlefield or solely wearing undergarments in public?",
+      "question_type": "single",
+      "seen_count": 35
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 20,
+        "o_bc87c943c94f": 15
+      },
+      "option_labels": {
+        "Often": 20,
+        "Rarely": 15
+      },
+      "question_key": "q_869c55bff5bc",
+      "question_text": "How frequently are revealing outfits depicted?",
+      "question_type": "single",
+      "seen_count": 35
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 13,
+        "o_fd1286353570": 22
+      },
+      "option_labels": {
+        "No": 22,
+        "Yes": 13
+      },
+      "question_key": "q_9929df26eb60",
+      "question_text": "Are these revealing outfits ever depicted in an erotic or provocative setting or context?",
+      "question_type": "single",
+      "seen_count": 35
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 15,
+        "o_bc87c943c94f": 18
+      },
+      "option_labels": {
+        "Often": 15,
+        "Rarely": 18
+      },
+      "question_key": "q_6d716b4485ae",
+      "question_text": "How frequently do the female human breasts with nipples appear?",
+      "question_type": "single",
+      "seen_count": 33
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 17,
+        "o_fd1286353570": 14
+      },
+      "option_labels": {
+        "No": 14,
+        "Yes": 17
+      },
+      "question_key": "q_088ceefc9972",
+      "question_text": "Are these depictions strictly limited to slapstick violence or bloodless, unrealistic, and cartoony depictions?",
+      "question_type": "single",
+      "seen_count": 31
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 17,
+        "o_fd1286353570": 13
+      },
+      "option_labels": {
+        "No": 13,
+        "Yes": 17
+      },
+      "question_key": "q_c65d3403d8b8",
+      "question_text": "Is the use of illegal or recreational drugs interactive?",
+      "question_type": "single",
+      "seen_count": 30
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 16,
+        "o_fd1286353570": 14
+      },
+      "option_labels": {
+        "No": 14,
+        "Yes": 16
+      },
+      "question_key": "q_fb45c3c7aa4e",
+      "question_text": "Is the use of illegal or recreational drugs related to incentives or rewards?",
+      "question_type": "single",
+      "seen_count": 30
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 8,
+        "o_fd1286353570": 21
+      },
+      "option_labels": {
+        "No": 21,
+        "Yes": 8
+      },
+      "question_key": "q_0fce90ec5ed0",
+      "question_text": "Does the app include the ability or requirement to wager, purchase entrance fees, additional chances to win, or any other purchases potentially related to winning cash payouts or rewards of significant monetary value from these bingo games?",
+      "question_type": "single",
+      "seen_count": 29
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 17,
+        "o_fd1286353570": 12
+      },
+      "option_labels": {
+        "No": 12,
+        "Yes": 17
+      },
+      "question_key": "q_1b980eeb69d9",
+      "question_text": "Does the app include the ability or requirement to wager, purchase entrance fees, additional chances to win, or any other purchases potentially related to winning cash payouts or rewards of significant monetary value from these casino games, lotteries, or racetrack betting games?",
+      "question_type": "single",
+      "seen_count": 29
+    },
+    {
+      "option_keys": {
+        "o_fb360f9c09ac": 10,
+        "o_fd1286353570": 19
+      },
+      "option_labels": {
+        "No": 19,
+        "Yes": 10
+      },
+      "question_key": "q_4bf3e917545e",
+      "question_text": "Can the user ever use alcohol in a first-person perspective?",
+      "question_type": "single",
+      "seen_count": 29
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 10,
+        "o_bc87c943c94f": 16
+      },
+      "option_labels": {
+        "Often": 10,
+        "Rarely": 16
+      },
+      "question_key": "q_81c83bee2a9d",
+      "question_text": "How frequently do the female human breasts with nipples appear?",
+      "question_type": "single",
+      "seen_count": 26
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 12,
+        "o_bc87c943c94f": 10
+      },
+      "option_labels": {
+        "Often": 12,
+        "Rarely": 10
+      },
+      "question_key": "q_27b9b3f80a76",
+      "question_text": "How frequently does the genitalia appear?",
+      "question_type": "single",
+      "seen_count": 22
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 10,
+        "o_bc87c943c94f": 12
+      },
+      "option_labels": {
+        "Often": 10,
+        "Rarely": 12
+      },
+      "question_key": "q_9080d63c86cf",
+      "question_text": "How frequently do the fantasy creatures' breasts appear?",
+      "question_type": "single",
+      "seen_count": 22
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 8,
+        "o_bc87c943c94f": 10
+      },
+      "option_labels": {
+        "Often": 8,
+        "Rarely": 10
+      },
+      "question_key": "q_762bb8baf2d4",
+      "question_text": "How frequently do the nipple-less breasts appear?",
+      "question_type": "single",
+      "seen_count": 18
+    },
+    {
+      "option_keys": {
+        "o_6b77993c3476": 3,
+        "o_bc87c943c94f": 11
+      },
+      "option_labels": {
+        "Often": 3,
+        "Rarely": 11
+      },
+      "question_key": "q_fa001198f6cc",
+      "question_text": "How frequently do the human buttocks appear?",
+      "question_type": "single",
+      "seen_count": 14
+    }
+  ]
+}

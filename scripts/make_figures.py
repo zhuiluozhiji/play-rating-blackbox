@@ -28,9 +28,9 @@ def main() -> None:
 
     config = load_yaml(args.config)
     modeling = config.get("modeling", {})
-    figures_dir = modeling.get("figures_dir", "outputs/figures")
+    figures_dir = modeling.get("figures_dir", "outputs/analysis/current/figures")
     dataset_path = args.dataset or modeling.get("dataset_path", "data/processed/dataset.csv")
-    metrics_path = project_path(args.metrics or "outputs/metrics/model_metrics.json")
+    metrics_path = project_path(args.metrics or "outputs/analysis/current/metrics/model_metrics.json")
     df = pd.read_csv(dataset_path)
     paths = [plot_label_distribution(df, figures_dir)]
     if metrics_path.exists():
@@ -38,7 +38,12 @@ def main() -> None:
         paths.append(plot_model_metrics(metrics, figures_dir))
         best_name = max(metrics.items(), key=lambda item: item[1].get("macro_f1", 0))[0]
         paths.append(plot_confusion_matrix(metrics, best_name, figures_dir))
-    paths.extend(plot_top_feature_importance(modeling.get("explanations_dir", "outputs/explanations"), figures_dir))
+    paths.extend(
+        plot_top_feature_importance(
+            modeling.get("explanations_dir", "outputs/analysis/current/explanations"),
+            figures_dir,
+        )
+    )
     for path in paths:
         print(path)
 

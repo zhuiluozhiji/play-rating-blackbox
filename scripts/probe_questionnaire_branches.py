@@ -1449,7 +1449,7 @@ def parse_args() -> argparse.Namespace:
 
 def default_output_dir() -> Path:
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    return Path("outputs") / "questionnaire_probe" / stamp
+    return Path("outputs") / "probes" / "playwright" / stamp
 
 
 async def async_main() -> None:

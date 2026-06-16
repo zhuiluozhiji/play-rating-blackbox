@@ -1,0 +1,11 @@
+{
+  "checkpoint_at": "2026-06-16T08:28:20",
+  "existing_samples_before_resume": 0,
+  "output_total_samples": 80,
+  "remaining_samples": 20,
+  "resume_mode": false,
+  "seed": 20260615,
+  "session_collected": 80,
+  "target_total_samples": 100,
+  "total_known_signatures": 1308
+}

@@ -1,0 +1,42 @@
+{
+  "catalog_path": "data\\questionnaire\\real_question_catalog_20260615_full.json",
+  "converted_samples": 1322,
+  "input_path": "",
+  "input_paths": [
+    "outputs\\questionnaire_samples_cdp\\20260611_142334\\samples.jsonl",
+    "outputs\\questionnaire_samples_cdp\\minority_supplement_20260614_204627\\samples.jsonl",
+    "outputs\\questionnaire_samples_cdp\\minority_supplement_20260614_retry1\\samples.jsonl",
+    "outputs\\questionnaire_samples_cdp\\minority_supplement_20260614_retry2\\samples.jsonl",
+    "outputs\\questionnaire_samples_cdp\\minority_supplement_20260615_formal_low_v2\\samples.jsonl",
+    "outputs\\questionnaire_samples_cdp\\minority_supplement_20260615_formal_low_v4\\samples.jsonl",
+    "outputs\\questionnaire_samples_cdp\\minority_supplement_20260615_formal_low_v5_100\\samples.jsonl"
+  ],
+  "label_distribution": {
+    "12+": 225,
+    "16+": 28,
+    "18+": 1013,
+    "3+": 37,
+    "7+": 19
+  },
+  "missing_input_paths": [],
+  "output_path": "C:\\Users\\Phophyllite\\Desktop\\zju\\cs\\OSN\\lab2\\play-rating-blackbox\\data\\raw\\real_20260615_full.samples.jsonl",
+  "question_count": 229,
+  "skip_reasons": {
+    "duplicate_signature": 17,
+    "loop_detected": 2
+  },
+  "skipped_samples": 19,
+  "source_primary_rating_distribution": {
+    "Rated for 12+": 238,
+    "Rated for 16+": 28,
+    "Rated for 18+": 1013,
+    "Rated for 3+": 38,
+    "Rated for 7+": 22
+  },
+  "status_distribution": {
+    "complete": 1339,
+    "loop_detected": 2
+  },
+  "total_input_samples": 1341,
+  "unique_response_signatures": 1322
+}
