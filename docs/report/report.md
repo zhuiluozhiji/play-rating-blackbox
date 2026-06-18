@@ -640,3 +640,19 @@ metrics = evaluate(y_test, pred)
 | 特征消融 | `outputs/analysis/current/figures/feature_ablation_macro_f1.png` | 证明不同特征组贡献 |
 | CV 稳定性 | `outputs/analysis/current/figures/cv_stability_macro_f1.png` | 展示交叉验证波动 |
 | 区域评级扩展 | `outputs/analysis/current/figures/region_rating_prediction_performance.png` | 展示多地区评级预测能力 |
+
+### B.4 过程截图
+
+为避免附录堆叠过多页面截图，本文只选取三张能够串联采集流程的代表性截图：问卷填写、条件分支展开和结果页解析。截图仅用于说明实验过程，未展示账号密码、Cookie、浏览器登录态等敏感信息。
+
+![图 B-1 问卷填写过程截图](../../outputs/analysis/current/screenshot/12.png)
+
+图 B-1 展示了内容分级问卷的实际填写界面。页面中包含单选题、二选题和多项问答，自动化采集程序需要识别当前可见问题、读取候选选项，并记录本轮样本对应的答案组合。
+
+![图 B-2 条件分支展开过程截图](../../outputs/analysis/current/screenshot/22.png)
+
+图 B-2 展示了选择特定内容主题后继续展开的细分问题。该截图说明本实验面对的不是静态表格，而是具有条件跳转关系的树状问卷；前序答案会影响后续问题是否出现，因此采样策略必须覆盖不同路径，而不能只随机填写固定字段。
+
+![图 B-3 评级结果页解析截图](../../outputs/analysis/current/screenshot/14.png)
+
+图 B-3 展示了问卷提交后的评级结果页。结果页同时给出 IARC Generic 评级、地区评级、内容描述符和互动元素，本实验将这些内容解析为结构化标签与元信息，用于后续的数据验证、模型训练和区域评级扩展分析。
